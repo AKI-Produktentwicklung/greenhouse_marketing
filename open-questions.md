@@ -7,6 +7,9 @@
 - Wie viele Besitzer automatisieren heute bereits?
 - Welche Regionen sind besonders attraktiv?
 - Wie groß ist das Segment kleiner gewerblicher Produzenten?
+- Welcher Anteil der Gärten besitzt überhaupt ein Gewächshaus?
+- Welcher Anteil dieser Gewächshäuser liegt im Premium-/Passungssegment des Greenhouse Assistant?
+- Wie viele Premium-Gewächshäuser verkaufen relevante Hersteller und Händler pro Jahr?
 
 ## Kunde
 

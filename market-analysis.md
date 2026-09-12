@@ -122,9 +122,11 @@ Die erweiterte Community-Stichprobe in [voice-of-customer.md](voice-of-customer.
 
 ### Konsequenz für TAM / SAM / SOM
 
-Eine belastbare Marktgrößenrechnung wäre jetzt verfrüht. Vorher müssen zwei Nenner geklärt werden:
+Ein erstes transparentes Szenariomodell steht in [market-sizing.md](market-sizing.md). Es zeigt eine sehr breite Spanne von rund 1,55 bis 82,49 Mio. EUR möglichem jährlichem Hardwareumsatz. Diese Spanne ist ausdrücklich keine belastbare Marktschätzung, sondern macht sichtbar, wie stark das Ergebnis von zwei noch unbelegten Quoten abhängt.
+
+Für eine belastbare Marktgrößenrechnung müssen zwei Nenner geklärt werden:
 
 1. Zahl hochwertiger kleiner Gewächshäuser beziehungsweise relevante jährliche Neuverkäufe in DACH.
 2. Anteil der Besitzer, für die Abwesenheit, Wetterschutz und koordinierte Automation einen Kauf von mindestens etwa 1.000 EUR auslösen.
 
-Bis diese Größen aus belastbaren Daten oder Primärinterviews gestützt sind, bleiben Marktvolumen und erreichbare Stückzahlen ausdrücklich offen.
+Bis diese Größen aus belastbaren Daten oder Primärinterviews gestützt sind, bleiben Marktvolumen und erreichbare Stückzahlen ausdrücklich offen. Der deutsche Garten-Gesamtmarkt von 19,7 Mrd. EUR eignet sich nur als Kontext und darf nicht als TAM für Gewächshausautomation verwendet werden.

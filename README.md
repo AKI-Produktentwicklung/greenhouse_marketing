@@ -53,6 +53,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 ## Dateien
 
 - `market-analysis.md` – Markt, Größe, Trends, Annahmen
+- `market-sizing.md` – transparentes DACH-Szenariomodell für TAM/SAM/SOM
 - `pain-points.md` – relevante Probleme der Zielkunden
 - `voice-of-customer.md` – paraphrasierte Problemsignale und qualitative Evidenz
 - `competitors.md` – Wettbewerber und Alternativen

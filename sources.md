@@ -84,6 +84,22 @@ Die daraus berechneten Warenkörbe stehen in [competitors.md](competitors.md). D
 | 2026-09-12 | Selfkant Wolters | Hochwertige DACH-Gewächshäuser | Direkt kaufbare Modelle mit 3,8-14,7 m²; Hersteller nennt Einstieg ab 3.095 EUR sowie größere Sonderanfertigungen. | https://www.selfkant-wolters.de/gewaechshaeuser/ | hoch |
 | 2026-09-12 | WAMA | Preisliste 2026 | Herstellerpreisliste enthält Profi-Konfigurationen im Bereich von etwa 7.300 EUR bis über 30.000 EUR, abhängig von Größe und Ausführung. | https://www.wamadirekt.de/wp-content/uploads/Wama_GH2026_web.pdf | hoch |
 
+### Market Sizing und Marktumfeld
+
+Die folgenden Quellen bilden die faktische Basis für [market-sizing.md](market-sizing.md). Private Gewächshaus- und Passungsquoten sind darin nicht enthalten und werden im Modell ausdrücklich als Annahmen behandelt.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Destatis | Privathaushalte Deutschland | Für 2025 werden 41,126 Mio. Hauptwohnsitzhaushalte ausgewiesen. | https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Haushalte-Familien/Tabellen/1-1-privathaushalte-haushaltsmitglieder.html | hoch |
+| 2026-09-12 | KfW Research | Gartenbesitz Deutschland | Repräsentative Befragung: 60 % der deutschen Haushalte besitzen einen Garten; KfW schätzt den Bestand auf rund 17,2 Mio. Gärten. | https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_897472.html | hoch |
+| 2026-09-12 | Statistik Austria | Privathaushalte Österreich | Für 2025 werden 4,1821 Mio. Privathaushalte ausgewiesen. | https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte | hoch |
+| 2026-09-12 | Bundesamt für Statistik Schweiz | Privathaushalte Schweiz | Amtliche Publikation nennt rund 4,0 Mio. Privathaushalte; Wert ist gerundet und zeitlich älter als die deutschen/österreichischen Angaben. | https://www.bfs.admin.ch/bfsstatic/dam/assets/30489004/master | hoch |
+| 2026-09-12 | Industrieverband Garten | Deutscher Gartenmarkt 2025 | Gesamtmarkt rund 19,7 Mrd. EUR; Online-Umsatz rund 1,28 Mrd. EUR beziehungsweise 6,5 % des Gesamtmarkts. Breiter Kontext, kein Automationsmarkt. | https://ivg.org/der-gartenmarkt/aktuelle-marktzahlen/ | mittel-hoch |
+| 2026-09-12 | BMEL/BZL | Struktur des deutschen Gartenbaus | 2020: 5.642 spezialisierte Gartenbaubetriebe; rund 85 % der etwa 2.700 Zierpflanzen- und 46 % der etwa 740 Gemüsebetriebe produzierten überwiegend unter Glas. | https://www.bmel-statistik.de/fileadmin/daten/2000000-2023.pdf | hoch |
+| 2026-09-12 | Destatis | Gemüse unter Schutzabdeckungen | 2020 bauten 1.650 Betriebe Gemüse auf knapp 1.300 ha unter Gewächshäusern beziehungsweise hohen begehbaren Schutzabdeckungen an. | https://www.destatis.de/DE/Presse/Pressemitteilungen/2021/03/PD21_139_412.html | hoch |
+| 2026-09-12 | Statistik Austria | Gartenbau- und Gewächshausstruktur | 2020: 1.034 Gartenbaubetriebe, davon 684 unter 1 ha Gesamtfläche; 529,88 ha Gewächshaus- und Folientunnelfläche. | https://www.statistik.at/fileadmin/publications/SB_1-22_Gartenanbau-u_Feldgemueseanbauerhebung_2020.pdf | hoch |
+| 2026-09-12 | Bundesamt für Statistik Schweiz | Gemüsebau unter Glas | 2023: rund 460 ha Gemüse-Gewächshausfläche; 803 spezialisierte Gemüsebaubetriebe insgesamt. | https://www.swissstats.bfs.admin.ch/data/webviewer/appId/ch.admin.bfs.swissstat/article/issue250711652500-01/package | hoch |
+
 ### Voice of Customer - qualitative Stichprobe
 
 Community-Quellen dienen ausschließlich als qualitative Problembelege. Sie sind nicht repräsentativ und werden nicht zur Schätzung von Häufigkeit oder Marktgröße verwendet.
