@@ -91,6 +91,20 @@ Die zwei stärksten Unsicherheiten wirken multiplikativ:
 
 Die Preisannahme verändert nur den Umsatz, nicht die Zahl potenzieller Käufer. Für die Marktvalidierung sind Gewächshausbestand und Passungsquote daher wichtiger als eine frühzeitige Feinoptimierung des Verkaufspreises.
 
+## Herstellerbasierte Plausibilitätsanker
+
+Drei veröffentlichte Herstellerangaben erlauben eine erste Gegenprüfung, ersetzen aber keine DACH-Marktstatistik:
+
+| Anbieter | Veröffentlichte Größe | Zeitraum und Abgrenzung | Aussagekraft |
+|---|---:|---|---|
+| Juliana | 30.000 verkaufte private Gewächshäuser pro Jahr | Europa, Stand 2016 | Belegt, dass der europäische Hobby-Gewächshausmarkt mindestens mehrere Zehntausend Einheiten jährlich umfasst; keine DACH- oder Premiumaufteilung. |
+| GFP | rund 10.000 Gewächshäuser plus 500 Anlehngewächshäuser pro Jahr | Unternehmensangabe in einer Mitteilung von 2022; Absatzregion nicht quantifiziert | Relevanter DACH-Anbieter und Größenanker, aber keine Aufteilung nach Land, Preis oder Käufersegment. |
+| myfood | mehr als 1.500 installierte Gewächshäuser seit 2015 | Europa, kumulierter Bestand; integrierte Familien-/Permakulturgewächshäuser | Belegt einen kaufbaren europäischen Premium-/Systemansatz. Der Anbieter nannte 2022 für ein 22-m²-System 12.200 EUR inklusive USt.; nicht mit einer reinen Steuerung vergleichbar. |
+
+Diese Anker widersprechen dem engen Szenario nicht, zeigen aber ein mögliches Problem des weiten Szenarios: 32.995 passende Automationskäufe pro Jahr allein in DACH lägen bereits in der Größenordnung des gesamten damaligen Europaabsatzes eines der größten privaten Gewächshaushersteller. Ohne Beleg einer großen nachrüstbaren Bestandsnachfrage ist das weite Szenario daher eher eine mathematische Obergrenze als eine realistische Planung.
+
+Das Basisszenario mit 7.218 Systemen pro Jahr entspräche rund 18 % der zusammen veröffentlichten jährlichen Stückzahlen von Juliana und GFP. Dieser Vergleich ist nur eine Größenprüfung: Bezugsjahre, Regionen und Produktklassen unterscheiden sich, die Herstellerzahlen dürfen nicht zu einem Marktvolumen addiert oder als vollständiger Markt interpretiert werden.
+
 ## Gewerblicher Markt: belegte Randgrößen
 
 Die verfügbaren Statistiken zeigen einen realen, aber nicht sauber auf 10–100 m² eingrenzbaren gewerblichen Markt:
