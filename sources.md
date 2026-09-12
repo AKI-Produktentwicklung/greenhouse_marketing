@@ -47,6 +47,47 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 | 2026-09-12 | Hoogendoorn | IIVO | Professionelles integriertes Klima-, CO2-, Wasser- und Datenmanagement mit breiter Systemintegration. | https://hoogendoorn.com/en/our-solutions/iivo | hoch |
 | 2026-09-12 | Argus | Axia / TITAN | Modulare professionelle Komplettsteuerung; Axia dokumentiert lokale Web-App und Weiterbetrieb bei Internetausfall. | https://arguscontrols.com/products-and-solutions/control-systems/argus-axia | hoch |
 
+### Wettbewerber - zweite Recherchetranche und Vertiefung
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Ridder | Hortimax Go Schutzlogik | Produktbroschüre dokumentiert Sturm-, Frost- und Regenschutz für Dachlüftungen sowie autarke Regelung einzelner Smart Switches. | https://ridder.com/wp-content/uploads/2020/10/EN-Brochure-Ridder-HortiMaX-Go.pdf | hoch |
+| 2026-09-12 | NIDO | Offline-Betrieb | Automationen bleiben bei Internetausfall aktiv, Daten werden lokal gespeichert; nur Fernzugriff fällt aus. | https://www.nidopro.com/automated-greenhouses-nido-one/ | hoch |
+| 2026-09-12 | Bartlett Instrument | ClimateBoss Detailfunktionen | Lokaler Touchscreen, Batterie-Pufferung, Hardware-/Stromausfallalarm, Relais- und Proportionalausgänge sowie optionale Headgrower-Anbindung. | https://www.bartlettinstrument.com/product/climateboss | hoch |
+| 2026-09-12 | Wadsworth Controls | EnviroSTEP | Einzonensystem mit 12 Relais, Wetterkanälen für Niederschlag/Wind, Alarmen, Logging und manuellen Übersteuerungen; Fernzugriff separat. | https://wadsworthcontrols.com/controls/envirostep/ | hoch |
+| 2026-09-12 | Wadsworth Controls | Öffentliche Komponentenpreise | EnviroSTEP-Ersatzplatine 1.900 USD; STEPsaver-Software für Fernzugriff und Analyse 2.000 USD. Keine vollständige Anlagenkalkulation. | https://wadsworthcontrols.com/product-category/envirostep/ | hoch |
+| 2026-09-12 | Wadsworth Controls | Seed 16 / Seed | Modularer Touchscreen-Controller für kleinere Betriebe; Außenwetter, viele Sensoren, Alarme, Cloud und prognosebasierte Schutzfunktionen verfügbar. | https://wadsworthcontrols.com/controls/seed-16/ | hoch |
+| 2026-09-12 | Ceres Greenhouse Solutions | SunSense | Kundenspezifische Steuerung für private bis kommerzielle Gewächshäuser; Klima, CO2, Licht, Außenwetter, Vorhersage und Datendienste. | https://ceresgs.com/sunsense-controller/ | hoch |
+| 2026-09-12 | DENSO | Greenhouse Climate Control | Ein- oder Zwei-Gewächshaussteuerung mit Innen-/Außenwetter, Fenstern, Schirmen, Heizung, CO2, Ventilatoren, Nebel und Bewässerung. | https://www.denso.com/global/en/products-and-services/Agriculture/climate-control-system-for-greenhouse/specification.html | hoch |
+| 2026-09-12 | Munters | GreenClimate | Wirtschaftlich positionierte Klimasteuerung für bis zu vier Zonen und gemeinsame Wetterstation. | https://www.munters.com/en-us/products-cms/controllers-and-automation/greenclimate/ | hoch |
+| 2026-09-12 | Climate Controls | MS100 PowerStation | Professioneller Umweltcontroller für Gewächs-/Glashäuser mit Innen- und Außenbedingungen sowie breiter Sensorintegration. | https://climate-controls.com/powerstation/ | hoch |
+| 2026-09-12 | GARDENA | smart Irrigation Control | DACH-Verbraucherlösung für sechs 24-V-Ventile; 219,99 EUR inklusive USt., Sensor-Set 349,99 EUR; Smart-Funktionen benötigen Gateway/Internet. | https://www.gardena.com/at/produkte/bewaesserung/sprinklersystem/smart-irrigation-control-bewaesserungssteuerung/970658701.html | hoch |
+| 2026-09-12 | Trellis Controls | Trellis One | Noch in Entwicklung; geplante lokale Regeln, Safe Mode, Motorlüftung, Heizung, Bewässerung und Cloud für kleine/mittlere Gewächshäuser. | https://trelliscontrols.com/ | mittel |
+
+### Preisanker für hochwertige private Gewächshäuser
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Vitavia Hersteller-Shop | Privates Gewächshaus mit Ausstattung | 10,2-m²-Set Kingston mit Heizung, LED und automatischen Dachlüftern ab 3.799,90 EUR. | https://shop.vitavia.de/gewaechshaeuser-vom-hersteller | hoch |
+| 2026-09-12 | Selfkant Wolters | Hochwertige DACH-Gewächshäuser | Direkt kaufbare Modelle mit 3,8-14,7 m²; Hersteller nennt Einstieg ab 3.095 EUR sowie größere Sonderanfertigungen. | https://www.selfkant-wolters.de/gewaechshaeuser/ | hoch |
+| 2026-09-12 | WAMA | Preisliste 2026 | Herstellerpreisliste enthält Profi-Konfigurationen im Bereich von etwa 7.300 EUR bis über 30.000 EUR, abhängig von Größe und Ausführung. | https://www.wamadirekt.de/wp-content/uploads/Wama_GH2026_web.pdf | hoch |
+
+### Voice of Customer - erste qualitative Stichprobe
+
+Community-Quellen dienen ausschließlich als qualitative Problembelege. Sie sind nicht repräsentativ und werden nicht zur Schätzung von Häufigkeit oder Marktgröße verwendet.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Reddit r/Greenhouses | Überhitzung während Abwesenheit | Nutzer benötigt automatische Lüftung, weil Frost am Morgen manuelles Öffnen verhindert und Sonne das Gewächshaus vor der Rückkehr stark aufheizt. | https://www.reddit.com/r/Greenhouses/comments/1quhz10/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Öffner versus Sturm | Diskussion beschreibt passive Öffner als zu langsam beziehungsweise bei Sturm nicht aktiv schließbar; elektrische Lüftung wird als Alternative genannt. | https://www.reddit.com/r/Greenhouses/comments/1vsmjsj/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Haltbarkeit passiver Öffner | Gemischte Erfahrungen von frühem Defekt bis zu mehrjährigem Betrieb; Reaktionszeit und Windfestigkeit werden thematisiert. | https://www.reddit.com/r/Greenhouses/comments/1rf1ioe/ | niedrig |
+| 2026-09-12 | Reddit r/greenhouse | Gekoppelte Temperatur-/Feuchteprobleme | Abluft, Umluft und zeitgesteuerte Vernebelung halten Temperatur und Feuchte nicht stabil. | https://www.reddit.com/r/greenhouse/comments/1ui8t7w/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Wunsch nach Fertiglösung | Technikoffener Neueinsteiger sucht ausdrücklich eine einfachere vorgefertigte Klima-/Lüftersteuerung. | https://www.reddit.com/r/Greenhouses/comments/1irpp5y/ | niedrig |
+| 2026-09-12 | Reddit r/homeassistant | Umfang eines DIY-Systems | Aktuelles Projekt kombiniert Sensoren, Lüfter, Pumpen, Ventile, Bewässerung, Nebel und Prognosen; Beschattung bleibt manuell. | https://www.reddit.com/r/homeassistant/comments/1uo8m4z/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Komplexer Eigenbau | Nutzer mit Industrieautomatisierungs-Erfahrung steuert vier Motoren, zwei Ventile, Pumpe, Innenklima, Wind und Wasserstand über Home Assistant. | https://www.reddit.com/r/Greenhouses/comments/1vfe8hk/ | niedrig |
+| 2026-09-12 | Reddit r/homeassistant | Außenfunk und Sensorik | Nutzer berichtet von ausgefallenen oder instabilen Zigbee-Sensoren im Außenbereich. | https://www.reddit.com/r/homeassistant/comments/1s0cs9l/ | niedrig |
+| 2026-09-12 | Reddit r/homeassistant | Regensensor-Fehlalarme | Diskussion nennt Kondensation als Ursache falscher Regenmeldungen und empfiehlt Sensorheizung beziehungsweise Plausibilisierung. | https://www.reddit.com/r/homeassistant/comments/1u83jeg/ | niedrig |
+
 ## Quellenregeln
 
 - Herstellerdaten für Preise und Funktionen bevorzugen
