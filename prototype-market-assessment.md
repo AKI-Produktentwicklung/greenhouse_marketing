@@ -224,3 +224,5 @@ Aus reiner Marktsicht ist ein Abbruch nicht begründet. Ebenso wenig ist ein bre
 5. Für beide Produktgrenzen Preis- und Margenszenarien rechnen.
 
 Diese Schritte benötigen keine Kundenkontakte, aber teilweise technische und kaufmännische Informationen, die nicht aus öffentlichen Marktquellen ableitbar sind.
+
+Der detaillierte Marktvergleich der drei realistischen Liefermodelle und die Empfehlung für ein standardisiertes Einzonen-System stehen in [product-boundary-options.md](product-boundary-options.md).
