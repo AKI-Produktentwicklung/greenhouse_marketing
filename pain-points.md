@@ -124,9 +124,11 @@ Besonders relevant erscheinen derzeit:
 7. Zeitersparnis im gewerblichen Betrieb
 8. einfaches Gesamtsystem statt DIY
 
-## Erste Voice-of-Customer-Stichprobe - 12. September 2026
+## Voice-of-Customer-Stichprobe - 12. September 2026
 
-Diese erste Stichprobe umfasst acht öffentlich zugängliche Community-Diskussionen aus 2025 und 2026. Sie ist qualitativ und nicht repräsentativ. Einzelne Aussagen belegen, dass ein Problem vorkommt; sie erlauben noch keine Aussage über Häufigkeit, Marktgröße oder Zahlungsbereitschaft.
+Die Recherche ist inzwischen in ein separates [Voice-of-Customer-Evidenzregister](voice-of-customer.md) mit 50 konkreten Problemsignalen aus 25 öffentlichen Diskussionen überführt. Sie ist qualitativ und nicht repräsentativ. Mehrere Problemsignale aus derselben Diskussion sind keine unabhängigen Kundenstimmen. Einzelne Aussagen belegen, dass ein Problem vorkommt; sie erlauben noch keine Aussage über Häufigkeit, Marktgröße oder Zahlungsbereitschaft.
+
+Die folgende Tabelle verdichtet die wichtigsten Cluster. Die einzelnen Problemsignale und alle verwendeten Diskussionen stehen im Evidenzregister.
 
 | Beobachtetes Problem | Konkretes Signal aus der Stichprobe | Betroffene Hypothese | Quellen |
 |---|---|---|---|

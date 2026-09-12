@@ -29,7 +29,7 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 
 | Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
 |---|---|---|---|---|---|
-| 2026-09-12 | Bartlett Instrument | ClimateBoss / Preisanker | ClimateBoss für traditionelle oder natürlich belüftete Gewächshäuser, 1-2 Zonen; Listenpreis 1.015 USD. Zusatzprodukte für Wetter, Motoren und Remote-Zugriff separat. | https://www.bartlettinstrument.com/greenhouse | hoch |
+| 2026-09-12 | Bartlett Instrument | ClimateBoss / historischer Preisanker | ClimateBoss für traditionelle oder natürlich belüftete Gewächshäuser, 1-2 Zonen; zuletzt gelisteter Preis 1.015 USD. Die Produktseite kennzeichnet das Modell als eingestellt. Zusatzprodukte für Wetter, Motoren und Remote-Zugriff separat. | https://www.bartlettinstrument.com/product/climateboss | hoch |
 | 2026-09-12 | Link4 Controls | Pearl | Modularer kommerzieller Controller, 1.499 USD zuzüglich ausgewiesenem 17-%-Hardwareaufschlag; bis 128 I/O, Ethernet, Cloud, Modbus und USB-Backup. | https://link4controls.com/digital-controller/ | hoch |
 | 2026-09-12 | NIDO | NIDO ONE V2 | Fertigation, Bewässerung und Klimageräte; 1.489,99 EUR inklusive USt. und einem Smart Plug. | https://www.nidopro.com/prodotto/nido-one/ | hoch |
 | 2026-09-12 | NIDO | NIDO Lab / Zubehör | NIDO Lab wird mit 59 EUR jährlich angeboten; Sensoren, Pumpen und Smart Plugs sind einzeln bepreist. | https://www.nidopro.com/shop/ | hoch |
@@ -53,7 +53,7 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 |---|---|---|---|---|---|
 | 2026-09-12 | Ridder | Hortimax Go Schutzlogik | Produktbroschüre dokumentiert Sturm-, Frost- und Regenschutz für Dachlüftungen sowie autarke Regelung einzelner Smart Switches. | https://ridder.com/wp-content/uploads/2020/10/EN-Brochure-Ridder-HortiMaX-Go.pdf | hoch |
 | 2026-09-12 | NIDO | Offline-Betrieb | Automationen bleiben bei Internetausfall aktiv, Daten werden lokal gespeichert; nur Fernzugriff fällt aus. | https://www.nidopro.com/automated-greenhouses-nido-one/ | hoch |
-| 2026-09-12 | Bartlett Instrument | ClimateBoss Detailfunktionen | Lokaler Touchscreen, Batterie-Pufferung, Hardware-/Stromausfallalarm, Relais- und Proportionalausgänge sowie optionale Headgrower-Anbindung. | https://www.bartlettinstrument.com/product/climateboss | hoch |
+| 2026-09-12 | Bartlett Instrument | ClimateBoss Detailfunktionen | Eingestelltes Produkt mit lokalem Touchscreen, Batterie-Pufferung, Hardware-/Stromausfallalarm, Relais- und Proportionalausgängen sowie optionaler Headgrower-Anbindung. | https://www.bartlettinstrument.com/product/climateboss | hoch |
 | 2026-09-12 | Wadsworth Controls | EnviroSTEP | Einzonensystem mit 12 Relais, Wetterkanälen für Niederschlag/Wind, Alarmen, Logging und manuellen Übersteuerungen; Fernzugriff separat. | https://wadsworthcontrols.com/controls/envirostep/ | hoch |
 | 2026-09-12 | Wadsworth Controls | Öffentliche Komponentenpreise | EnviroSTEP-Ersatzplatine 1.900 USD; STEPsaver-Software für Fernzugriff und Analyse 2.000 USD. Keine vollständige Anlagenkalkulation. | https://wadsworthcontrols.com/product-category/envirostep/ | hoch |
 | 2026-09-12 | Wadsworth Controls | Seed 16 / Seed | Modularer Touchscreen-Controller für kleinere Betriebe; Außenwetter, viele Sensoren, Alarme, Cloud und prognosebasierte Schutzfunktionen verfügbar. | https://wadsworthcontrols.com/controls/seed-16/ | hoch |
@@ -64,6 +64,18 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 | 2026-09-12 | GARDENA | smart Irrigation Control | DACH-Verbraucherlösung für sechs 24-V-Ventile; 219,99 EUR inklusive USt., Sensor-Set 349,99 EUR; Smart-Funktionen benötigen Gateway/Internet. | https://www.gardena.com/at/produkte/bewaesserung/sprinklersystem/smart-irrigation-control-bewaesserungssteuerung/970658701.html | hoch |
 | 2026-09-12 | Trellis Controls | Trellis One | Noch in Entwicklung; geplante lokale Regeln, Safe Mode, Motorlüftung, Heizung, Bewässerung und Cloud für kleine/mittlere Gewächshäuser. | https://trelliscontrols.com/ | mittel |
 
+### Öffentliche Preise für Vergleichswarenkörbe
+
+Die daraus berechneten Warenkörbe stehen in [competitors.md](competitors.md). Die Herstellerquellen belegen Einzelpreise und Lieferumfang; die Summen und Abgrenzungen sind eigene Berechnungen beziehungsweise Interpretationen.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | NIDO | NIDO ONE V2 und Smart Plugs | NIDO ONE V2 kostet 1.489,99 EUR inklusive USt. und enthält einen Smart Plug; weitere Smart Plugs kosten 59,05 EUR inklusive USt. | https://www.nidopro.com/shop/ | hoch |
+| 2026-09-12 | NIDO | NIDO Lab | Jahreszugang kostet 59 EUR; genannt werden unter anderem Analyse, erweiterte Einstellungen, Excel-Export, Nutzerverwaltung und REST-API. | https://www.nidopro.com/prodotto/annual-subscription-to-nido-lab/ | hoch |
+| 2026-09-12 | Link4 Controls | Pearl-Basiscontroller | Listenpreis 1.499 USD zuzüglich des auf der Seite ausgewiesenen 17-%-Aufschlags auf Hardware. | https://link4controls.com/digital-controller/ | hoch |
+| 2026-09-12 | Link4 Controls | I/O-Modul | Modul mit vier Relais, vier 0–10-V-Analogausgängen und vier Sensoreingängen kostet 700 USD zuzüglich 17-%-Hardwareaufschlag. | https://link4controls.com/4-relay-4-analog-input-output-module/ | hoch |
+| 2026-09-12 | Bartlett Instrument | ClimateBoss-Zubehör | Herstellerliste nennt WeatherBoss mit 3.050 USD und einen Feuchtesensor mit 170 USD; ClimateBoss ist auf der Produktseite als eingestellt markiert. | https://www.bartlettinstrument.com/greenhouse | hoch |
+
 ### Preisanker für hochwertige private Gewächshäuser
 
 | Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
@@ -72,7 +84,7 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 | 2026-09-12 | Selfkant Wolters | Hochwertige DACH-Gewächshäuser | Direkt kaufbare Modelle mit 3,8-14,7 m²; Hersteller nennt Einstieg ab 3.095 EUR sowie größere Sonderanfertigungen. | https://www.selfkant-wolters.de/gewaechshaeuser/ | hoch |
 | 2026-09-12 | WAMA | Preisliste 2026 | Herstellerpreisliste enthält Profi-Konfigurationen im Bereich von etwa 7.300 EUR bis über 30.000 EUR, abhängig von Größe und Ausführung. | https://www.wamadirekt.de/wp-content/uploads/Wama_GH2026_web.pdf | hoch |
 
-### Voice of Customer - erste qualitative Stichprobe
+### Voice of Customer - qualitative Stichprobe
 
 Community-Quellen dienen ausschließlich als qualitative Problembelege. Sie sind nicht repräsentativ und werden nicht zur Schätzung von Häufigkeit oder Marktgröße verwendet.
 
@@ -87,6 +99,22 @@ Community-Quellen dienen ausschließlich als qualitative Problembelege. Sie sind
 | 2026-09-12 | Reddit r/Greenhouses | Komplexer Eigenbau | Nutzer mit Industrieautomatisierungs-Erfahrung steuert vier Motoren, zwei Ventile, Pumpe, Innenklima, Wind und Wasserstand über Home Assistant. | https://www.reddit.com/r/Greenhouses/comments/1vfe8hk/ | niedrig |
 | 2026-09-12 | Reddit r/homeassistant | Außenfunk und Sensorik | Nutzer berichtet von ausgefallenen oder instabilen Zigbee-Sensoren im Außenbereich. | https://www.reddit.com/r/homeassistant/comments/1s0cs9l/ | niedrig |
 | 2026-09-12 | Reddit r/homeassistant | Regensensor-Fehlalarme | Diskussion nennt Kondensation als Ursache falscher Regenmeldungen und empfiehlt Sensorheizung beziehungsweise Plausibilisierung. | https://www.reddit.com/r/homeassistant/comments/1u83jeg/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Extreme Überhitzung und fehlender Strom | Trotz zweier offener Dachlüfter werden mehr als 125 °F berichtet; Pflanzen wurden geschädigt, am Gewächshaus liegt kein Netzstrom an. | https://www.reddit.com/r/Greenhouses/comments/1trloh7/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Kühlung trotz mehrerer Maßnahmen unzureichend | Zu-/Abluft, Umluft und wasserbasierte Kühlung halten Temperatur und Feuchte nicht konstant. | https://www.reddit.com/r/Greenhouses/comments/1uvn4fi/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Instabiler Tagesgang | Nutzer berichtet von zu hoher Tagestemperatur und kaum Wärmerückhalt nachts; windfeste Beschattung ist offen. | https://www.reddit.com/r/Greenhouses/comments/1lpa7pa/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Lüftungsaktor bleibt offen | Elektrische Klappenmotoren bleiben trotz Abschaltung durch den Thermostaten offen hängen. | https://www.reddit.com/r/Greenhouses/comments/10m8ytq/ | niedrig |
+| 2026-09-12 | Hausgarten.net | Urlaub, Sturm und Fensterheber | Deutschsprachige Diskussion beschreibt, dass temperaturabhängige Fenster bei Sommergewitter oder Sturm nicht rechtzeitig schließen und weiterhin Betreuung nötig ist. | https://forum.hausgarten.net/threads/gewaechshaus-im-urlaub.44250/ | niedrig |
+| 2026-09-12 | Hausgarten.net | Lüftungsfläche und Feuchte | Deutschsprachige Diskussion betont starke Temperaturschwankungen, unzureichende Lüftungsflächen und dauerhaft hohe Luftfeuchte. | https://forum.hausgarten.net/threads/gewaechshaus-informationen.83374/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Fernmessung außerhalb der WLAN-Reichweite | Nutzer sucht eine einfache kabelgebundene Temperaturmessung mit optionalem Alarm für ein entferntes Gewächshaus. | https://www.reddit.com/r/Greenhouses/comments/1kla08v/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Monitoring in der Zierpflanzenproduktion | Betrieb mit zwei Gewächshäusern sucht mobile Temperatur-/Feuchtealarme und erwägt Sensor-Gateway plus Mobilfunk-Hotspot. | https://www.reddit.com/r/Greenhouses/comments/18ga6rq/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Thermostatausfall und Energieverbrauch | Berichteter Heizungsthermostat schaltete nicht ab; Heizung und Abluft arbeiteten gegeneinander und der Stromverbrauch stieg stark. | https://www.reddit.com/r/Greenhouses/comments/1bvp9th/ | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Vertrauen in unbeaufsichtigte Heizung | Nutzer ohne festen Stromanschluss ist nervös, eine Heizung nachts unbeaufsichtigt zu betreiben. | https://www.reddit.com/r/Greenhouses/comments/1pwkzoa/ | niedrig |
+| 2026-09-12 | Gardening Forums | Bewässerungsverstopfung und Leckage | Alte Leitungen/Tropfer setzen sich zu; sich lösende Verbindungen werden als wiederkehrende Schwachstelle genannt. | https://www.gardening-forums.com/threads/automatic-watering-systems.33916/ | niedrig |
+| 2026-09-12 | Reddit r/greenhouse | Gewerblicher Tropfbewässerungsausfall | In drei gewerblichen Gewächshäusern führt ein Druck-/Ventilproblem zu trockenen oberen und überfluteten unteren Hängekörben sowie erheblicher Handbewässerung. | https://www.reddit.com/r/greenhouse/comments/1s1zj4v/ | niedrig |
+| 2026-09-12 | Arduino Forum | Bodenfeuchtesensoren und Überschwemmungsrisiko | Diskussion beschreibt Korrosion, starke Messwertabhängigkeit und mögliches Überschwemmungsrisiko günstiger Feuchtesensoren. | https://forum.arduino.cc/t/irrigation-system-project/1288487 | niedrig |
+| 2026-09-12 | Harvst Community | Steuerungsausfall durch Konfiguration | Widersprüchliche Feuchtegrenzen blockieren die Bewässerung trotz WLAN-Verbindung und verfügbarer Messdaten. | https://app.harvst.co.uk/forum/control-system/113/start-here-troubleshooting | niedrig |
+| 2026-09-12 | Home Assistant Community | Fehlende Bewässerungsintegration | Solare Bewässerung kommuniziert nicht mit Home Assistant; die eigenständige Zeitplanung wird als umständlich beschrieben. | https://community.home-assistant.io/t/watering-my-tomatoes-wireless-solar-powered-irrigation/126525 | niedrig |
+| 2026-09-12 | Reddit r/Greenhouses | Anforderungen an Fernüberwachung | Gesucht werden Netzbetrieb, WLAN, mehrmonatige Historie und Grenzwertalarme; Batterie- und Gatewayabhängigkeit werden abgewogen. | https://www.reddit.com/r/Greenhouses/comments/196qtku/ | niedrig |
 
 ## Quellenregeln
 

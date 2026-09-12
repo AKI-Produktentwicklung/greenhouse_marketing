@@ -36,6 +36,13 @@ Ziel:
 - clustern
 - Häufigkeit bewerten
 
+Zwischenstand 12. September 2026:
+
+- Sammelziel erreicht: 50 konkrete Problemsignale aus 25 öffentlichen Diskussionen dokumentiert
+- qualitative Clusterung erstellt
+- noch keine belastbare Häufigkeitsbewertung; dafür fehlen weitere unabhängige und insbesondere gewerbliche/DACH-Quellen
+- Details: [voice-of-customer.md](voice-of-customer.md)
+
 ## Phase 2 – Kundeninterviews
 
 Ziel:

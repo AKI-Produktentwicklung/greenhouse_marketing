@@ -54,6 +54,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 
 - `market-analysis.md` – Markt, Größe, Trends, Annahmen
 - `pain-points.md` – relevante Probleme der Zielkunden
+- `voice-of-customer.md` – paraphrasierte Problemsignale und qualitative Evidenz
 - `competitors.md` – Wettbewerber und Alternativen
 - `customer-segments.md` – Zielkundensegmente
 - `pricing.md` – Zahlungsbereitschaft und Preismodelle

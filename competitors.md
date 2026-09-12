@@ -2,7 +2,7 @@
 
 ## Ziel und Stand
 
-Ziel sind 20-30 reale Produkte und Anbieter. Zwei Recherchetranchen erfassen derzeit 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 12. September 2026). Davon wird Trellis One ausdrücklich noch entwickelt; es ist ein Marktindikator, aber noch kein kaufbares Vergleichsprodukt.
+Ziel sind 20-30 reale Produkte und Anbieter. Zwei Recherchetranchen erfassen derzeit 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 12. September 2026). Davon sind 21 als aktuell verfügbar dokumentiert. Bartlett ClimateBoss ist eingestellt; Trellis One wird noch entwickelt. Beide bleiben als historische beziehungsweise zukünftige Marktindikatoren in der Übersicht, zählen aber nicht als aktive kaufbare Vergleichsprodukte.
 
 Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Zielsegment aktiv verkauft wird. Preise ohne öffentlich zugängliches Herstellerangebot bleiben als "auf Anfrage" gekennzeichnet. Aussagen zur lokalen Autonomie werden nur dort als verifiziert behandelt, wo der Hersteller sie ausdrücklich beschreibt.
 
@@ -12,7 +12,7 @@ Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Ziels
 
 | Anbieter / Produkt | Zielgruppe und Umfang | Öffentlicher Preis | Relevante verifizierte Merkmale | Vorläufige Einordnung |
 |---|---|---:|---|---|
-| Bartlett ClimateBoss | kleine bis traditionelle oder natürlich belüftete Gewächshäuser; 1-2 Zonen | 1.015 USD | Touchscreen, Heizen/Kühlen, Lüfter/Lamellen beziehungsweise Dach- und Seitenlüftung, Timer, Temperatur-, Stromausfall- und Hardwarealarm, Batterie-Pufferung von Uhr/Speicher, WLAN und Headgrower-App | Der derzeit klarste Preis- und Funktionsanker im Zielkorridor; Außenwetter und stärkere Motoransteuerung benötigen Zusatzkomponenten. Der lokale Touchscreenbetrieb ist belegt, ein ausdrückliches Offline-Versprechen jedoch nicht. |
+| Bartlett ClimateBoss | eingestelltes US-Produkt für kleine bis traditionelle oder natürlich belüftete Gewächshäuser; 1-2 Zonen | zuletzt öffentlich 1.015 USD | Touchscreen, Heizen/Kühlen, Lüfter/Lamellen beziehungsweise Dach- und Seitenlüftung, Timer, Temperatur-, Stromausfall- und Hardwarealarm, Batterie-Pufferung von Uhr/Speicher, WLAN und Headgrower-App | Historischer Preis- und Funktionsanker, kein aktiver Wettbewerber. Außenwetter und stärkere Motoransteuerung benötigen Zusatzkomponenten; der lokale Touchscreenbetrieb ist belegt, ein ausdrückliches Offline-Versprechen jedoch nicht. |
 | Senmatic LCC1 | ein Gewächshaus, Gärtnereien und Orangerien | auf Anfrage | Temperatur, Feuchte, Licht, ein Heizventil, zwei Lüftungen, ein Schirm; vernetzbar; gemeinsame Wetterstation mit Wind, optional Regen/Licht; IP65 | Sehr nah am funktionalen Kern. Bedienung und Service sind professionell geprägt; Preis und Fernzugriff der Basiskonfiguration sind offen. |
 | Ridder Hortimax Go | Einstieg in professionellen geschützten Anbau | auf Anfrage | Klima und Bewässerung, Touchscreen, Plug-and-Play-"Smart Switches", optionale CloudBoX/App; dokumentierte Sturm-, Frost- und Regenschutzlogik für Dachlüftungen | Der stärkste funktionale Direktvergleich: gleiche Brückenpositionierung zwischen einfachen und komplexen Systemen. Händler-/Projektvertrieb und fehlender öffentlicher Preis bleiben Abgrenzungschancen. |
 | Link4 Pearl | kommerzielle Gewächshäuser; modular bis 128 Ein-/Ausgänge | 1.499 USD zzgl. ausgewiesenem 17-%-Hardwareaufschlag | Ethernet, Cloud, Alarme, Logging, Audit-Logs, Modbus RTU, USB-Backup, modulare Erweiterung | Controllerpreis liegt genau im Zielband; vollständige Anlage erfordert Module, Sensorik und Installation. |
@@ -56,7 +56,7 @@ Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Ziels
 
 ### Verifizierte Beobachtungen
 
-1. Der Controllerpreis von etwa 1.000-1.500 EUR ist real: Bartlett, Link4, NIDO und GrowControl liegen mit öffentlich sichtbaren Angeboten in oder nahe diesem Bereich.
+1. Der öffentlich sichtbare Controllerpreis von etwa 1.000-1.500 EUR ist bei Link4, NIDO und GrowControl aktuell belegt. Bartlett lag mit dem inzwischen eingestellten ClimateBoss ebenfalls in diesem Bereich und bleibt nur ein historischer Vergleichswert.
 2. Der sichtbare Preis ist nicht mit dem Preis einer betriebsfertigen Anlage gleichzusetzen. Bei mehreren Systemen kommen I/O-Module, Relais, Sensoren, Wetterstation, Motorsteuerung und Installation hinzu.
 3. Der Funktionsumfang "Außenwetter plus koordinierte Lüftung, Heizung, Feuchte, Bewässerung und Alarmierung" existiert im professionellen Markt, wird dort aber überwiegend projekt- und serviceorientiert verkauft.
 4. Günstigere, einfach kaufbare Systeme stammen häufig aus dem Indoor-Grow- oder Fertigationsbereich. Dort fehlen in den geprüften Herstellerangaben typischerweise Wind, Regen, Sturmreaktion und motorische Gewächshauslüftung.
@@ -64,6 +64,24 @@ Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Ziels
 6. NIDO ONE V2 bestätigt inzwischen ausdrücklich, dass Automationen bei Internetausfall weiterlaufen und Daten lokal gespeichert werden. Damit ist Offline-Fähigkeit kein exklusives Merkmal, wohl aber ein sinnvoller Mindeststandard.
 7. Ridder Hortimax Go enthält ausdrücklich Sturm-, Frost- und Regenschutz für Dachlüftungen. Der Greenhouse Assistant kann sich daher nicht allein über diese Schutzfunktionen differenzieren, sondern muss Kombination, Bedienbarkeit, Zielgröße, Preis und Nachrüstbarkeit besser lösen.
 8. Wadsworth bietet mit EnviroSTEP/Seed eine breite Palette bis hin zu Wetterprognosen und Fernzugriff. Einzelne öffentlich bepreiste Komponenten von 1.900 beziehungsweise 2.000 USD unterstreichen die Lücke zwischen einem günstigen Controller und einer vollständigen professionellen Lösung.
+
+## Vergleichswarenkörbe aus öffentlichen Preisen
+
+Die folgenden Beträge sind eigene Berechnungen aus öffentlich gelisteten Herstellerpreisen (Stand: 12. September 2026), keine Angebote der Anbieter. Sie sind nicht funktionsgleich und werden weder um Wechselkurse noch um unterschiedliche Steuern bereinigt. Versand, Installation, Schaltschrank, Aktoren und weitere Sensorik fehlen, sofern sie nicht ausdrücklich genannt sind.
+
+| Beobachtbarer Warenkorb | Eigene Berechnung | Enthalten | Wesentliche Lücken |
+|---|---:|---|---|
+| NIDO ONE V2 mit vier schaltbaren Geräten | 1.667,14 EUR inkl. USt. | NIDO ONE V2 für 1.489,99 EUR mit einem enthaltenen Smart Plug plus drei weitere NIDO Plugs zu je 59,05 EUR | Keine nachgewiesene Außenwetterstation, Sturm-/Regenlogik oder Motorsteuerung; Aktoren und Installation nicht enthalten. |
+| NIDO-Warenkorb im ersten Jahr mit Lab | 1.726,14 EUR inkl. USt. | Voriger Warenkorb plus NIDO Lab für ein Jahr zu 59 EUR | Das Abo erweitert Analyse, Export, Nutzerverwaltung und API, macht den Warenkorb aber nicht zu einer vollständigen Gewächshaussteuerung. |
+| Link4 Pearl mit einem 4-Relais-/4-Analog-Modul | 2.572,83 USD | Pearl 1.499 USD plus I/O-Modul 700 USD, jeweils mit dem ausgewiesenen 17-%-Aufschlag auf Hardware | Sensoren, Leistungs-/Motorschaltschrank, Wetterstation, Aktoren und Installation fehlen. |
+| Bartlett ClimateBoss mit WeatherBoss und Feuchtesensor | 4.235 USD, historisch | Eingestellter ClimateBoss 1.015 USD, WeatherBoss 3.050 USD und Feuchtesensor 170 USD | Kein aktuelles Kaufangebot für ClimateBoss; Relais-/Motorsteuerung, Aktoren, Installation und gegebenenfalls Fernzugriff fehlen. |
+
+### Interpretation
+
+- Ein Preis um 1.000-1.500 EUR beschreibt häufig nur einen Controller oder ein System mit wenigen direkt schaltbaren Geräten.
+- Bereits ein sehr kleiner, weiterhin unvollständiger Warenkorb liegt anhand der sichtbaren Preise bei etwa 1.700 EUR (NIDO) beziehungsweise 2.600 USD (Link4).
+- Außenwetter, sichere Motorsteuerung und Installation sind genau jene Kostenblöcke, die bei nahen professionellen Systemen öffentlich meist fehlen.
+- Der Zielpreis muss deshalb künftig für eine klar definierte Anzahl an Sensoren, sicheren Ausgängen und Motorachsen angegeben werden. Ein Vergleich nur auf Basis des Controllerpreises wäre irreführend.
 
 ### Hypothese aus der ersten Tranche
 
