@@ -11,6 +11,11 @@
 - ESP32 als geplante Produktplattform
 - Touchbedienung + Webinterface
 - modularer Systemansatz statt Einzelgerät
+- Controller-Versorgung mit 12 oder 24 VDC
+- ein steckerfertiges 230-V-Gesamtgerät ist nicht zwingend; externe zertifizierte Netzgeräte sind zulässig
+- Sensor- und Aktorverkabelung soll Plug-and-play sein
+- drahtlose Sensoren und Aktoren sollen ungefähr so einfach wie Geräte an einem WLAN-Router integrierbar sein
+- bis zu acht Sensoren sind derzeit durch die vorgesehene Wetterstation geprägt und keine marktseitig bestätigte Anforderung
 
 ## Markt
 
@@ -27,3 +32,13 @@
 - Zubehör und Erweiterungen als zusätzliche Erlösquelle
 - Services / Cloud grundsätzlich vorgesehen
 - Grundbetrieb darf nicht von Cloud oder Abo abhängig sein
+
+## Zu prüfende strategische Richtungen
+
+- reiner Onlinehandel als bevorzugte Vertriebshypothese
+- sehr umfangreiche technische Onlinedokumentation, Downloads, Konfiguratoren und Berechnungstools als Teil des Produkts
+- Wissens- und Erfahrungsinhalte zu Ganzjahres-Gewächshäusern als Reichweiten- und Vertrauensaufbau
+- transparente Fremdbeschaffung von Wetterstation, Sensoren und Standardzubehör statt Margenzwang auf jedem Bauteil
+- Open Source für Teile oder die gesamte Software als möglicher Zugang zur DIY-Szene
+
+Diese Punkte sind noch keine endgültigen Geschäftsmodellentscheidungen. Insbesondere Lizenzmodell, Supportgrenze, offiziell unterstützte Komponenten und Wirtschaftlichkeit müssen vor einer Festlegung geprüft werden.

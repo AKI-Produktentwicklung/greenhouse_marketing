@@ -54,7 +54,7 @@ Die Bewertung „hoch/mittel/niedrig“ ist eine strategische Einschätzung aus 
 | Web-/Smartphone-Zugriff | mittel bis hoch | marktübliche Erwartung und nützlich bei Abwesenheit, aber kein Alleinstellungsmerkmal | beibehalten, nicht als Hauptbotschaft verwenden |
 | Touchscreen am Gerät | mittel | lokale Transparenz ist wichtig; ein großer Touchscreen erhöht Kosten und Fehlerfläche | einfache Statusanzeige plus robuste Tasten zunächst bevorzugen |
 | zwei Zonen im Grundsystem | mittel | für 10–100 m² teilweise nützlich, erhöht aber sofort I/O-, UI- und Testkomplexität | eine Zone als Basis, zweite Zone als klar bepreiste Erweiterung |
-| bis zu acht Sensoren je Sensortyp | niedrig für den Einstieg | breite Skalierbarkeit ist technisch attraktiv, aber nicht durch Kaufprobleme des Zielsegments gestützt | Bus-/Erweiterungsfähigkeit erhalten, Sensorzahl nicht zum Basispaket machen |
+| bis zu acht Sensoren je Sensortyp | nicht als Marktbedarf belegt | die Zahl ist derzeit durch die vorgesehene Wetterstation geprägt; alternative Fabrikate müssen auch mechanische und klimatische Qualitätsanforderungen erfüllen | vorhandene Architektur nicht vorschnell verwerfen; Alternativen anhand einer Qualitäts- und Kompatibilitätsmatrix prüfen |
 | Blattfeuchtesensorik | mittel bis niedrig | kann Krankheitsrisiko unterstützen, ist in der Stichprobe kein dominanter Kaufgrund | optionale spätere Erweiterung |
 | Bodenfeuchte/Bewässerung | mittel | reales Problem und starker bestehender Markt, würde den Startumfang jedoch verbreitern | Schnittstelle vorsehen, Regelung erst nach Klimakern |
 | Erdreichwärmetauscher | niedrig für den Markteintritt | derzeit keine belastbare Nachfrageevidenz; erfordert Bauarbeit und erweitert Haftung/Projektierung | aus dem Kernprodukt entfernen und als separates Innovationsmodul behandeln |
@@ -102,7 +102,7 @@ Klimaoptimierung und Komfort sind zweite Nutzenebenen. „Smart“, Cloud und KI
 
 ### 2. Eine Zone zum Standard machen
 
-Zwei Zonen im Grundsystem und jeweils bis zu acht Sensoren führen in Richtung professioneller Komplexität, bevor der private Kernnutzen belegt ist. Die zweite Zone sollte technisch vorbereitet, aber kommerziell als Erweiterung behandelt werden.
+Zwei Zonen im Grundsystem führen in Richtung professioneller Komplexität, bevor der private Kernnutzen belegt ist. Die zweite Zone sollte technisch vorbereitet, aber kommerziell als Erweiterung behandelt werden. Die Kapazität von bis zu acht Sensoren ist hingegen zunächst eine technische Eigenschaft der vorgesehenen Wetterstationsarchitektur und darf nicht mit acht im Basispaket benötigten Sensoren verwechselt werden.
 
 ### 3. Sicherheits- und Diagnoseumfang vor weiteren Klimafunktionen ausbauen
 
@@ -188,7 +188,7 @@ Diese Punkte beweisen keinen technischen Fehler des Prototyps. Sie zeigen, dass 
 ### Vorerst nicht priorisieren
 
 1. Erdreichwärmetauscher als Standardbestandteil,
-2. acht Sensoren je Kategorie im Basispaket,
+2. zusätzliche Sensorfabrikate ohne bestandene mechanische, klimatische und elektrische Qualitätsprüfung,
 3. KI als Verkaufsargument,
 4. komplexe Mehrzonenoberfläche,
 5. großer Touchscreen, sofern Statusanzeige und Handbedienung anders robust lösbar sind.

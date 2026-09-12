@@ -17,48 +17,50 @@ Die Analyse trennt verifizierte Marktbeobachtungen von Vertriebshypothesen. Eine
 | TSG Gewächshaustechnik | Autorisiertes Service-Center für DGT by Senmatic; baut und wartet Klima-, Bewässerungs- und Schaltanlagen in Deutschland, Österreich, Schweiz und Luxemburg | Belegt, dass professionelle Steuerungen über spezialisierte regionale Integratoren verkauft und betreut werden. Zugleich möglicher Interviewpartner, aber eher Wettbewerbs-/Integrationskanal als Hobbyhändler. |
 | RAM | Deutscher Hersteller von Klimacomputern und Steuerungssystemen mit direkter Beratung und Servicenetz | Professioneller Direkt-/Servicevertrieb; Benchmark für Zuverlässigkeit und Betreuung, nicht für einfachen Onlinekauf. |
 
-## Vorläufige Kanalbewertung
+## Vorläufige Kanalbewertung nach gewünschter Online-first-Richtung
 
 | Kanal | Zugang zur Zielgruppe | Erklärungs-/Montagefähigkeit | Skalierbarkeit | Vorläufige Priorität |
 |---|---|---|---|---|
-| Premium-Gewächshaushersteller und deren Monteure | hoch | hoch | mittel | 1 |
-| Eigener Direktvertrieb mit qualifizierter Fernberatung | mittel | mittel bis hoch | mittel | 1 |
+| Eigener spezialisierter Online-Shop mit Konfigurator und Wissensbereich | mittel | muss durch Produkt und Inhalte aufgebaut werden | hoch | 1 |
+| Eigener Direktvertrieb mit qualifizierter Fernberatung | mittel | mittel bis hoch | mittel | 1 als Rückfallebene |
+| Premium-Gewächshaushersteller und deren Monteure | hoch | hoch | mittel | später / optional |
 | Spezialisierte Gewächshaus-/Gartenbauintegratoren | mittel | sehr hoch | niedrig bis mittel | 2 |
 | Gartenfachhandel und Ausstellungen | mittel | mittel | mittel | 2 |
 | Baumarkt-/Volumenkanal | hoch, aber wenig qualifiziert | niedrig | hoch | 3 |
 | Reiner Online-Marktplatz | breit, aber geringe Vorqualifizierung | niedrig | hoch | 3 |
 
-Die Priorisierung ist eine Hypothese. Sie basiert auf Produktkomplexität, Sicherheitsanforderungen und dem derzeit angenommenen Preis von mehr als 1.000 EUR, nicht auf bestätigten Abschlussquoten.
+Die Priorisierung ist eine Hypothese. Ein eigener Fachshop ist nicht dasselbe wie ein unbetreuter Marktplatz: Konfigurator, Dokumentation und Vorqualifizierung müssen einen wesentlichen Teil der Beratung übernehmen. Abschlussquoten und Akquisitionskosten sind nicht validiert.
 
-## Empfohlenes Startmodell als Hypothese
+## Empfohlenes Online-first-Modell als Hypothese
 
-### 1. Direktvertrieb für Lern- und Pilotphase
+### 1. Fachshop statt bloßem Warenkorb
 
-- qualifizierendes Formular mit Gewächshausgröße, vorhandenen Fenstern/Antrieben, Strom, Heizung und Bewässerung
-- bezahlte Vor-Ort- oder Videoplanung
-- zwei bis drei klar definierte Pakete
-- Installation durch eigenes Team oder geprüften Elektriker-/Montagepartner
-- direkte Rückmeldung zu Einbauproblemen, Supportaufwand und Kaufgründen
+- geführter Konfigurator für Gewächshaus, Fenster/Antriebe, Versorgung, Heizung und gewünschte Funktionen
+- sichtbarer Gesamtpreis inklusive Kabeln, Schnittstellen und zwingendem Zubehör
+- Installationscheck mit Fotos, Maßen und klaren Ausschlusskriterien
+- Kompatibilitätsmatrix mit exakt unterstützten Fabrikaten und Versionen
+- optionale Fernberatung nur für Fälle, die nicht sicher automatisiert qualifiziert werden können
 
-Vorteil: maximale Lernrate und Kontrolle über die ersten Installationen. Nachteil: begrenzte Skalierung und hoher eigener Zeitbedarf.
+Vorteil: skalierbarer Direktzugang und volle Kontrolle über Erklärung und Marke. Nachteil: Fehlkäufe und individuelle Einbausituationen können ohne sehr gute Vorqualifizierung viel Support erzeugen.
 
-### 2. Herstellerpartnerschaft für Neuinstallationen
+### 2. Dokumentation als Bestandteil des Produkts
 
-- Automation als Option im Angebot eines Premium-Gewächshauses
-- vorgeplante Befestigungspunkte, Kabelwege und kompatible Fensterkomponenten
-- gemeinsamer Einbau oder klar getrennte Verantwortlichkeiten
-- Provision, Händlermarge oder OEM-Paket
+- Schritt-für-Schritt-Anleitungen, kurze Videos und überprüfbare Selbsttests
+- Downloadbereich für Handbücher, Verdrahtungspläne, Firmware und technische Daten
+- Wissensbereich zu Ganzjahres-Gewächshäusern, Klima, Lüftung und Betrieb
+- Berechnungstools, etwa für Erdreichwärmetauscher, Luftwechsel oder Aktorauswahl
+- ehrliche Erfahrungsberichte und später verifizierte Kundenstimmen
 
-Vorteil: Zugang im Moment der höchsten Investitionsbereitschaft. Nachteil: längere Verkaufszyklen, Integrationsaufwand und Abhängigkeit vom Partner.
+Diese Inhalte können Vertrauen und organische Reichweite schaffen. Dass sie im DACH-Nischensegment wirtschaftlich genügend Käufer gewinnen, ist noch nicht belegt.
 
-### 3. Nachrüstpaket über ausgewählte Fachpartner
+### 3. Transparente Komponentenstrategie
 
-- Partner qualifiziert Bestand und Mechanik vor Ort
-- Greenhouse Assistant liefert standardisierte Steuerung und Dokumentation
-- Partner übernimmt Netzanschluss, Motor/blockierte Mechanik und gegebenenfalls Schaltschrank
-- Fernsupport und Software bleiben zentral
+- Greenhouse Assistant verdient primär an Controller, robusten Schnittstellen, Kabelsystem, vorkonfigurierten Regeln und Supportfähigkeit.
+- Wetterstation, Standardsensoren und zertifiziertes Netzteil können im Shop angeboten oder anhand einer Stückliste extern gekauft werden.
+- Voller Herstellersupport gilt nur für getestete Kombinationen; andere Komponenten sind Community-/Experimentierbetrieb.
+- Elektriker oder Montagepartner können optional bleiben, ohne zum primären Vertriebskanal zu werden.
 
-Vorteil: lokaler Service ohne sofort ein eigenes flächendeckendes Team aufzubauen. Nachteil: Qualitätssicherung und Marge müssen vertraglich gelöst werden.
+Das Muster ist am Markt nicht ungewöhnlich: Home Assistant kombiniert freie Open-Source-Software mit offizieller Plug-and-play-Hardware und optionalen Diensten; OpenSprinkler verkauft offene Spezialhardware samt Zubehör und Dokumentation. Das belegt ein Geschäftsmodellmuster, nicht den Marktfit für Gewächshausautomation.
 
 ## Wirtschaftlich noch offene Größen
 
@@ -71,13 +73,13 @@ Vorteil: lokaler Service ohne sofort ein eigenes flächendeckendes Team aufzubau
 - Retouren-/Stornoquote bei Onlineverkauf
 - Bereitschaft von Herstellern, Fremdautomation in Garantie und Montageprozess aufzunehmen
 
-## Nächste Validierungsschritte
+## Nächste Analyseschritte ohne Kontakte oder Rekrutierung
 
-1. Fünf Premiumhersteller beziehungsweise -händler strukturiert ansprechen.
-2. Drei spezialisierte Integratoren zu typischen Anlagenpreisen, Margen, Installationsstunden und häufigen Störungen interviewen.
-3. Zwei Paketvarianten für Neuinstallation und Nachrüstung kalkulieren.
-4. Verantwortungsmatrix für Elektrik, Mechanik, Sensorik, Inbetriebnahme und Support entwerfen.
-5. Erst nach diesen Gesprächen einen bevorzugten Vertriebskanal als strategische Entscheidung festhalten.
+1. Drei vollständige Online-Warenkörbe mit Controller, Kabeln, Sensorik, Netzteil und Aktorschnittstellen kalkulieren.
+2. Einen Papierprototyp für Konfigurator und Installationscheck entwerfen.
+3. Supportmatrix für offiziell unterstützte, Community- und nicht unterstützte Komponenten erstellen.
+4. Lizenz- und Erlösvarianten für vollständig Open Source, Open Core und nur offene Schnittstellen vergleichen.
+5. Inhaltsarchitektur für Dokumentation, Downloads, EWT-/Lüftungsrechner und Erfahrungswissen definieren.
 
 ## Mögliche Gesprächspartner aus der Recherche
 

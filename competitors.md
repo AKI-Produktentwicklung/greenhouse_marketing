@@ -2,23 +2,37 @@
 
 ## Ziel und Stand
 
-Ziel sind 20-30 reale Produkte und Anbieter. Zwei Recherchetranchen erfassen derzeit 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 12. September 2026). Davon sind 21 als aktuell verfügbar dokumentiert. Bartlett ClimateBoss ist eingestellt; Trellis One wird noch entwickelt. Beide bleiben als historische beziehungsweise zukünftige Marktindikatoren in der Übersicht, zählen aber nicht als aktive kaufbare Vergleichsprodukte.
+Ziel sind 20-30 reale Produkte und Anbieter. Die Recherche erfasst mindestens 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 12. September 2026) und ergänzt sie um tatsächliche Kaufalternativen sowie Geschäftsmodellvergleiche. Bartlett ClimateBoss ist eingestellt; Trellis One wird noch entwickelt. Beide bleiben als historische beziehungsweise zukünftige Marktindikatoren in der Übersicht, zählen aber nicht als aktive kaufbare Vergleichsprodukte.
 
 Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Zielsegment aktiv verkauft wird. Preise ohne öffentlich zugängliches Herstellerangebot bleiben als "auf Anfrage" gekennzeichnet. Aussagen zur lokalen Autonomie werden nur dort als verifiziert behandelt, wo der Hersteller sie ausdrücklich beschreibt.
 
 ## Vorläufige Wettbewerbslandkarte
 
-### Direkte und nahe Wettbewerber
+### Funktionale Benchmarks – überwiegend keine direkten Kaufalternativen
+
+Die professionellen Anbieter in der folgenden Tabelle bilden Funktionsumfang, Robustheit und Preislogik ab. Für den anvisierten privaten Onlinekäufer sind sie meist keine unmittelbaren Wettbewerber, weil Kaufweg, Projektierung und Zielanlagengröße anders sind.
 
 | Anbieter / Produkt | Zielgruppe und Umfang | Öffentlicher Preis | Relevante verifizierte Merkmale | Vorläufige Einordnung |
 |---|---|---:|---|---|
 | Bartlett ClimateBoss | eingestelltes US-Produkt für kleine bis traditionelle oder natürlich belüftete Gewächshäuser; 1-2 Zonen | zuletzt öffentlich 1.015 USD | Touchscreen, Heizen/Kühlen, Lüfter/Lamellen beziehungsweise Dach- und Seitenlüftung, Timer, Temperatur-, Stromausfall- und Hardwarealarm, Batterie-Pufferung von Uhr/Speicher, WLAN und Headgrower-App | Historischer Preis- und Funktionsanker, kein aktiver Wettbewerber. Außenwetter und stärkere Motoransteuerung benötigen Zusatzkomponenten; der lokale Touchscreenbetrieb ist belegt, ein ausdrückliches Offline-Versprechen jedoch nicht. |
 | Senmatic LCC1 | ein Gewächshaus, Gärtnereien und Orangerien | auf Anfrage | Temperatur, Feuchte, Licht, ein Heizventil, zwei Lüftungen, ein Schirm; vernetzbar; gemeinsame Wetterstation mit Wind, optional Regen/Licht; IP65 | Sehr nah am funktionalen Kern. Bedienung und Service sind professionell geprägt; Preis und Fernzugriff der Basiskonfiguration sind offen. |
-| Ridder Hortimax Go | Einstieg in professionellen geschützten Anbau | auf Anfrage; laut FAQ kein Standardsystempreis | Klima und Bewässerung, Touchscreen, Plug-and-Play-"Smart Switches", optionale CloudBoX/App; dokumentierte Sturm-, Frost- und Regenschutzlogik für Dachlüftungen; zwei Wochen lokale Historie ohne Abo, drei Jahre Cloud-Historie mit App-Serviceabo | Der stärkste funktionale Direktvergleich: gleiche Brückenpositionierung zwischen einfachen und komplexen Systemen. Modulare Auslegung, Händler-/Projektvertrieb und fehlender öffentlicher Komplettpreis erschweren den direkten Kaufvergleich. |
+| Ridder Hortimax Go | Einstieg in professionellen geschützten Anbau | auf Anfrage; laut FAQ kein Standardsystempreis | Klima und Bewässerung, Touchscreen, Plug-and-Play-"Smart Switches", optionale CloudBoX/App; dokumentierte Sturm-, Frost- und Regenschutzlogik für Dachlüftungen; zwei Wochen lokale Historie ohne Abo, drei Jahre Cloud-Historie mit App-Serviceabo | Starker oberer Funktionsbenchmark, aber wegen Händler-/Projektvertrieb und professioneller Zielgruppe keine primäre Kaufalternative für den geplanten Onlinekunden. |
 | Link4 Pearl | kommerzielle Gewächshäuser; modular bis 128 Ein-/Ausgänge | 1.499 USD zzgl. ausgewiesenem 17-%-Hardwareaufschlag | Ethernet, Cloud, Alarme, Logging, Audit-Logs, Modbus RTU, USB-Backup, modulare Erweiterung | Controllerpreis liegt genau im Zielband; vollständige Anlage erfordert Module, Sensorik und Installation. |
 | NIDO ONE V2 | kleine und mittlere Hydroponik-, Bewässerungs- und Gewächshaussysteme | 1.489,99 EUR inkl. USt. | pH/EC-Dosierung, Bewässerung, Temperatur, Feuchte, VPD, WLAN-App; ein schaltbarer Stecker enthalten; NIDO Lab als 59-EUR-Jahresabo; Automationen und lokale Datenspeicherung laufen bei Internetausfall weiter | Starker Preis- und Offline-Benchmark für ein kompaktes Gesamtsystem, aber Schwerpunkt Fertigation statt Außenwetter, Sturm und motorischer Lüftung. |
 | Agrowtek GrowControl GCX | anspruchsvolle Einzel- und Mehrraum-/Gewächshausanlagen | 2.799 USD | Klima, Bewässerung, Fertigation, Motorpositionen für Lüftung/Schirme, Alarme, bis 100 Geräte (GCX), kostenloser Fernzugriff; dediziertes Linux-System | Funktional sehr vollständig und modular; bereits über dem Einstiegspreis und stärker auf professionelle Anwender ausgerichtet. |
 | Argus TITAN Atom / Axia | kommerzielle und Forschungsgewächshäuser, von standardisiert bis hochgradig kundenspezifisch | auf Anfrage | Klima, Bewässerung, Fertigation, viele Zonen; Axia mit Modbus, BACnet, WLAN, Bluetooth und lokaler Web-App bei Internetausfall | Technischer Robustheitsbenchmark. Projektierung, Inbetriebnahme und Supportmodell positionieren Argus überwiegend oberhalb des Zielsegments. |
+
+### Tatsächliche Kaufalternativen des Zielkunden
+
+| Alternative | Öffentlicher Preis | Warum sie näher am Kaufentscheid liegt | Lücke / Bedeutung |
+|---|---:|---|---|
+| manuelle Bedienung, passive Fensteröffner, Thermostate und Timer | stark konfigurationsabhängig | bekannt, günstig, sofort verfügbar und ohne digitales Setup | Wichtigster Status-quo-Wettbewerber; löst die kombinierte Reaktion auf Hitze, Sturm, Regen und Abwesenheit nicht vollständig. |
+| Home Assistant / ESPHome / Eigenbau | Software kostenlos; Hardware frei wählbar | lokale Open-Source-Automation, große Integrationsbreite und DIY-Community | Direkte Alternative für technisch versierte Nutzer; Planung, Verdrahtung, Regelqualität und Verantwortung bleiben beim Nutzer. |
+| Harvst S8/S16 und WaterMate | Controller-/Paketpreise produktabhängig; öffentlich online angeboten | kleine Gewächshaussysteme, Onlinekauf, eigene WLAN-Oberfläche, Online-/Offline-Betrieb, Heizen, Kühlen, Licht und Wasser | Nächster sichtbarer Produkt- und Onboardingvergleich. Schwerpunkt sind eigene Mini-Gewächshäuser und Bewässerung; DACH-Nachrüstposition nicht belegt. |
+| OpenSprinkler | 135–203 USD für den Controller | Open-Source-Hardware und -Software, Online-Shop, Dokumentation, lokale Weboberfläche, modulare Hardware | Kein Klimacontroller, aber ein starker Geschäftsmodellvergleich für offene Software plus verkaufte, gut unterstützte Spezialhardware. |
+| Trellis One | noch nicht erhältlich | angekündigt für kleine/mittlere Gewächshäuser und ernsthafte Hobbyanwender | Sehr nahes Positionierungssignal, aber noch kein Beleg für einen tragfähigen Markt. |
+
+Das Fehlen eines etablierten DACH-Direktkonkurrenten ist damit **kein Beweis für eine Marktlücke**. Es lässt zwei Erklärungen offen: Das Segment wird von bestehenden Angeboten schlecht bedient, oder Nachfrage und Zahlungsbereitschaft reichen für eine eigene Kategorie nicht aus. Die vorhandenen angrenzenden Produkte und DIY-Aktivitäten belegen Bedarfssignale, aber nicht die wirtschaftliche Größe.
 
 ### Indirekte Wettbewerber: Indoor-Grow-Controller
 

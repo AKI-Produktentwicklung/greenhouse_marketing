@@ -10,15 +10,15 @@ Alle Preisbereiche in diesem Dokument sind Arbeitshypothesen aus sichtbaren Wett
 
 | Kriterium | A – Controller/DIY-Kit | B – standardisiertes Einzonen-System | C – betriebsfertige Installation |
 |---|---|---|---|
-| typischer Lieferumfang | Controller, Software, wenige Sensoren; Kunde integriert Aktoren und Elektrik | Controller, Wetter-/Innenfühler, definierte I/O-/Schutzmodule, Kabelsatz; kompatible Aktoren klar festgelegt | vollständiges System einschließlich Aktoren, Schaltschrank, Verkabelung, Montage und Inbetriebnahme |
+| typischer Lieferumfang | 12/24-VDC-Controller und offene Software; Kunde wählt Komponenten | Controller und Plug-and-play-Schnittstellen; geprüfte Komponenten wahlweise mitgeliefert oder transparent extern beschafft | vollständiges System einschließlich Aktoren, Netzanschluss, Verkabelung, Montage und Inbetriebnahme |
 | primärer Kunde | technisch versierter Hobbyanwender / Maker | Premium-Hobbykunde oder kleiner Betrieb mit Elektriker-/Montagezugang | zahlungskräftiger Privatkunde oder kleiner Gewerbebetrieb mit Wunsch nach Gesamtverantwortung |
-| nächster Wettbewerb | GrowControl, NIDO, TrolMaster, Home Assistant | Ridder HortiMaX Go, Senmatic LCC1, kompakte Wadsworth-/Link4-Konfigurationen | regionale Gewächshaustechnik- und Automationsintegratoren |
+| nächster Wettbewerb | Home Assistant, ESPHome, OpenSprinkler und Eigenbau | Harvst, GrowControl/NIDO als angrenzende Produkte, Trellis als früher Marktindikator | regionale Gewächshaustechnik- und Automationsintegratoren |
 | plausible interne Preishypothese | etwa 700–1.500 EUR | etwa 1.700–3.000 EUR zuzüglich klar abgegrenzter Montage | wahrscheinlich über 3.000 EUR, stark objektabhängig |
 | stärkster Vorteil | niedriger Preis, einfacher Versand | klare Differenzierung durch Außenwetter, Fensterlogik und Standardisierung | größter Kundennutzen und höchste Systemverantwortung |
 | größter Nachteil | Kunde trägt genau den Integrationsaufwand, den das Produkt lösen soll | Kompatibilität und Installationsgrenze müssen sehr sauber definiert sein | hoher Vor-Ort-Aufwand, regionale Skalierung, Gewährleistungs- und Haftungsrisiko |
 | Preistransparenz | hoch | hoch bis mittel | niedrig, sobald jedes Objekt anders geplant wird |
 | Skalierbarkeit | hoch, aber supportanfällig | potenziell hoch bei wenigen geprüften Varianten | zunächst niedrig |
-| Marktfit des Prototyps | technisch möglich, strategisch zu nah an DIY | beste Übereinstimmung mit der identifizierten Marktlücke | mit heutiger Dokumentation und Prozessreife zu früh |
+| Marktfit des Prototyps | technisch möglich und als Community-Einstieg sinnvoll, aber supportanfällig | beste Übereinstimmung mit der identifizierten Marktlücke | widerspricht dem bevorzugten reinen Onlinehandel |
 
 ## Option A – Controller oder DIY-Kit
 
@@ -28,7 +28,7 @@ Ein Preis im bisherigen Zielkorridor von 700–1.500 EUR wird am ehesten erreich
 
 ### Strategisches Problem
 
-Der Käufer muss Sensoren, Motoren, Netzspannung und Mechanik selbst zusammenführen. Damit bleibt ein großer Teil des beobachteten Problems bestehen: mehrere Komponenten, technisches Wissen und keine eindeutige Systemverantwortung. Gleichzeitig konkurriert das Angebot stärker mit preiswerten DIY- und Grow-Controllern.
+Der Käufer muss kompatible Sensoren, Motoren und Mechanik selbst zusammenführen. Damit bleibt ein großer Teil des beobachteten Problems bestehen. Ein 12/24-VDC-Controller und ein externes zertifiziertes Netzteil reduzieren zwar die Netzspannungsgrenze, beseitigen aber nicht die Integrations- und Supportfrage.
 
 ### Eignung
 
@@ -50,7 +50,8 @@ Diese Produktgrenze passt am besten zur bisher erkannten Lücke. Das System lös
 
 Im festen Kernumfang:
 
-- Controller mit lokaler Bedienung,
+- 12/24-VDC-Controller mit lokaler Bedienung,
+- kein zwingend integriertes Netzgerät; definierte zertifizierte externe Netzgeräte,
 - Innenfühler für Temperatur und Feuchte,
 - Außenmessung für Temperatur, Wind und Regen,
 - zwei definierte Motorachsen beziehungsweise geprüfte Motorinterfaces,
@@ -58,7 +59,8 @@ Im festen Kernumfang:
 - ein Ventilatorausgang,
 - vorkonfigurierte Schutzlogik,
 - Ereignisprotokoll und Fernzugriff,
-- definierter Kabel-/Steckverbinderumfang,
+- verpolungssicherer Plug-and-play-Kabel-/Steckverbinderumfang,
+- routerähnliche Inbetriebnahme drahtloser Erweiterungen,
 - dokumentierte kompatible Antriebe und Installationsvoraussetzungen.
 
 Objektspezifisch beziehungsweise optional:
@@ -97,16 +99,16 @@ Nicht sinnvoll als sofortiges flächendeckendes DACH-Versprechen.
 
 ### Produktarchitektur auf Option B ausrichten
 
-Das marktfähige Ziel sollte ein **standardisiertes Einzonen-System** sein. Es enthält alle Komponenten, die für das Sicherheitsversprechen entscheidend sind, und lässt nur objektabhängige Mechanik sowie regulierte Installationsarbeiten klar außerhalb oder bei einem qualifizierten Partner.
+Das marktfähige Ziel sollte ein **offenes, standardisiertes Plug-and-play-System** sein. Der eigene Kern sind Controller, robuste Schnittstellen, Regelsoftware, Dokumentation und geprüfte Kompatibilität. Wetterstation, Sensoren und zertifiziertes Netzgerät können als Paket angeboten oder anhand einer exakten Liste transparent extern beschafft werden. „Bring your own“ erhält nur für geprüfte Fabrikate vollen Herstellersupport.
 
 ### Markteintritt stufenweise gestalten
 
 1. Den bestehenden Prototyp intern auf den festen B-Umfang reduzieren.
 2. Kompatibilitätsmatrix für wenige Antriebe, Lüfter und Heizungsinterfaces erstellen.
 3. Herstellkosten und Montagezeit getrennt für Kernpaket und Objektarbeit erfassen.
-4. Erste Installationen lokal als C-ähnlichen Service durchführen, um Fehler und Aufwand zu lernen.
-5. Aus wiederkehrenden Installationsmustern das tatsächlich versendbare B-Paket entwickeln.
-6. Option A nur anbieten, wenn Zielgruppe, Supportgrenze und Haftung ausdrücklich beherrscht werden.
+4. Einen Online-Konfigurator und Installationscheck vor dem Verkauf entwerfen.
+5. Das versendbare B-Paket einschließlich Dokumentation und Selbsttest entwickeln.
+6. Option A als Community-/Maker-Pfad nur mit klarer Support- und Lizenzgrenze anbieten.
 
 Dieser Pfad nutzt schlüsselfertige Pilotinstallationen als Lerninstrument, ohne das langfristige Geschäftsmodell auf individuelles Projektgeschäft festzulegen.
 
@@ -165,7 +167,7 @@ Ohne technische Inventur und Stückliste kann die Desk Research nicht klären:
 
 - ob der empfohlene B-Umfang mit der vorhandenen Hardware wirtschaftlich erreichbar ist,
 - welche Antriebsvarianten ohne individuelle Konstruktion unterstützt werden können,
-- ob Netzspannung im Produkt oder ausschließlich in einem separaten Installationsmodul liegen soll,
+- welche externen 12/24-V-Netzgeräte offiziell unterstützt und gegebenenfalls mitverkauft werden,
 - welcher Endpreis nach Montage, Garantie und Support wirtschaftlich ist.
 
 Diese Fragen benötigen keine Kundenrekrutierung, aber konkrete Prototyp-, Bauteil- und Kostendaten.
