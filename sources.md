@@ -88,6 +88,18 @@ Die daraus berechneten Warenkörbe stehen in [competitors.md](competitors.md). D
 | 2026-09-12 | GFP / Toolport | Online- und Handelspartnerschaft | Kooperation verbindet GFP-Gewächshäuser mit der Reichweite von Toolport; GFP nennt rund 10.000 Gewächshäuser jährlich. | https://pressemitteilungen.sueddeutsche.de/gfp-handels-gesmbh-5206520 | mittel |
 | 2026-09-12 | TSG Gewächshaustechnik | Integrator-/Servicekanal | Spezialist für Gewächshausautomation, Schaltanlagen, Mechanik und Bewässerung; autorisiertes Senmatic-Service-Center. | https://www.tsg-gewaechshaustechnik.de/unternehmen/ | hoch |
 
+### Rekrutierungskanäle für Primärinterviews
+
+Die Quellen belegen die thematische Rolle beziehungsweise öffentlich sichtbare Reichweite der Kanäle. Sie belegen weder eine Erlaubnis zur Veröffentlichung noch eine erwartete Rücklaufquote; beides muss vor Nutzung direkt geklärt werden.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Hausgarten.net | private Gewächshausbesitzer | Deutschsprachiges Gartenforum mit eigenen Gewächshausdiskussionen, darunter Kauf- und Budgetfragen. Veröffentlichung eines Forschungsaufrufs muss vorab mit der Moderation geklärt werden. | https://forum.hausgarten.net/threads/gewaechshaus.64029/ | mittel |
+| 2026-09-12 | Selbstversorger Forum e.V. | Selbstversorger | Deutschsprachiges Forum mit aktiven Projekt-, Landwirtschafts- und Vermarktungsbereichen sowie Gewächshausdiskussionen. Eignung und Posting-Erlaubnis sind vorab zu klären. | https://selbstvers.org/forum/ | mittel |
+| 2026-09-12 | Zentralverband Gartenbau | deutsche Erwerbsbetriebe | Der ZVG führt die Bundesfachgruppe Gemüsebau und weitere Fach-/Mitgliedsverbände mit öffentlichem Geschäftsstellenkontakt. Eine Interviewweiterleitung ist nicht zugesagt und müsste angefragt werden. | https://www.derdeutschegartenbau.de/bundes-und-mitgliedsverbaende/ | hoch |
+| 2026-09-12 | BundesGemüsebauVerband Österreichs | österreichische Erwerbsbetriebe | Die Verbandsmedien richten sich laut Mediadaten an bäuerliche und gärtnerische Gemüsebaubetriebe sowie den Gemüsehandel in Österreich. Eine bezahlte Anzeige ist nur eine mögliche, noch nicht freigegebene Option. | https://www.gemueselust.at/sites/default/files/pages/attachments/BGV_Mediadaten_2026_Gem%C3%BCsebaupraxis_0.pdf | hoch |
+| 2026-09-12 | Verband Schweizer Gemüseproduzenten | Schweizer Erwerbsbetriebe | Offizielle Berufsorganisation der Schweizer Gemüseproduzenten mit öffentlicher Geschäftsstelle; eine Weiterleitung von Interviewanfragen ist nicht belegt und müsste angefragt werden. | https://www.gemuese.ch/verband-schweizer-gemueseproduzenten/ueber-uns/kontakt | hoch |
+
 ### Preisanker für hochwertige private Gewächshäuser
 
 | Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |

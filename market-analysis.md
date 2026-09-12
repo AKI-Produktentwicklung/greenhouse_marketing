@@ -82,15 +82,18 @@ Weitere mögliche Segmente:
 6. Service, Fernwartung und Support erhöhen die Zahlungsbereitschaft.
 7. Wiederkehrende Erlöse über Cloud-/Servicefunktionen sind akzeptabel, wenn der Grundbetrieb lokal und ohne Abo möglich bleibt.
 
-## Nächste Recherche
+## Verbleibende Evidenzlücken nach der Desk Research
 
-- Anzahl hochwertiger privater Gewächshäuser in DACH
-- Marktvolumen für Gewächshauszubehör und Automation
-- typische Gewächshauspreise
-- installierte Basis bei Premium-Herstellern
-- Anzahl kleiner Direktvermarkter / Market Farmer
-- Preisniveaus konkurrierender Steuerungen
-- Kundenbewertungen und häufige Beschwerden
+Öffentliche Quellen haben typische Gewächshaus- und Controllerpreise, relevante Wettbewerber, qualitative Beschwerden und einen breiten DACH-Basisnenner geliefert. Nicht belastbar öffentlich bestimmbar sind weiterhin:
+
+- der Anteil der Gärten mit eigenem Gewächshaus,
+- der Anteil hochwertiger kleiner Gewächshäuser im Zielprofil,
+- aktuelle DACH-Stückzahlen der Premiumhersteller,
+- vollständig installierte Preise direkt vergleichbarer Steuerungen,
+- tatsächliche Kaufquote und Zahlungsbereitschaft der Zielkunden,
+- Support-, Installations- und Akquisitionskosten eines eigenen Angebots.
+
+Diese Lücken benötigen Primärinterviews, Hersteller-/Händlerauskünfte oder eigene Pilotdaten. Weitere allgemeine Websuche würde vor allem zusätzliche Proxys liefern, aber die entscheidenden Modellparameter nicht validieren.
 
 ## Erstbefund Wettbewerbsmarkt - 12. September 2026
 

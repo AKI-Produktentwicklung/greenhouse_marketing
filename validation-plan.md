@@ -13,6 +13,8 @@ Vor weiterer großer Entwicklungsinvestition prüfen:
 
 ## Phase 1 – Desk Research
 
+**Status: im geplanten Umfang abgeschlossen.** Die Recherche dokumentiert 23 Wettbewerbsprodukte beziehungsweise Produktfamilien, 50 konkrete Problemsignale, öffentliche Preisanker, DACH-Vertriebskanäle und ein transparentes Marktgrößenszenario. Offene Nenner und Zahlungsbereitschaft lassen sich durch weitere allgemeine Websuche derzeit nicht belastbar schließen.
+
 ### Wettbewerb
 - 20–30 Produkte
 - Preise
@@ -45,6 +47,8 @@ Zwischenstand 12. September 2026:
 
 ## Phase 2 – Kundeninterviews
 
+**Status: vorbereitet; Rekrutierung noch nicht gestartet.**
+
 Ziel:
 15–30 Interviews
 
@@ -57,22 +61,9 @@ Aufteilung:
 
 Der operationalisierte Screener, Gesprächsablauf, Preistest und die einheitliche Auswertung stehen in [interview-kit.md](interview-kit.md).
 
-1. Wie groß ist dein Gewächshaus?
-2. Was hast du ungefähr investiert?
-3. Wie oft bist du dort?
-4. Was passiert, wenn du mehrere Tage nicht da bist?
-5. Welche Wetterereignisse machen dir am meisten Sorgen?
-6. Welche Probleme hattest du im letzten Jahr konkret?
-7. Was ist schon beschädigt worden oder ausgefallen?
-8. Wie regelst du heute Lüftung, Heizung, Feuchte und Bewässerung?
-9. Welche Geräte nutzt du?
-10. Was nervt dich daran?
-11. Was hast du bereits versucht zu automatisieren?
-12. Was kostet dich heute am meisten Zeit?
-13. Was wäre für dich ein echter „muss ich haben“-Nutzen?
-14. Welche Funktionen wären nur „nett“?
-15. Welche Lösung würdest du sofort kaufen?
-16. Welche Preisgrenzen empfindest du als zu billig / günstig / teuer / zu teuer?
+Zielquoten, verifizierte DACH-Zugangswege und neutrale Rekrutierungstexte stehen in [recruitment-plan.md](recruitment-plan.md).
+
+Für ergänzende Hersteller-, Händler- und Integratorgespräche enthält [partner-interview-kit.md](partner-interview-kit.md) getrennte Leitfäden sowie ein einheitliches 20-m²-Referenzprofil für betriebsfertige Preisvergleiche.
 
 ## Phase 3 – Landingpage-Test
 

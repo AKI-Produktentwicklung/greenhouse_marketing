@@ -63,6 +63,8 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `distribution-channels.md` – DACH-Vertriebswege und mögliche Partnerrollen
 - `validation-plan.md` – Plan für Marktvalidierung und Interviews
 - `interview-kit.md` – Screener, Interviewablauf, Preistest und Auswertung
+- `recruitment-plan.md` – Zielquoten, DACH-Rekrutierungskanäle und neutrale Aufrufe
+- `partner-interview-kit.md` – Partnerleitfäden und Referenzprofil für Angebotsvergleiche
 - `product-concept.md` – aktueller Produktumfang auf hoher Ebene
 - `sources.md` – Quellen und Recherchehinweise
 - `decisions.md` – getroffene strategische Entscheidungen

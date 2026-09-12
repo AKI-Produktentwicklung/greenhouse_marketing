@@ -1,54 +1,44 @@
 # Offene Fragen
 
-## Markt
+## Einordnung
 
-- Wie viele hochwertige private Gewächshäuser gibt es in DACH?
-- Wie viele davon liegen im Investitionsbereich >5.000 EUR?
-- Wie viele Besitzer automatisieren heute bereits?
-- Welche Regionen sind besonders attraktiv?
-- Wie groß ist das Segment kleiner gewerblicher Produzenten?
-- Welcher Anteil der Gärten besitzt überhaupt ein Gewächshaus?
-- Welcher Anteil dieser Gewächshäuser liegt im Premium-/Passungssegment des Greenhouse Assistant?
-- Wie viele Premium-Gewächshäuser verkaufen relevante Hersteller und Händler pro Jahr?
+Die allgemeine Desk Research ist im geplanten Umfang abgeschlossen. Die folgenden Fragen sind weiterhin offen, weil öffentliche Quellen keine ausreichend belastbare Antwort liefern. Pro Frage ist deshalb der nächste geeignete Evidenzweg genannt.
 
-## Kunde
+## Priorität 1 – Kundenproblem und Zahlungsbereitschaft
 
-- Welcher Pain ist kaufentscheidend?
-- Wie stark ist „Abwesenheit“ wirklich?
-- Wird Schutz vor Sturm/Frost als Versicherungsnutzen verstanden?
-- Wie viel Wert hat stabile Feuchtigkeit?
-- Welche Funktionen werden als Pflicht betrachtet?
+| Offene Frage | Warum noch offen | Nächster Evidenzweg |
+|---|---|---|
+| Welcher konkrete Pain löst tatsächlich eine Kaufentscheidung aus? | Öffentliche Diskussionen zeigen Probleme, aber kein reales Kaufverhalten. | 20 Kundeninterviews mit letztem konkretem Vorfall und Commitment-Test |
+| Wie stark ist Abwesenheit gegenüber Sturm-, Frost- oder Überhitzungsschutz? | Qualitative Signale erlauben keine Rangfolge. | getrennte Erfassung nach Ereignishäufigkeit, Schaden und heutiger Ausgabe |
+| Welche Funktionen sind Pflicht und welche nur attraktiv? | Wettbewerbsfunktionen sind bekannt, Kundenprioritäten nicht. | neutrale Konzeptreaktion ohne vorgelesene Funktionsliste |
+| Welche Preisgrenzen gelten privat und gewerblich? | Listenpreise belegen Angebote, nicht Zahlungsbereitschaft. | vier Preisschwellen plus konkrete Folgeschritte im Interview |
+| Wird eine optionale Servicegebühr akzeptiert? | Wettbewerber zeigen sowohl kostenlose als auch kostenpflichtige Fern-/Datendienste. | Kauf-versus-Service-Frage und später A/B-Test auf der Landingpage |
 
-## Preis
+## Priorität 2 – Marktmodell
 
-- Wo liegt die optimale Einstiegsschwelle?
-- Wie hoch darf ein typischer Vollausbau kosten?
-- Wie hoch ist akzeptierte monatliche Servicegebühr?
-- Gibt es unterschiedliche Preisgrenzen privat / gewerblich?
+| Offene Frage | Aktueller Stand | Nächster Evidenzweg |
+|---|---|---|
+| Welcher Anteil der DACH-Gärten besitzt ein Gewächshaus? | 20,6 Mio. DACH-Gärten sind ein transparenter Proxy; die Gewächshausquote fehlt. | repräsentative Studie, Herstellerverbunddaten oder eigener kalibrierter Survey |
+| Welcher Anteil davon liegt im Premium-/Passungssegment? | Öffentliche Premiumpreise belegen das Segment, aber nicht seinen Anteil. | Hersteller-/Händlerauskünfte und Kundenscreener |
+| Wie viele Premium-Gewächshäuser werden jährlich in DACH verkauft? | Einzelne Europa-/Unternehmenswerte sind vorhanden, aber keine DACH-Premiumaufteilung. | vertrauliche oder aggregierte Auskunft mehrerer Hersteller/Händler |
+| Wie groß ist das Segment kleiner gewerblicher Produzenten? | Amtliche Betriebszahlen setzen eine Obergrenze, passen aber nicht exakt zum 10–100-m²-Ziel. | Verbandsinterviews und Segmentierung amtlicher Mikro-/Sonderauswertungen |
+| Welche Regionen sind zuerst attraktiv? | Eine regionale Kombination aus Kundenbestand, Partnerabdeckung und Akquisitionskosten fehlt. | Interviewherkunft und Partnergespräche zunächst mit erfassen |
 
-## Wettbewerb
+## Priorität 3 – Angebot, Vertrieb und Wirtschaftlichkeit
 
-- Welche Systeme sind direkte Wettbewerber?
-- Welche Anbieter dominieren in DACH?
-- Welche Funktionen fehlen bestehenden Produkten?
-- Welche Beschwerden wiederholen sich?
-- Was kosten betriebsfertige Vergleichsanlagen inklusive Sensoren, Wetterstation, Relais/Motorsteuerung und Installation - nicht nur der Controller?
-- Welche direkten Systeme regeln bei Internetausfall vollständig lokal weiter?
-- Welche Systeme besitzen dokumentierte Fallbacks bei Sensor- oder Aktorausfall?
-- Welche US-Systeme sind in DACH mit 230 V, CE-Konformität, Garantie und lokalem Support sinnvoll einsetzbar?
-- Wie hoch sind Händler- und Installateursmargen bei professionellen Systemen?
+| Offene Frage | Warum noch offen | Nächster Evidenzweg |
+|---|---|---|
+| Was kostet eine direkt vergleichbare Anlage betriebsfertig? | Öffentliche Preise decken meist nur Controller oder Teilwarenkörbe ab. | drei anonymisierte Angebotsanfragen mit identischem Lastenprofil |
+| Welche Händler- und Installateursmargen sind nötig? | Nicht öffentlich verlässlich dokumentiert. | Gespräche mit mindestens drei Herstellern/Händlern und drei Integratoren |
+| Welcher Vertriebskanal liefert qualifizierte Kunden zu tragbaren Kosten? | Kanalverfügbarkeit ist belegt, Akquisitionsleistung nicht. | kleine getrennte Rekrutierungs-/Landingpage-Tests je Kanal |
+| Welche Bruttomarge ist realistisch? | Eigene Stückkosten, Installationszeit, Garantie und Retouren fehlen. | Pilotstückliste und fünf bis zehn bezahlte Installationen |
+| Wie hoch sind Supportkosten je Kunde? | Ohne Produkt- und Pilotbetrieb nicht messbar. | Supportfälle und Zeitaufwand im Pilot standardisiert protokollieren |
+| Wie viele Installationen machen ein Vollzeit-Unternehmen tragfähig? | Hängt von Deckungsbeitrag, Fixkosten und Gründerziel ab. | Unit Economics nach validiertem Pilotpreis und Nutzerziel |
 
-## Vertrieb
+## Technische Wettbewerbsfragen mit niedrigerer Marktpriorität
 
-- Direktvertrieb?
-- Gewächshaushersteller als Partner?
-- Händler?
-- Installationspartner?
-- Online-Shop?
+- dokumentierte Fallbacks bei Sensor- oder Aktorausfall je direktem System,
+- reale DACH-Eignung von US-Systemen hinsichtlich 230 V, Konformität, Garantie und Support,
+- genaue DACH-Marktanteile professioneller Anbieter.
 
-## Business
-
-- Welche Bruttomarge ist realistisch?
-- Wie hoch sind Supportkosten pro Kunde?
-- Wie viele Installationen pro Jahr sind nötig?
-- Wann ist ein Vollzeit-Unternehmen tragfähig?
+Diese Punkte werden erst vertieft, wenn Interviews zeigen, dass technische Ausfallsicherheit kaufentscheidend ist oder ein konkreter Wettbewerbsvergleich für Pilotkunden benötigt wird.
