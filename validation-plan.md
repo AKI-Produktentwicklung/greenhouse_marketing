@@ -47,7 +47,7 @@ Zwischenstand 12. September 2026:
 
 ## Phase 2 – Kundeninterviews
 
-**Status: vorbereitet; Rekrutierung noch nicht gestartet.**
+**Status: vorbereitet, auf Entscheidung des Gründers derzeit bewusst zurückgestellt.** Der aktuelle Arbeitsfokus liegt auf der Desk-Research-basierten Einordnung und Eingrenzung des vorhandenen Prototyps.
 
 Ziel:
 15–30 Interviews

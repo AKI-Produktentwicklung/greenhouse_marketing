@@ -13,6 +13,8 @@ Enthält:
 - Systemübersicht
 - Erdreichwärmetauscher
 
+Die Präsentation ist eine vom Gründer bereitgestellte Produktquelle. Sie belegt den beschriebenen Konzept- und Prototypumfang, aber keine unabhängige Prüfung von Leistung, Schutzart, Konformität oder Marktreife.
+
 ## Externe Recherche
 
 Diese Datei soll während der Marktanalyse gepflegt werden.
@@ -99,6 +101,19 @@ Die Quellen belegen die thematische Rolle beziehungsweise öffentlich sichtbare 
 | 2026-09-12 | Zentralverband Gartenbau | deutsche Erwerbsbetriebe | Der ZVG führt die Bundesfachgruppe Gemüsebau und weitere Fach-/Mitgliedsverbände mit öffentlichem Geschäftsstellenkontakt. Eine Interviewweiterleitung ist nicht zugesagt und müsste angefragt werden. | https://www.derdeutschegartenbau.de/bundes-und-mitgliedsverbaende/ | hoch |
 | 2026-09-12 | BundesGemüsebauVerband Österreichs | österreichische Erwerbsbetriebe | Die Verbandsmedien richten sich laut Mediadaten an bäuerliche und gärtnerische Gemüsebaubetriebe sowie den Gemüsehandel in Österreich. Eine bezahlte Anzeige ist nur eine mögliche, noch nicht freigegebene Option. | https://www.gemueselust.at/sites/default/files/pages/attachments/BGV_Mediadaten_2026_Gem%C3%BCsebaupraxis_0.pdf | hoch |
 | 2026-09-12 | Verband Schweizer Gemüseproduzenten | Schweizer Erwerbsbetriebe | Offizielle Berufsorganisation der Schweizer Gemüseproduzenten mit öffentlicher Geschäftsstelle; eine Weiterleitung von Interviewanfragen ist nicht belegt und müsste angefragt werden. | https://www.gemuese.ch/verband-schweizer-gemueseproduzenten/ueber-uns/kontakt | hoch |
+
+### Produktisierung, Schutzart und EU-Marktzugang
+
+Diese Quellen zeigen relevante Prüffelder, ersetzen aber keine produktbezogene rechtliche oder technische Konformitätsbewertung.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Rittal | IP-Schutzarten | IP66 schützt gegen starke Wasserstrahlen, nicht gegen Untertauchen; zeitweiliges Untertauchen wird über IP67 beschrieben. | https://www.rittal.com/fr-fr/Services/Knowledge-Base/Schutzarten | hoch |
+| 2026-09-12 | EU-Kommission | Niederspannungsrichtlinie | Richtlinie 2014/35/EU betrifft elektrische Betriebsmittel innerhalb definierter Spannungsgrenzen und verweist auf Konformitätsbewertung, technische Dokumentation und CE-Kennzeichnung. Konkrete Anwendbarkeit auf die spätere Produktgrenze ist zu prüfen. | https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/low-voltage-lvd_en | hoch |
+| 2026-09-12 | EUR-Lex | EMV-Richtlinie | Richtlinie 2014/30/EU regelt die elektromagnetische Verträglichkeit von Betriebsmitteln. Konkrete Pflichten hängen von der Produktgestaltung ab. | https://eur-lex.europa.eu/eli/dir/2014/30/2018-09-11/eng | hoch |
+| 2026-09-12 | EU-Kommission | Funkanlagenrichtlinie | Die Radio Equipment Directive bildet einen relevanten Prüfbereich für Produkte mit Funkkomponenten. Die konkrete Konformitätsroute ist produktbezogen festzulegen. | https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/radio-equipment-directive-red_en | hoch |
+| 2026-09-12 | EU-Kommission | Maschinenrecht | Die Maschinenverordnung (EU) 2023/1230 gilt laut Kommissionsübersicht ab 20. Januar 2027; ob und wie Controller, Antriebe oder Gesamtsystem erfasst werden, muss fachkundig geprüft werden. | https://single-market-economy.ec.europa.eu/sectors/mechanical-engineering/machinery_en | hoch |
+| 2026-09-12 | EU-Kommission | Cyber Resilience Act | Der CRA erfasst grundsätzlich Hardware- und Softwareprodukte mit digitaler Verbindung; volle Anwendung ab 11. Dezember 2027, Meldepflichten teilweise ab 11. September 2026. Produktpflege und Schwachstellenbehandlung müssen deshalb früh eingeplant werden. | https://digital-strategy.ec.europa.eu/en/policies/cra-summary | hoch |
 
 ### Preisanker für hochwertige private Gewächshäuser
 

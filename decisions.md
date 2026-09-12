@@ -19,6 +19,7 @@
 - Premium-Hobby / Selbstversorger und kleine gewerbliche Produzenten werden zuerst untersucht
 - günstiger Hobbybereich derzeit keine Priorität
 - klassischer professioneller Gartenbau zunächst nachrangig
+- Kundenrekrutierung und direkte Kontaktaufnahme sind derzeit zurückgestellt; aktueller Fokus bleibt die marktbasierte Standortbestimmung des vorhandenen Prototyps
 
 ## Geschäftsmodell
 

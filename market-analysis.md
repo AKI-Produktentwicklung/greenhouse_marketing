@@ -4,6 +4,10 @@
 
 Gibt es im DACH- bzw. europäischen Markt genügend Kunden, die für eine autonome Gewächshaussteuerung im Bereich von etwa 1.000–3.000 EUR oder mehr bezahlen?
 
+## Standort des vorhandenen Prototyps
+
+Die aktuelle Desk-Research-basierte Einordnung steht in [prototype-market-assessment.md](prototype-market-assessment.md). Kurzfassung: Der Prototyp liegt funktional zwischen DIY-/Smart-Home-Lösungen und professioneller Gewächshausautomation. Marktseitig empfiehlt sich kein weiterer Funktionsausbau, sondern die Reduktion auf ein standardisiertes Einzonen-Schutzpaket mit Außenwetter, aktiver Lüftung, lokaler Autonomie, manueller Bedienung und nachweisbaren Fehlerzuständen.
+
 ## Arbeitshypothese
 
 Zwischen zwei Marktenden scheint eine Lücke zu bestehen:

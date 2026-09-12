@@ -4,6 +4,8 @@
 
 Diese Datei beschreibt nur den aktuellen Rahmen. Technische Detailentwicklung ist derzeit nicht Schwerpunkt.
 
+Die marktbasierte Bewertung und empfohlene Reduktion des Startumfangs stehen in [prototype-market-assessment.md](prototype-market-assessment.md). Die Empfehlungen sind noch keine Produktentscheidungen.
+
 ## Zielbereich
 
 - Gewächshäuser ca. 10–100 m²
@@ -55,8 +57,10 @@ Bereits im Prototyp konzeptionell bzw. teilweise realisiert:
 
 ## Erdreichwärmetauscher
 
-Der Erdreichwärmetauscher ist ein wichtiger Differenzierungsansatz für Ganzjahresbetrieb und Energieoptimierung.
+Der Erdreichwärmetauscher ist eine technische Differenzierungshypothese für Ganzjahresbetrieb und Energieoptimierung. Die bisherige Marktanalyse liefert dafür keine direkte Nachfrageevidenz; er wird daher nicht als Bestandteil des empfohlenen Kernpakets behandelt.
 
 ## Produktprinzip
 
 > Verkabelte Kernfunktionen für Zuverlässigkeit, drahtlose Erweiterungen für Skalierbarkeit.
+
+Die ältere Präsentation zeigt allerdings einen solar-/batteriebetriebenen Außen-Multisensor. Da Wind und Regen Schutzentscheidungen auslösen, muss diese Abweichung vor einer Produktentscheidung durch Verkabelung oder einen nachweisbar überwachten Fallback aufgelöst werden.

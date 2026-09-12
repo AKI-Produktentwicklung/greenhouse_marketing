@@ -93,10 +93,13 @@ Die vermutete Lücke wird enger, aber plausibler formuliert:
 
 Noch nicht bewiesen ist, ob diese Kombination für genügend Käufer kaufentscheidend ist und zu welchen Gesamtkosten bestehende direkte Systeme tatsächlich installiert werden.
 
-## Priorität für die nächste Recherche
+## Optionale Vertiefung nach Festlegung der Produktgrenze
 
-1. Angebote oder Händlerpreise für Senmatic LCC1/LCC2, Ridder Hortimax Go und vollständige Bartlett- beziehungsweise Wadsworth-Konfigurationen einholen beziehungsweise finden.
-2. Für die nahen Systeme die Sicherheitslogik bei Sensor-/Aktorausfall und erforderliche Installationsleistung anhand von Handbüchern weiter prüfen.
-3. DACH-Verfügbarkeit, CE-Konformität, Netzspannung, Garantie und Support für US-Systeme klären.
-4. Händler- und Nutzerbewertungen getrennt nach Produkt auswerten; Beschwerden nicht aus einzelnen Beiträgen verallgemeinern.
-5. Die Liste auf 25-30 klar getrennte kaufbare Produkte erweitern; frühe Entwicklungsprojekte wie Trellis One separat beobachten.
+Die aktuelle Stichprobe von 23 Systemen beziehungsweise Produktfamilien erfüllt das geplante Desk-Research-Ziel von 20–30 Kandidaten. Eine Erweiterung der Liste allein verändert die strategische Einordnung voraussichtlich nicht. Sinnvolle Vertiefungen hängen nun vom gewählten Lieferumfang ab:
+
+1. Bei Verkauf eines betriebsfertigen Systems: Installationsumfang und Gesamtkosten von Senmatic LCC1/LCC2, Ridder Hortimax Go und Wadsworth Seed/EnviroSTEP vertiefen.
+2. Bei Verkauf eines Komponenten-Kits: DACH-Eignung, Netzspannung, Garantie und Support der kompakten importierten Systeme vergleichen.
+3. Bei einem Sicherheitsversprechen: Sensor-/Aktorausfall, manuelle Übersteuerung und protokollierte Fallbacks der nächsten Direktwettbewerber aus Handbüchern gegenüberstellen.
+4. Bei Cloud-/Fernzugriff: Abos, lokale Historie, Updatezeitraum und Cybersicherheits-Support vergleichen.
+
+Die resultierende marktbasierte Produktempfehlung steht in [prototype-market-assessment.md](prototype-market-assessment.md).

@@ -66,6 +66,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `recruitment-plan.md` – Zielquoten, DACH-Rekrutierungskanäle und neutrale Aufrufe
 - `partner-interview-kit.md` – Partnerleitfäden und Referenzprofil für Angebotsvergleiche
 - `product-concept.md` – aktueller Produktumfang auf hoher Ebene
+- `prototype-market-assessment.md` – Marktposition des Prototyps und priorisierte Änderungsoptionen
 - `sources.md` – Quellen und Recherchehinweise
 - `decisions.md` – getroffene strategische Entscheidungen
 - `open-questions.md` – offene Fragen und Hypothesen
