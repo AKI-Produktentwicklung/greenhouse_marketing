@@ -1,5 +1,17 @@
 # Kundensegmente
 
+## Evidenzstand
+
+Die qualitative Stichprobe ist stark auf private und technisch interessierte Nutzer ausgerichtet. Nur zwei der 25 ausgewerteten Diskussionen liefern klaren gewerblichen Kontext. Sie eignet sich daher zur Formulierung privater Problemhypothesen, aber noch nicht zum Vergleich der Attraktivität von Segment A und B.
+
+| Segment | Aktuelle Evidenz | Wichtigste Lücke |
+|---|---|---|
+| A – Premium-Hobby / Selbstversorger | viele Signale zu Abwesenheit, Überhitzung, Sturm, DIY-Aufwand und Fernüberwachung; Investitionsniveau meist unbekannt | Nachweis von Premiumhaus und Zahlungsbereitschaft über 1.000 EUR |
+| B – kleiner gewerblicher Produzent | einzelne starke Signale zu Klimaüberwachung, Bewässerungsausfall und zusätzlicher Handarbeit | mehr unabhängige Betriebe sowie quantifizierter Zeit-/Ernteverlust |
+| C – Gastronomie / Farm-to-table | keine direkte Voice-of-Customer-Evidenz | Problemrelevanz, Betreiberverantwortung und Budget |
+| D – klassischer Erwerbsgartenbau | amtliche Marktgrößen und viele Wettbewerber, aber keine Nutzerinterviews | Wechselbarrieren gegenüber etablierten Systemen |
+| E – günstiges Hobbysegment | viele allgemeine Problemberichte, aber struktureller Preis-Mismatch | nur prüfen, falls ein reduziertes Produkt wirtschaftlich plausibel wird |
+
 ## Segment A – Premium-Hobbygärtner / Selbstversorger
 
 Typischer Rahmen:

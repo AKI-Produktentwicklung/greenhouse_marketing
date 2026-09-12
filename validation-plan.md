@@ -55,6 +55,8 @@ Aufteilung:
 
 ### Interviewleitfaden
 
+Der operationalisierte Screener, Gesprächsablauf, Preistest und die einheitliche Auswertung stehen in [interview-kit.md](interview-kit.md).
+
 1. Wie groß ist dein Gewächshaus?
 2. Was hast du ungefähr investiert?
 3. Wie oft bist du dort?

@@ -62,6 +62,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `business-model.md` – Erlösmodell und Produktlogik
 - `distribution-channels.md` – DACH-Vertriebswege und mögliche Partnerrollen
 - `validation-plan.md` – Plan für Marktvalidierung und Interviews
+- `interview-kit.md` – Screener, Interviewablauf, Preistest und Auswertung
 - `product-concept.md` – aktueller Produktumfang auf hoher Ebene
 - `sources.md` – Quellen und Recherchehinweise
 - `decisions.md` – getroffene strategische Entscheidungen

@@ -80,3 +80,22 @@ Für Interviews später verwenden:
 2. Ab welchem Preis wäre es teuer, aber noch überlegenswert?
 3. Ab welchem Preis wäre es ein gutes Angebot?
 4. Ab welchem Preis wäre es so billig, dass du an der Qualität zweifeln würdest?
+
+## Geplanter qualitativer Preistest
+
+Der vollständige Ablauf steht in [interview-kit.md](interview-kit.md). Für die ersten Gespräche werden drei Testanker verwendet:
+
+- 990 EUR
+- 1.790 EUR
+- 2.990 EUR
+
+Diese Beträge sind weder Angebote noch beschlossene Produktpakete. Sie sollen zeigen, ab welchem Niveau Nutzen, erwarteter Lieferumfang und Einwände sichtbar auseinanderlaufen.
+
+Vorgehen:
+
+1. Zuerst das letzte konkrete Problem, bisherige Ausgaben und den heutigen Arbeitsablauf verstehen.
+2. Allen Teilnehmenden dieselbe neutrale Konzeptbeschreibung zeigen.
+3. Die Reihenfolge des zuerst genannten Preises zwischen den Gesprächen wechseln, um Ankereffekte zu reduzieren.
+4. Für jeden Preis erwarteten Lieferumfang, wichtigste Einwände und akzeptable Bedingungen festhalten.
+5. Eine verbale Kaufabsicht nicht als belastbare Zahlungsbereitschaft werten.
+6. Wenn echtes Interesse besteht, eine stärkere Handlung anbieten: technische Detailprüfung, bezahlte Planung oder Pilotreservierung.
