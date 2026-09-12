@@ -75,6 +75,18 @@ Die daraus berechneten Warenkörbe stehen in [competitors.md](competitors.md). D
 | 2026-09-12 | Link4 Controls | Pearl-Basiscontroller | Listenpreis 1.499 USD zuzüglich des auf der Seite ausgewiesenen 17-%-Aufschlags auf Hardware. | https://link4controls.com/digital-controller/ | hoch |
 | 2026-09-12 | Link4 Controls | I/O-Modul | Modul mit vier Relais, vier 0–10-V-Analogausgängen und vier Sensoreingängen kostet 700 USD zuzüglich 17-%-Hardwareaufschlag. | https://link4controls.com/4-relay-4-analog-input-output-module/ | hoch |
 | 2026-09-12 | Bartlett Instrument | ClimateBoss-Zubehör | Herstellerliste nennt WeatherBoss mit 3.050 USD und einen Feuchtesensor mit 170 USD; ClimateBoss ist auf der Produktseite als eingestellt markiert. | https://www.bartlettinstrument.com/greenhouse | hoch |
+| 2026-09-12 | Ridder | HortiMaX Go Preis- und Servicemodell | FAQ nennt ausdrücklich keinen Standardsystempreis, weil Art und Zahl der Smart Switches anlagenspezifisch sind; zwei Wochen lokale Historie ohne Abo, drei Jahre Cloud-Historie mit App-Serviceabo. | https://help.hortimax-go.com/en-gb/Content/Q%26A/Q%26A.htm | hoch |
+| 2026-09-12 | TSG Gewächshaustechnik | Senmatic-Verfügbarkeit in DACH | Autorisiertes DGT-by-Senmatic-Service-Center; Bau und Wartung von Klima-, Bewässerungs- und Schaltanlagen in Deutschland, Österreich, Schweiz und Luxemburg. | https://www.tsg-gewaechshaustechnik.de/ | hoch |
+
+### Vertrieb und mögliche Partnerkanäle
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-12 | Vitavia / E.P.H. Schmidt | Hobby-Vertrieb | Hersteller-Shop, Belieferung nahezu aller führenden Baumärkte sowie Fachmärkte, Einkaufsgemeinschaften und Online-Shops; Aufbau-Service verfügbar. | https://www.vitavia.de/ | hoch |
+| 2026-09-12 | WAMA | Premium-Direktvertrieb und Montage | DACH-Lieferung, Ausstellungen/Messen und deutschlandweite Komplettmontage; mehrere Premiumserien mit öffentlichen Preisen. | https://www.wamadirekt.de/montage-technik/ | hoch |
+| 2026-09-12 | Hoklartherm | Premiumberatung und Montage | Direktberatung, Lieferung über Hersteller oder Partner und deutschlandweite Montage einschließlich optionalem Fundament. | https://www.hoklartherm.de/gewaechshaus/ | hoch |
+| 2026-09-12 | GFP / Toolport | Online- und Handelspartnerschaft | Kooperation verbindet GFP-Gewächshäuser mit der Reichweite von Toolport; GFP nennt rund 10.000 Gewächshäuser jährlich. | https://pressemitteilungen.sueddeutsche.de/gfp-handels-gesmbh-5206520 | mittel |
+| 2026-09-12 | TSG Gewächshaustechnik | Integrator-/Servicekanal | Spezialist für Gewächshausautomation, Schaltanlagen, Mechanik und Bewässerung; autorisiertes Senmatic-Service-Center. | https://www.tsg-gewaechshaustechnik.de/unternehmen/ | hoch |
 
 ### Preisanker für hochwertige private Gewächshäuser
 

@@ -60,6 +60,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `customer-segments.md` – Zielkundensegmente
 - `pricing.md` – Zahlungsbereitschaft und Preismodelle
 - `business-model.md` – Erlösmodell und Produktlogik
+- `distribution-channels.md` – DACH-Vertriebswege und mögliche Partnerrollen
 - `validation-plan.md` – Plan für Marktvalidierung und Interviews
 - `product-concept.md` – aktueller Produktumfang auf hoher Ebene
 - `sources.md` – Quellen und Recherchehinweise
