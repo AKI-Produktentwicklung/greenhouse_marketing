@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marktanalyse, Wettbewerbsbild und marktbasierte Produktempfehlung für Greenhouse Assistant.">
+  <title>Greenhouse Assistant — Marktanalyse 2026</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #f5f7ef;
+      --muted: #aeb8aa;
+      --dim: #7e8a80;
+      --bg: #08110d;
+      --bg-soft: #0d1913;
+      --surface: rgba(20, 35, 27, .78);
+      --surface-strong: #13251c;
+      --line: rgba(204, 226, 203, .16);
+      --leaf: #a7d96b;
+      --leaf-strong: #74bb4b;
+      --mint: #6fd3b0;
+      --sun: #f0c86e;
+      --orange: #ec8f5c;
+      --red: #ee7065;
+      --blue: #74a7e8;
+      --max: 1180px;
+      --radius: 24px;
+      --shadow: 0 28px 80px rgba(0, 0, 0, .3);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 82% 5%, rgba(116, 187, 75, .13), transparent 28rem),
+        radial-gradient(circle at 15% 42%, rgba(111, 211, 176, .07), transparent 30rem),
+        var(--bg);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    a { color: var(--mint); text-underline-offset: .2em; }
+    a:hover { color: var(--leaf); }
+    button { font: inherit; }
+
+    .progress {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 80;
+      height: 3px;
+      background: rgba(255, 255, 255, .06);
+    }
+    .progress > span {
+      display: block;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(90deg, var(--mint), var(--leaf));
+      transition: width .12s linear;
+    }
+
+    .topbar {
+      position: fixed;
+      z-index: 70;
+      top: 18px;
+      right: 22px;
+      display: flex;
+      gap: 10px;
+    }
+    .control {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 42px;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--ink);
+      background: rgba(8, 17, 13, .82);
+      backdrop-filter: blur(14px);
+      cursor: pointer;
+      box-shadow: 0 8px 30px rgba(0,0,0,.18);
+    }
+    .control:hover { border-color: rgba(167, 217, 107, .55); }
+
+    .toc {
+      position: fixed;
+      z-index: 60;
+      top: 50%;
+      left: 22px;
+      width: 180px;
+      transform: translateY(-50%);
+      display: grid;
+      gap: 4px;
+    }
+    .toc a {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 8px;
+      align-items: center;
+      padding: 5px 8px;
+      border-radius: 8px;
+      color: var(--dim);
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 1.25;
+      transition: color .18s ease, background .18s ease;
+    }
+    .toc a::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+    .toc a:hover,
+    .toc a.active {
+      color: var(--leaf);
+      background: rgba(167, 217, 107, .08);
+    }
+
+    main { overflow: hidden; }
+    .chapter {
+      position: relative;
+      min-height: 88vh;
+      padding: 110px max(28px, calc((100vw - var(--max)) / 2)) 100px;
+      border-bottom: 1px solid rgba(255,255,255,.045);
+    }
+    .chapter > .inner { max-width: var(--max); margin-inline: auto; }
+    .chapter:nth-child(even) { background: rgba(255,255,255,.012); }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 20px;
+      color: var(--leaf);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 32px; height: 1px; background: currentColor; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 980px;
+      margin-bottom: 28px;
+      font-size: clamp(52px, 8vw, 112px);
+      line-height: .92;
+      letter-spacing: -.065em;
+      font-weight: 760;
+    }
+    h2 {
+      max-width: 920px;
+      margin-bottom: 26px;
+      font-size: clamp(36px, 5vw, 68px);
+      line-height: 1.02;
+      letter-spacing: -.045em;
+      font-weight: 720;
+    }
+    h3 { margin-bottom: 12px; font-size: 19px; line-height: 1.25; }
+    .lede {
+      max-width: 850px;
+      color: #dce3d8;
+      font-size: clamp(20px, 2.35vw, 30px);
+      line-height: 1.42;
+      letter-spacing: -.018em;
+    }
+    .muted { color: var(--muted); }
+    .small { color: var(--muted); font-size: 13px; }
+    .accent { color: var(--leaf); }
+    .sun { color: var(--sun); }
+    .nowrap { white-space: nowrap; }
+
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      align-items: center;
+      background:
+        linear-gradient(135deg, rgba(8,17,13,.08), rgba(8,17,13,.92)),
+        radial-gradient(circle at 78% 44%, rgba(167, 217, 107, .22), transparent 18rem);
+    }
+    .hero .meta { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 44px; color: var(--muted); }
+    .hero-mark {
+      position: absolute;
+      right: max(5vw, 50px);
+      bottom: 8vh;
+      width: min(32vw, 420px);
+      aspect-ratio: 1;
+      border: 1px solid rgba(167, 217, 107, .22);
+      border-radius: 50%;
+      opacity: .58;
+    }
+    .hero-mark::before,
+    .hero-mark::after {
+      content: "";
+      position: absolute;
+      inset: 18%;
+      border: 1px solid rgba(111, 211, 176, .28);
+      border-radius: 50%;
+    }
+    .hero-mark::after { inset: 39%; background: rgba(167,217,107,.12); }
+
+    .grid { display: grid; gap: 18px; }
+    .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .split { display: grid; grid-template-columns: 1.05fr .95fr; gap: 54px; align-items: start; }
+
+    .card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(150deg, rgba(26, 47, 35, .72), rgba(13, 25, 19, .66));
+      box-shadow: var(--shadow);
+    }
+    .card.flat { box-shadow: none; }
+    .card.highlight { border-color: rgba(167, 217, 107, .42); background: linear-gradient(145deg, rgba(68, 112, 51, .32), rgba(13,25,19,.75)); }
+    .card.warning { border-color: rgba(240, 200, 110, .42); }
+    .card.risk { border-color: rgba(238, 112, 101, .35); }
+    .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+
+    .metric { padding: 22px 20px; }
+    .metric strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--leaf);
+      font-size: clamp(34px, 4vw, 55px);
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
+    .metric span { color: var(--muted); font-size: 14px; }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin: 0 7px 8px 0;
+      padding: 5px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 650;
+    }
+    .tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--dim); }
+    .tag.fact::before { background: var(--mint); }
+    .tag.estimate::before { background: var(--sun); }
+    .tag.hypothesis::before { background: var(--orange); }
+    .tag.internal::before { background: var(--blue); }
+
+    .quote {
+      max-width: 930px;
+      margin: 34px 0;
+      padding: 4px 0 4px 26px;
+      border-left: 3px solid var(--leaf);
+      color: #eef6e7;
+      font-size: clamp(25px, 3vw, 40px);
+      line-height: 1.28;
+      letter-spacing: -.025em;
+    }
+
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 8px;
+      align-items: stretch;
+      margin-top: 34px;
+    }
+    .flow .step {
+      position: relative;
+      min-height: 150px;
+      padding: 18px 14px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255,255,255,.025);
+    }
+    .flow .step:not(:last-child)::after {
+      content: "→";
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      right: -14px;
+      color: var(--leaf);
+      font-size: 20px;
+      transform: translateY(-50%);
+    }
+    .step b { display: block; margin-bottom: 8px; color: var(--leaf); font-size: 14px; }
+    .step span { color: var(--muted); font-size: 13px; line-height: 1.35; }
+
+    .ladder { display: grid; gap: 12px; margin-top: 28px; }
+    .ladder-row { display: grid; grid-template-columns: 190px 1fr 150px; gap: 18px; align-items: center; }
+    .bar-track { height: 16px; overflow: hidden; border-radius: 999px; background: rgba(255,255,255,.06); }
+    .bar { width: var(--w); height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--mint), var(--leaf)); }
+    .bar.orange { background: linear-gradient(90deg, var(--sun), var(--orange)); }
+    .bar.blue { background: linear-gradient(90deg, var(--blue), var(--mint)); }
+
+    .market-bars { display: grid; gap: 18px; margin-top: 30px; }
+    .market-bar { display: grid; grid-template-columns: 80px 1fr 190px; gap: 18px; align-items: center; }
+    .market-bar .bar-track { height: 36px; }
+    .market-bar .bar { min-width: 5px; }
+    .market-bar strong { color: var(--ink); font-size: 15px; }
+    .market-bar .value { text-align: right; color: var(--muted); }
+
+    .matrix {
+      position: relative;
+      min-height: 420px;
+      margin-top: 28px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+        rgba(255,255,255,.018);
+      background-size: 25% 25%;
+    }
+    .axis-x, .axis-y { position: absolute; color: var(--dim); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
+    .axis-x { right: 18px; bottom: 12px; }
+    .axis-y { left: 18px; top: 18px; writing-mode: vertical-rl; transform: rotate(180deg); }
+    .bubble {
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      transform: translate(-50%, -50%);
+      display: grid;
+      place-items: center;
+      width: var(--s, 96px);
+      aspect-ratio: 1;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: rgba(21, 40, 29, .94);
+      color: var(--muted);
+      text-align: center;
+      font-size: 11px;
+      line-height: 1.2;
+      box-shadow: 0 10px 30px rgba(0,0,0,.24);
+    }
+    .bubble.us { border-color: var(--leaf); color: var(--ink); background: rgba(74, 118, 53, .88); }
+
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 14px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--leaf); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+    td { color: #d3dbd1; }
+    tbody tr:hover { background: rgba(167,217,107,.035); }
+
+    .verdict {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 24px;
+      align-items: start;
+      padding: 22px 0;
+      border-top: 1px solid var(--line);
+    }
+    .verdict:first-of-type { border-top: 0; }
+    .verdict b { color: var(--leaf); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; }
+    .verdict p { margin: 0; color: #dbe2d7; }
+
+    .choice { position: relative; padding-top: 46px; }
+    .choice::before {
+      content: attr(data-label);
+      position: absolute;
+      top: 18px;
+      left: 24px;
+      color: var(--dim);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .1em;
+    }
+    .choice.recommended { transform: translateY(-12px); border-color: rgba(167,217,107,.6); }
+    .choice.recommended::after {
+      content: "Empfehlung";
+      position: absolute;
+      top: -13px;
+      right: 20px;
+      padding: 5px 11px;
+      border-radius: 999px;
+      color: #0b150f;
+      background: var(--leaf);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .timeline { display: grid; gap: 0; margin-top: 28px; }
+    .timeline-item { display: grid; grid-template-columns: 56px 1fr; gap: 20px; }
+    .timeline-marker { position: relative; display: grid; place-items: start center; }
+    .timeline-marker::before { content: ""; position: absolute; top: 15px; bottom: -15px; width: 1px; background: var(--line); }
+    .timeline-item:last-child .timeline-marker::before { display: none; }
+    .timeline-marker span { position: relative; z-index: 1; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #0b150f; background: var(--leaf); font-weight: 800; }
+    .timeline-copy { padding: 4px 0 28px; }
+    .timeline-copy p { margin: 0; color: var(--muted); }
+
+    .source-list { columns: 2; column-gap: 48px; padding-left: 20px; }
+    .source-list li { break-inside: avoid; margin: 0 0 13px; padding-left: 4px; color: var(--muted); font-size: 13px; }
+    .source-list a { color: #cfe4c8; }
+
+    .present-hud { display: none; }
+    body.presenting { overflow: hidden; }
+    body.presenting .toc, body.presenting .progress { display: none; }
+    body.presenting main { height: 100vh; overflow: hidden; }
+    body.presenting .chapter {
+      display: none;
+      min-height: 100vh;
+      height: 100vh;
+      overflow-y: auto;
+      padding-top: 76px;
+      padding-bottom: 76px;
+    }
+    body.presenting .chapter.current { display: grid; align-items: center; }
+    body.presenting .present-hud {
+      position: fixed;
+      z-index: 90;
+      right: 24px;
+      bottom: 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    @media (max-width: 1040px) {
+      .toc { display: none; }
+      .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .flow { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .flow .step::after { display: none; }
+    }
+    @media (max-width: 760px) {
+      body { font-size: 16px; }
+      .chapter { min-height: auto; padding: 88px 20px 70px; }
+      .hero { min-height: 100vh; }
+      .hero-mark { opacity: .25; }
+      .grid-2, .grid-3, .grid-4, .split { grid-template-columns: 1fr; }
+      .flow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .ladder-row, .market-bar { grid-template-columns: 1fr; gap: 7px; }
+      .market-bar .value { text-align: left; }
+      .matrix { min-height: 480px; }
+      .source-list { columns: 1; }
+      .topbar .label { display: none; }
+      .verdict { grid-template-columns: 1fr; gap: 8px; }
+      body.presenting .chapter { padding: 70px 20px 60px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+    @media print {
+      :root { color-scheme: light; --ink: #101712; --muted: #465249; --bg: white; --line: #ccd5ce; }
+      body { background: white; color: var(--ink); }
+      .topbar, .toc, .progress, .present-hud { display: none !important; }
+      .chapter { min-height: 100vh; page-break-after: always; background: white !important; padding: 56px 40px; }
+      .card, .matrix { box-shadow: none; background: #f5f8f5; }
+      .muted, .small, td, .step span { color: #465249 !important; }
+      a { color: #225f40; }
+      body.presenting { overflow: visible; }
+      body.presenting main { height: auto; overflow: visible; }
+      body.presenting .chapter { display: block; height: auto; overflow: visible; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <div class="topbar">
+    <button class="control" id="presentButton" type="button" aria-label="Präsentationsmodus starten"><span aria-hidden="true">▶</span><span class="label">Präsentieren</span></button>
+    <button class="control" id="printButton" type="button" aria-label="Drucken oder als PDF speichern"><span aria-hidden="true">↧</span><span class="label">PDF / Drucken</span></button>
+  </div>
+  <nav class="toc" aria-label="Kapitel">
+    <a href="#start">Start</a>
+    <a href="#fazit">Fazit</a>
+    <a href="#evidenz">Evidenz</a>
+    <a href="#markt">Markt</a>
+    <a href="#probleme">Probleme</a>
+    <a href="#segmente">Segmente</a>
+    <a href="#wettbewerb">Wettbewerb</a>
+    <a href="#preise">Preise</a>
+    <a href="#sizing">Market Sizing</a>
+    <a href="#position">Position</a>
+    <a href="#produkt">Produkt</a>
+    <a href="#grenze">Produktgrenze</a>
+    <a href="#wirtschaft">Wirtschaft</a>
+    <a href="#vertrieb">Vertrieb</a>
+    <a href="#risiken">Risiken</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#schluss">Schluss</a>
+    <a href="#quellen">Quellen</a>
+  </nav>
+
+  <main>
+    <section class="chapter hero" id="start" data-title="Start">
+      <div class="inner">
+        <p class="eyebrow">Greenhouse Assistant · Marktanalyse 2026</p>
+        <h1>Vom starken Prototyp zum klaren Produkt.</h1>
+        <p class="lede">Eine evidenzbasierte Reise durch Markt, Kundenprobleme, Wettbewerb, Preislogik und die Frage, was jetzt gebaut werden sollte – und was bewusst nicht.</p>
+        <div class="meta">
+          <span>Region: DACH</span>
+          <span>Zielanlagen: 10–100 m²</span>
+          <span>Stand: 12. September 2026</span>
+        </div>
+      </div>
+      <div class="hero-mark" aria-hidden="true"></div>
+    </section>
+
+    <section class="chapter" id="fazit" data-title="Fazit">
+      <div class="inner">
+        <p class="eyebrow">01 · Executive Summary</p>
+        <h2>Die Marktlücke ist plausibel. Aber sie belohnt Fokus, nicht Funktionsfülle.</h2>
+        <p class="quote">Greenhouse Assistant liegt zwischen DIY-/Smart-Home-Lösungen und professioneller Projektanlage. Der Prototyp beweist den technischen Kern – das Produkt braucht jetzt eine schärfere Grenze.</p>
+        <div class="grid grid-3">
+          <article class="card highlight">
+            <h3>Beibehalten</h3>
+            <p>Lokale Autonomie, Außenwetter, aktive Lüftung, Schutzlogik und robuste Handbedienung.</p>
+          </article>
+          <article class="card warning">
+            <h3>Ändern</h3>
+            <p>Eine Zone als Standard, definierte Fehlerzustände, bestätigte Aktorpositionen und klarer Lieferumfang.</p>
+          </article>
+          <article class="card">
+            <h3>Später</h3>
+            <p>Erdreichwärmetauscher, KI, acht Sensoren je Kategorie, Bewässerung und komplexe Mehrzonenlogik.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="evidenz" data-title="Evidenz">
+      <div class="inner">
+        <p class="eyebrow">02 · Forschungsbasis</p>
+        <h2>Was wir wissen – und was wir nur modellieren.</h2>
+        <div class="grid grid-4">
+          <div class="card metric"><strong>23</strong><span>Wettbewerbsprodukte und Produktfamilien</span></div>
+          <div class="card metric"><strong>50</strong><span>konkrete Problemsignale</span></div>
+          <div class="card metric"><strong>25</strong><span>öffentliche Diskussionen</span></div>
+          <div class="card metric"><strong>3</strong><span>DACH-Märkte im Szenariomodell</span></div>
+        </div>
+        <div style="margin-top:30px">
+          <span class="tag fact">Verifizierter Fakt</span>
+          <span class="tag estimate">Szenariorechnung</span>
+          <span class="tag hypothesis">Hypothese / Empfehlung</span>
+          <span class="tag internal">Gründer-/Prototypangabe</span>
+        </div>
+        <p class="muted" style="max-width:850px;margin-top:20px">Hersteller und Behörden liefern Produktdaten, Preise und Markt-Randgrößen. Community-Quellen zeigen reale Probleme, aber keine repräsentative Häufigkeit. Marktgröße und Zahlungsbereitschaft bleiben dort Szenarien, wo belastbare Nenner fehlen.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="markt" data-title="Markt">
+      <div class="inner">
+        <p class="eyebrow">03 · Marktstruktur</p>
+        <h2>Zwei gut besetzte Enden. Eine schmale Mitte.</h2>
+        <div class="split">
+          <article class="card">
+            <p class="eyebrow">Unteres Ende</p>
+            <h3>Einzelgeräte &amp; DIY</h3>
+            <p class="lede" style="font-size:23px">Günstig, flexibel, aber voller Eigenverantwortung.</p>
+            <ul class="muted">
+              <li>passive Öffner, Timer, Thermostate</li>
+              <li>ESP32, Home Assistant, Node-RED</li>
+              <li>mehrere Apps und Komponenten</li>
+              <li>hoher Integrations- und Wartungsaufwand</li>
+            </ul>
+          </article>
+          <article class="card">
+            <p class="eyebrow">Oberes Ende</p>
+            <h3>Professionelle Automation</h3>
+            <p class="lede" style="font-size:23px">Robust und vollständig, aber projekt- und serviceorientiert.</p>
+            <ul class="muted">
+              <li>Klima, Wasser, Schirme und Energie</li>
+              <li>professionelle Sensorik und Schaltschränke</li>
+              <li>Planung, Installation und Wartung</li>
+              <li>für kleine Anlagen oft komplex und intransparent</li>
+            </ul>
+          </article>
+        </div>
+        <p class="quote">Die Chance ist kein „neuer Klimacomputer“, sondern ein verständliches, standardisiertes Nachrüstsystem für hochwertige kleine Häuser.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="probleme" data-title="Probleme">
+      <div class="inner">
+        <p class="eyebrow">04 · Voice of Customer</p>
+        <h2>Die stärkste Problemkette beginnt mit Abwesenheit.</h2>
+        <div class="flow" aria-label="Problemkette">
+          <div class="step"><b>01</b><span>Besitzer ist nicht vor Ort</span></div>
+          <div class="step"><b>02</b><span>Sonne heizt das Haus schnell auf</span></div>
+          <div class="step"><b>03</b><span>Passive Öffner reagieren nur auf Temperatur</span></div>
+          <div class="step"><b>04</b><span>Sturm oder Regen verlangt das Gegenteil</span></div>
+          <div class="step"><b>05</b><span>DIY verbindet Sensoren, Motoren und Regeln</span></div>
+          <div class="step"><b>06</b><span>Funk- oder Sensorfehler schaffen neues Risiko</span></div>
+          <div class="step"><b>07</b><span>Vertrauen fehlt – Kontrolle bleibt nötig</span></div>
+        </div>
+        <div class="grid grid-3" style="margin-top:28px">
+          <article class="card flat"><h3>Physischer Schaden</h3><p class="muted">Überhitzung, Frost, offene Fenster bei Sturm, Bewässerungsfehler.</p></article>
+          <article class="card flat"><h3>Zeit &amp; Bindung</h3><p class="muted">Kontrollfahrten, Handbewässerung und fehlende Urlaubsfähigkeit.</p></article>
+          <article class="card flat"><h3>Systemvertrauen</h3><p class="muted">Unklare Zustände, widersprüchliche Geräte, verspätet bemerkte Ausfälle.</p></article>
+        </div>
+        <p class="small" style="margin-top:20px">Qualitative Evidenz: Das Problem kommt vor. Häufigkeit und Zahlungsbereitschaft sind damit nicht bewiesen.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="segmente" data-title="Segmente">
+      <div class="inner">
+        <p class="eyebrow">05 · Kundensegmente</p>
+        <h2>Premium-Hobby ist der beste erste Fit – noch nicht der bewiesene Sieger.</h2>
+        <div class="grid grid-3">
+          <article class="card highlight">
+            <span class="tag hypothesis">Priorität A</span>
+            <h3>Premium-Hobby &amp; Selbstversorgung</h3>
+            <p>Hochwertiges Haus, emotionale Bindung, technikoffen – aber keine Lust auf Eigenbau.</p>
+            <p class="small">Stärkste Evidenz: Abwesenheit, Überhitzung, Sturm, DIY-Aufwand.</p>
+          </article>
+          <article class="card">
+            <span class="tag hypothesis">Priorität B</span>
+            <h3>Kleine gewerbliche Produzenten</h3>
+            <p>Arbeitszeit, Ertragssicherheit und mehrere Zonen statt Komfort.</p>
+            <p class="small">Evidenzlücke: nur wenige klar gewerbliche Problemsignale.</p>
+          </article>
+          <article class="card">
+            <span class="tag hypothesis">Später</span>
+            <h3>Weitere Nischen</h3>
+            <p>Farm-to-table, Bildung, Spezialkulturen und klassische Erwerbsbetriebe.</p>
+            <p class="small">Entweder zu wenig Evidenz oder etablierte professionelle Konkurrenz.</p>
+          </article>
+        </div>
+        <div class="verdict"><b>Nicht priorisieren</b><p>Das günstige Hobbysegment: Dort steht die Automation schnell in einem ungünstigen Verhältnis zum Wert des Gewächshauses.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter" id="wettbewerb" data-title="Wettbewerb">
+      <div class="inner">
+        <p class="eyebrow">06 · Wettbewerbsbild</p>
+        <h2>Schutzfunktionen existieren bereits. Einfachheit bleibt offen.</h2>
+        <div class="table-wrap" style="overflow-x:auto">
+          <table>
+            <thead><tr><th>Anbieter</th><th>Stärke</th><th>Preisbild</th><th>Bedeutung</th></tr></thead>
+            <tbody>
+              <tr><td>Ridder HortiMaX Go</td><td>Klima, Bewässerung, Sturm/Frost/Regen, modular</td><td>Projektabhängig</td><td>Nächster funktionaler Direktvergleich</td></tr>
+              <tr><td>Senmatic LCC1</td><td>Ein Haus, Wetterstation, Lüftung, Heizung, Schirm</td><td>Auf Anfrage</td><td>DACH-relevant über Servicepartner</td></tr>
+              <tr><td>NIDO ONE V2</td><td>Fertigation, Klima, lokaler Offline-Betrieb</td><td>1.489,99 EUR</td><td>Starker Preis-/Offline-Anker</td></tr>
+              <tr><td>Link4 Pearl</td><td>Modular bis 128 I/O, Cloud, Modbus</td><td>1.499 USD + Aufschlag</td><td>Controllerpreis im Zielband</td></tr>
+              <tr><td>GrowControl</td><td>Einfach kaufbare modulare Indoor-Controller</td><td>389–1.049 EUR</td><td>Unterer kommerzieller Vergleich</td></tr>
+              <tr><td>RAM / MABEG / Priva</td><td>Vollständige professionelle Klimasteuerung</td><td>Auf Anfrage</td><td>Robustheits- und Servicebenchmark</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="quote">„Offline“ oder „Sturmschutz“ allein differenziert nicht. Die Kombination aus kleiner Zielanlage, Nachrüstung, transparentem Paket und verständlichem Sicherheitszustand kann es.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="preise" data-title="Preise">
+      <div class="inner">
+        <p class="eyebrow">07 · Preisanker</p>
+        <h2>Controllerpreise sind nicht Anlagenpreise.</h2>
+        <div class="ladder">
+          <div class="ladder-row"><strong>GrowBase Pro</strong><div class="bar-track"><div class="bar" style="--w:25%"></div></div><span>1.049 EUR</span></div>
+          <div class="ladder-row"><strong>NIDO ONE V2</strong><div class="bar-track"><div class="bar" style="--w:35%"></div></div><span>1.489,99 EUR</span></div>
+          <div class="ladder-row"><strong>NIDO + 4 Plugs</strong><div class="bar-track"><div class="bar orange" style="--w:39%"></div></div><span>1.667,14 EUR</span></div>
+          <div class="ladder-row"><strong>Link4 + I/O</strong><div class="bar-track"><div class="bar orange" style="--w:61%"></div></div><span>2.572,83 USD</span></div>
+          <div class="ladder-row"><strong>Bartlett + Wetter</strong><div class="bar-track"><div class="bar orange" style="--w:100%"></div></div><span>4.235 USD · historisch</span></div>
+        </div>
+        <div class="grid grid-2" style="margin-top:34px">
+          <article class="card warning"><h3>Fehlt oft im Preis</h3><p class="muted">Wetterstation, sichere Motorsteuerung, Aktoren, Schaltschrank, Verkabelung und Installation.</p></article>
+          <article class="card"><h3>Konsequenz</h3><p class="muted">700–1.500 EUR ist als Controllerziel plausibel. Ein vollständiges Schutzsystem dürfte darüber liegen; die eigene Zahlungsbereitschaft ist offen.</p></article>
+        </div>
+        <p class="small" style="margin-top:18px">Beträge sind nicht funktionsgleich; USD und EUR wurden bewusst nicht umgerechnet. Stand und Quellen im Quellenkapitel.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="sizing" data-title="Market Sizing">
+      <div class="inner">
+        <p class="eyebrow">08 · DACH-Szenariomodell</p>
+        <h2>Der Markt könnte reichen. Die Bandbreite zeigt vor allem, was wir nicht wissen.</h2>
+        <div class="grid grid-3">
+          <div class="card metric"><strong>20,6 Mio.</strong><span>DACH-Gärten als hochgerechneter Proxy</span></div>
+          <div class="card metric"><strong>19,7 Mrd.</strong><span>EUR deutscher Gartenmarkt – kein Automations-TAM</span></div>
+          <div class="card metric"><strong>2</strong><span>entscheidende unbelegte Quoten</span></div>
+        </div>
+        <div class="market-bars">
+          <div class="market-bar"><strong>Eng</strong><div class="bar-track"><div class="bar" style="--w:2%"></div></div><span class="value">1.031 Systeme · 1,55 Mio. EUR</span></div>
+          <div class="market-bar"><strong>Basis</strong><div class="bar-track"><div class="bar orange" style="--w:17.5%"></div></div><span class="value">7.218 Systeme · 14,44 Mio. EUR</span></div>
+          <div class="market-bar"><strong>Weit</strong><div class="bar-track"><div class="bar blue" style="--w:100%"></div></div><span class="value">32.995 Systeme · 82,49 Mio. EUR</span></div>
+        </div>
+        <p class="small" style="margin-top:22px">Szenarien, keine Marktbehauptungen. Unbelegt sind vor allem Gewächshausquote und Premium-/Passungsquote. Das weite Szenario ist eher mathematische Obergrenze als Planungswert.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="position" data-title="Position">
+      <div class="inner">
+        <p class="eyebrow">09 · Prototypposition</p>
+        <h2>Technisch in der Lücke. Produktseitig noch zu breit.</h2>
+        <div class="matrix" role="img" aria-label="Positionierungsfeld von geringer zu hoher Funktionsbreite und geringer zu hoher Standardisierung">
+          <span class="axis-y">mehr Systemumfang ↑</span>
+          <span class="axis-x">mehr Standardisierung →</span>
+          <div class="bubble" style="--x:19%;--y:76%;--s:88px">Einzelgeräte</div>
+          <div class="bubble" style="--x:31%;--y:57%;--s:96px">DIY / Smart Home</div>
+          <div class="bubble" style="--x:54%;--y:53%;--s:104px">Grow-Controller</div>
+          <div class="bubble us" style="--x:62%;--y:34%;--s:126px">Greenhouse Assistant</div>
+          <div class="bubble" style="--x:81%;--y:21%;--s:126px">Professionelle Automation</div>
+        </div>
+        <div class="verdict"><b>Stärke</b><p>Außenwetter, aktive Fenster, lokale Regeln und manuelle Bedienung sind bereits als zusammenhängendes System gedacht.</p></div>
+        <div class="verdict"><b>Lücke</b><p>Standardisierter Lieferumfang, bestätigte Fehlerreaktionen, Installationsgrenze, Konformitätsplanung und Preis je konkreter Konfiguration.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter" id="produkt" data-title="Produkt">
+      <div class="inner">
+        <p class="eyebrow">10 · Scope Reset</p>
+        <h2>Ein Haus. Eine Zone. Ein klares Sicherheitsversprechen.</h2>
+        <div class="grid grid-2">
+          <article class="card highlight">
+            <h3>Kernpaket</h3>
+            <ul>
+              <li>lokale Steuerung ohne Internet</li>
+              <li>Innenfühler Temperatur + Feuchte</li>
+              <li>Außentemperatur, Wind und Regen</li>
+              <li>zwei motorische Lüftungen</li>
+              <li>Heizungsfreigabe und Ventilatorausgang</li>
+              <li>Sturm, Regen, Frost, Überhitzung</li>
+              <li>Handbetrieb, Alarm, Ereignisprotokoll</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Modular danach</h3>
+            <ul class="muted">
+              <li>zweite Zone und weitere Innenfühler</li>
+              <li>Bodenfeuchte und Bewässerung</li>
+              <li>Beschattung und Blattfeuchte</li>
+              <li>Befeuchtung / Entfeuchtung</li>
+              <li>Erdreichwärmetauscher</li>
+              <li>Prognose und Optimierung</li>
+            </ul>
+          </article>
+        </div>
+        <p class="quote">Der Marktwert entsteht nicht aus mehr Regeln, sondern aus Vertrauen, dass bekannte Fehler beherrscht werden.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="grenze" data-title="Produktgrenze">
+      <div class="inner">
+        <p class="eyebrow">11 · Geschäftsmodell der Hardware</p>
+        <h2>Drei Grenzen. Nur eine trifft die Lücke sauber.</h2>
+        <div class="grid grid-3">
+          <article class="card choice" data-label="Option A">
+            <h3>Controller / DIY-Kit</h3>
+            <p class="muted">Günstig und versendbar, aber der Kunde behält den Integrationsaufwand.</p>
+            <p class="small">Zu nah an DIY und Grow-Controllern.</p>
+          </article>
+          <article class="card choice recommended" data-label="Option B">
+            <h3>Standardisiertes System</h3>
+            <p>Controller, Wetter, Innenfühler, definierte I/O und geprüfte Motorinterfaces.</p>
+            <p class="small">Beste Übereinstimmung mit der Marktlücke.</p>
+          </article>
+          <article class="card choice" data-label="Option C">
+            <h3>Komplettinstallation</h3>
+            <p class="muted">Höchster Kundennutzen, aber schnell individuelles Projektgeschäft.</p>
+            <p class="small">Lokal als Lernmodell, nicht sofort DACH-weit.</p>
+          </article>
+        </div>
+        <div class="verdict"><b>Empfohlener Pfad</b><p>Architektur auf Option B ausrichten. Erste lokale Installationen wie Option C nutzen, um daraus wiederholbare Kits zu entwickeln.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter" id="wirtschaft" data-title="Wirtschaft">
+      <div class="inner">
+        <p class="eyebrow">12 · Unit Economics</p>
+        <h2>Standardisierung entscheidet über Tragfähigkeit.</h2>
+        <div class="table-wrap" style="overflow-x:auto">
+          <table>
+            <thead><tr><th>Jährlicher Zielbeitrag</th><th>600 EUR je Installation</th><th>1.000 EUR je Installation</th><th>1.500 EUR je Installation</th></tr></thead>
+            <tbody>
+              <tr><td>60.000 EUR</td><td>100</td><td>60</td><td>40</td></tr>
+              <tr><td>120.000 EUR</td><td>200</td><td>120</td><td>80</td></tr>
+              <tr><td>180.000 EUR</td><td>300</td><td>180</td><td>120</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small">Reine Sensitivität, keine validierten Margen oder Ziele.</p>
+        <div class="grid grid-3" style="margin-top:28px">
+          <article class="card flat"><h3>Variable Kosten</h3><p class="muted">Hardware, Partner, Installation, Fahrt, Garantie und Support.</p></article>
+          <article class="card flat"><h3>Versteckte Arbeit</h3><p class="muted">Planung, Angebotsrevision, Inbetriebnahme und Gründerzeit dürfen nicht null sein.</p></article>
+          <article class="card flat"><h3>Skalierungshebel</h3><p class="muted">Wenige Varianten, Ferndiagnose, kompatible Antriebe und klare Installationsgrenzen.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="vertrieb" data-title="Vertrieb">
+      <div class="inner">
+        <p class="eyebrow">13 · Kanalhypothese</p>
+        <h2>Vertrauen und Montagefähigkeit schlagen maximale Reichweite.</h2>
+        <div class="ladder">
+          <div class="ladder-row"><strong>Premiumhersteller</strong><div class="bar-track"><div class="bar" style="--w:94%"></div></div><span>Priorität 1</span></div>
+          <div class="ladder-row"><strong>Qualifizierter Direktvertrieb</strong><div class="bar-track"><div class="bar" style="--w:86%"></div></div><span>Priorität 1</span></div>
+          <div class="ladder-row"><strong>Integratoren</strong><div class="bar-track"><div class="bar blue" style="--w:72%"></div></div><span>Priorität 2</span></div>
+          <div class="ladder-row"><strong>Gartenfachhandel</strong><div class="bar-track"><div class="bar blue" style="--w:62%"></div></div><span>Priorität 2</span></div>
+          <div class="ladder-row"><strong>Baumarkt / Marktplatz</strong><div class="bar-track"><div class="bar orange" style="--w:35%"></div></div><span>Priorität 3</span></div>
+        </div>
+        <p class="small" style="margin-top:18px">Qualitative Kanalbewertung, keine gemessenen Abschlussquoten.</p>
+        <div class="verdict"><b>Warum</b><p>Ein sicherheitsrelevantes System über 1.000 EUR braucht Beratung, mechanische Passung und einen glaubwürdigen Ansprechpartner – besonders in der frühen Phase.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter" id="risiken" data-title="Risiken">
+      <div class="inner">
+        <p class="eyebrow">14 · Produktisierung</p>
+        <h2>Das größte Risiko sitzt zwischen Prototyp und Produkt.</h2>
+        <div class="grid grid-2">
+          <article class="card risk"><h3>Fehlerzustände</h3><p class="muted">Sensor plausibel? Aktor wirklich bewegt? Endlage erreicht? Was geschieht nach Stromwiederkehr?</p></article>
+          <article class="card warning"><h3>Installationsgrenze</h3><p class="muted">Fenstermechanik, Netzspannung, Kabelwege und Heizung machen aus einem Kit schnell ein Projekt.</p></article>
+          <article class="card warning"><h3>Produktversprechen</h3><p class="muted">„IP66 (10 h tauchbar)“ ist widersprüchlich: IP66 bedeutet starke Wasserstrahlen, nicht Untertauchen.</p></article>
+          <article class="card"><h3>EU-Marktzugang</h3><p class="muted">Elektrische Sicherheit, EMV, Funk, Maschinenintegration und Cyber Resilience müssen zur endgültigen Produktgrenze geprüft werden.</p></article>
+        </div>
+        <p class="quote">Konformität, Updatefähigkeit und Fehlerdiagnose sind Architekturentscheidungen – keine Etiketten für kurz vor dem Verkauf.</p>
+      </div>
+    </section>
+
+    <section class="chapter" id="roadmap" data-title="Roadmap">
+      <div class="inner">
+        <p class="eyebrow">15 · Empfohlener nächster Pfad</p>
+        <h2>Erst fokussieren. Dann härten. Danach erweitern.</h2>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-marker"><span>1</span></div><div class="timeline-copy"><h3>Ist-Inventur</h3><p>Prototyp gegen den Einzonen-Kern prüfen: vorhanden, teilweise vorhanden, fehlt.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>2</span></div><div class="timeline-copy"><h3>Produktgrenze festlegen</h3><p>Standardpaket, kompatible Antriebe und getrennte objektabhängige Leistungen definieren.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>3</span></div><div class="timeline-copy"><h3>Sicherheitskern härten</h3><p>Prioritäten, Sensor-/Aktorfehler, Stromwiederkehr, Handbetrieb und Protokoll testbar machen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>4</span></div><div class="timeline-copy"><h3>Stück- und Installationskosten rechnen</h3><p>Controller, Sensorik, I/O, Aktoren, Montage, Garantie und Support vollständig trennen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>5</span></div><div class="timeline-copy"><h3>Erst dann Funktionsausbau</h3><p>Zweite Zone, Wasser, Beschattung und weitere Sensoren nur als klar bepreiste Module.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="schluss" data-title="Schluss">
+      <div class="inner">
+        <p class="eyebrow">16 · Schlussfolgerung</p>
+        <h2>Nicht neu anfangen.<br><span class="accent">Den vorhandenen Kern produktfähig machen.</span></h2>
+        <p class="lede">Die Desk Research begründet weder Abbruch noch breiten Ausbau. Sie begründet einen Scope-Reset: vom funktionsreichen Prototyp zum standardisierten, lokal autonomen Einzonen-Schutzsystem.</p>
+        <div class="grid grid-3" style="margin-top:34px">
+          <div class="card metric"><strong>Go</strong><span>für die fokussierte Produktisierung</span></div>
+          <div class="card metric"><strong>Wait</strong><span>für EWT, KI und breite Mehrzonenfunktion</span></div>
+          <div class="card metric"><strong>Open</strong><span>bleiben Marktanteil und Zahlungsbereitschaft</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="quellen" data-title="Quellen">
+      <div class="inner">
+        <p class="eyebrow">17 · Quellen &amp; Vertiefung</p>
+        <h2>Nachvollziehbar bis zur Primärquelle.</h2>
+        <p class="muted">Auswahl der wichtigsten Quellen. Das vollständige Register mit allen Wettbewerbs-, Markt- und Communityquellen steht in <a href="sources.md">sources.md</a>.</p>
+        <ol class="source-list">
+          <li><a href="https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Haushalte-Familien/Tabellen/1-1-privathaushalte-haushaltsmitglieder.html">Destatis — Privathaushalte Deutschland</a></li>
+          <li><a href="https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_897472.html">KfW Research — Gartenbesitz Deutschland</a></li>
+          <li><a href="https://www.statistik.at/statistiken/bevoelkerung-und-soziales/bevoelkerung/familien-haushalte-lebensformen/privathaushalte">Statistik Austria — Privathaushalte</a></li>
+          <li><a href="https://ivg.org/der-gartenmarkt/aktuelle-marktzahlen/">Industrieverband Garten — Marktzahlen 2025</a></li>
+          <li><a href="https://ridder.com/wp-content/uploads/2020/10/EN-Brochure-Ridder-HortiMaX-Go.pdf">Ridder — HortiMaX Go</a></li>
+          <li><a href="https://senmatic.com/horticulture/products/electronic-climate-controls/lcc1/">Senmatic — LCC1</a></li>
+          <li><a href="https://www.nidopro.com/automated-greenhouses-nido-one/">NIDO — ONE V2 und Offline-Betrieb</a></li>
+          <li><a href="https://link4controls.com/digital-controller/">Link4 — Pearl</a></li>
+          <li><a href="https://growcontrol.de/en_GB/shop">GrowControl — Produktpreise</a></li>
+          <li><a href="https://www.ram-group.com/produkte2/ram-hardware-klimacomputer">RAM — CC600</a></li>
+          <li><a href="https://www.wamadirekt.de/wp-content/uploads/Wama_GH2026_web.pdf">WAMA — Preisliste 2026</a></li>
+          <li><a href="https://shop.vitavia.de/gewaechshaeuser-vom-hersteller">Vitavia — hochwertige private Gewächshäuser</a></li>
+          <li><a href="https://www.rittal.com/fr-fr/Services/Knowledge-Base/Schutzarten">Rittal — IP-Schutzarten</a></li>
+          <li><a href="https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/low-voltage-lvd_en">EU-Kommission — Niederspannungsrichtlinie</a></li>
+          <li><a href="https://eur-lex.europa.eu/eli/dir/2014/30/2018-09-11/eng">EUR-Lex — EMV-Richtlinie</a></li>
+          <li><a href="https://digital-strategy.ec.europa.eu/en/policies/cra-summary">EU-Kommission — Cyber Resilience Act</a></li>
+        </ol>
+        <div class="grid grid-3" style="margin-top:36px">
+          <a class="card flat" href="prototype-market-assessment.md"><h3>Prototypposition</h3><p class="small">Vollständige marktbasierte Bewertung</p></a>
+          <a class="card flat" href="competitors.md"><h3>Wettbewerber</h3><p class="small">23 Systeme und Vergleichswarenkörbe</p></a>
+          <a class="card flat" href="market-sizing.md"><h3>Market Sizing</h3><p class="small">Annahmen, Formeln und Sensitivität</p></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="present-hud" aria-live="polite"><span id="slideCount"></span><span>← → navigieren · Esc beenden</span></div>
+
+  <script>
+    (() => {
+      const chapters = [...document.querySelectorAll('.chapter')];
+      const tocLinks = [...document.querySelectorAll('.toc a')];
+      const progressBar = document.getElementById('progressBar');
+      const presentButton = document.getElementById('presentButton');
+      const printButton = document.getElementById('printButton');
+      const slideCount = document.getElementById('slideCount');
+      let current = 0;
+
+      const updateProgress = () => {
+        const total = document.documentElement.scrollHeight - innerHeight;
+        const value = total > 0 ? (scrollY / total) * 100 : 0;
+        progressBar.style.width = `${Math.min(100, value)}%`;
+      };
+
+      const setActiveByScroll = () => {
+        const marker = innerHeight * .42;
+        let active = chapters[0].id;
+        chapters.forEach(chapter => {
+          if (chapter.getBoundingClientRect().top <= marker) active = chapter.id;
+        });
+        tocLinks.forEach(link => link.classList.toggle('active', link.hash === `#${active}`));
+      };
+
+      const showSlide = index => {
+        current = Math.max(0, Math.min(chapters.length - 1, index));
+        chapters.forEach((chapter, i) => chapter.classList.toggle('current', i === current));
+        slideCount.textContent = `${current + 1} / ${chapters.length}`;
+        chapters[current].scrollTop = 0;
+        document.title = `${chapters[current].dataset.title} — Greenhouse Assistant`;
+      };
+
+      const enterPresentation = () => {
+        current = Math.max(0, chapters.findIndex(chapter => chapter.getBoundingClientRect().top + chapter.offsetHeight > 0));
+        document.body.classList.add('presenting');
+        presentButton.innerHTML = '<span aria-hidden="true">■</span><span class="label">Beenden</span>';
+        presentButton.setAttribute('aria-label', 'Präsentationsmodus beenden');
+        showSlide(current);
+      };
+
+      const leavePresentation = () => {
+        const target = chapters[current];
+        document.body.classList.remove('presenting');
+        chapters.forEach(chapter => chapter.classList.remove('current'));
+        presentButton.innerHTML = '<span aria-hidden="true">▶</span><span class="label">Präsentieren</span>';
+        presentButton.setAttribute('aria-label', 'Präsentationsmodus starten');
+        document.title = 'Greenhouse Assistant — Marktanalyse 2026';
+        requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+      };
+
+      presentButton.addEventListener('click', () => {
+        document.body.classList.contains('presenting') ? leavePresentation() : enterPresentation();
+      });
+      printButton.addEventListener('click', () => window.print());
+
+      addEventListener('keydown', event => {
+        if (!document.body.classList.contains('presenting')) return;
+        if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(event.key)) {
+          event.preventDefault();
+          showSlide(current + 1);
+        } else if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(event.key)) {
+          event.preventDefault();
+          showSlide(current - 1);
+        } else if (event.key === 'Home') {
+          event.preventDefault(); showSlide(0);
+        } else if (event.key === 'End') {
+          event.preventDefault(); showSlide(chapters.length - 1);
+        } else if (event.key === 'Escape') {
+          leavePresentation();
+        }
+      });
+
+      addEventListener('scroll', () => { updateProgress(); setActiveByScroll(); }, { passive: true });
+      addEventListener('resize', updateProgress);
+      updateProgress();
+      setActiveByScroll();
+    })();
+  </script>
+</body>
+</html>

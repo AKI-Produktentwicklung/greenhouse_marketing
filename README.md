@@ -52,6 +52,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 
 ## Dateien
 
+- `greenhouse-market-analysis.html` – eigenständige, präsentierbare Gesamtdarstellung der Marktanalyse
 - `market-analysis.md` – Markt, Größe, Trends, Annahmen
 - `market-sizing.md` – transparentes DACH-Szenariomodell für TAM/SAM/SOM
 - `pain-points.md` – relevante Probleme der Zielkunden
