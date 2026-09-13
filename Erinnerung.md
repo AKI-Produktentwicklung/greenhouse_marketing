@@ -16,6 +16,9 @@ Stand: 13. September 2026 – Angaben des Gründers, noch nicht unabhängig gepr
 - IP67 gilt nach Gründerangabe für den vollständig aufgebauten Controller einschließlich seiner Anschlüsse.
 - Die Außensensoren sind wetterfest; die Innensensoren sind mindestens gegen Regen geschützt.
 - Aktuell eingebunden ist eine Ecowitt Wittboy GW2001. Die Systemansicht zeigt das zugehörige Gateway als GW2000A im 868-MHz-Band.
+- M01 und M02 bilden Zone beziehungsweise Gewächshaus 1; M03 und M04 bilden Zone beziehungsweise Gewächshaus 2.
+- Sämtliche auf den bereitgestellten Screenshots dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb.
+- Reinigung mit dem Gartenschlauch ist ein zugesagtes Produktmerkmal. Hochdruckreinigung bleibt davon getrennt und ist noch nicht zugesagt.
 - Im Gewächshaus treten dauerhaft beziehungsweise regelmäßig sehr hohe Luftfeuchtigkeiten auf.
 - Für den vorgesehenen Einsatz wird ein ungeschützter oder nur schwach geschützter Controller als ungeeignet betrachtet.
 
@@ -41,7 +44,7 @@ Stand: 13. September 2026 – Angaben des Gründers, noch nicht unabhängig gepr
 
 ## Aus den Prototypbildern ablesbarer Funktionsstand
 
-Stand: 13. September 2026 – Sichtprüfung der vom Gründer bereitgestellten Fotos und Screenshots. Die Bilder belegen Bedienoberflächen und sichtbare Hardware, aber noch keine unabhängige Funktions- oder Schutzprüfung.
+Stand: 13. September 2026 – Sichtprüfung der vom Gründer bereitgestellten Fotos und Screenshots. Die Bilder belegen Bedienoberflächen und sichtbare Hardware. Der dreijährige Echtbetrieb aller dargestellten Funktionen sowie die Schutz- und Zonenaussagen sind Gründerangaben und noch nicht unabhängig geprüft.
 
 - Übersichtsseite mit Innen- und Außenklima, Wind, Regen, Solarstrahlung, Luftdruck, EWT-Temperatur, vier Motorpositionen und Aktorstatus
 - automatische Schutz- und Regelfunktionen für Sturm, starken Wind, Temperatur, Luftfeuchte, Tau-/Kondensationsschutz, Befeuchtung, Frostschutz und Heizung
@@ -60,14 +63,16 @@ Eine strukturierte Zuordnung steht in [prototype-inventory.md](prototype-invento
 
 - [x] Screenshots und Fotos des Prototyps bereitgestellt: Bedienoberfläche, geschlossener und geöffneter Controller sowie Feldkomponenten.
 - [x] Sichtbaren Funktionsumfang und Hardwarebestand in einer ersten Prototypinventur erfasst.
-- [ ] Vom Gründer bestätigen lassen, welche angezeigten Automatikfunktionen im realen Betrieb vollständig aktiv sind.
-- [ ] Noch nicht eindeutige Sensor- und Aktorrollen den konkreten Geräten und Anschlüssen zuordnen.
+- [x] Vom Gründer bestätigt: Alle auf den Screenshots dargestellten Funktionen laufen seit drei Jahren im Echtbetrieb.
+- [x] Motorkanäle zugeordnet: M01/M02 = Zone beziehungsweise Gewächshaus 1; M03/M04 = Zone beziehungsweise Gewächshaus 2.
+- [ ] Noch nicht eindeutige Sensorrollen und die jeweilige Funktion der beiden Motoren innerhalb einer Zone zuordnen.
 
 ### 2. Schutzversprechen festlegen
 
 - [x] Nach Gründerangabe geklärt: IP67 gilt für den vollständig aufgebauten Controller samt Anschlüssen.
 - [ ] Prüfgrundlage beziehungsweise Nachweis der Schutzart und Übertragbarkeit auf das Serienprodukt dokumentieren.
-- [ ] Entscheiden, ob das Produkt Gartenschlauchreinigung, Hochdruckreinigung oder beides ausdrücklich erlauben soll.
+- [x] Gartenschlauchreinigung als zugesagtes Produktmerkmal festgelegt.
+- [ ] Entscheiden, ob zusätzlich direkte Hochdruckreinigung erlaubt und zugesagt werden soll.
 - [ ] Prüfen, welche Bedienhandlungen bei geschlossenem Deckel möglich beziehungsweise sicherheitsrelevant sein müssen.
 - [ ] Kondensationskonzept festlegen: Dichtung, Druckausgleichsmembran, Beschichtung, Entfeuchtung oder andere Maßnahme.
 

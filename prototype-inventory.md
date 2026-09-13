@@ -16,6 +16,8 @@ Diese Datei beschreibt den am 13. September 2026 fotografisch dokumentierten Pro
 | Außenumgebung | Außensensoren wetterfest | Gründerangabe |
 | Innenumgebung | Innensensoren mindestens regengeschützt | Gründerangabe |
 | Kosten | aktuelle Stück- und Gesamtkalkulation noch nicht vorhanden | Gründerangabe |
+| Felderfahrung | alle auf den Screenshots dargestellten Funktionen laufen seit drei Jahren im realen Gewächshausbetrieb | Gründerangabe |
+| Reinigung | Gartenschlauchreinigung ist zugesagtes Produktmerkmal; Hochdruckreinigung ist davon nicht umfasst | Gründerangabe/Produktentscheidung |
 
 ## Sichtbare Hardware
 
@@ -23,7 +25,7 @@ Diese Datei beschreibt den am 13. September 2026 fotografisch dokumentierten Pro
 |---|---|---|
 | Controllergehäuse | transparenter, verriegelbarer Deckel; innen Montageplatte, Display-/Tastenfeld und Ecowitt-Gateway | hoch |
 | Lokale Bedienung | kleines Display und zehn sichtbare Bedientasten | hoch; konkrete Tastenbelegung noch offen |
-| Linearantriebe | mindestens zwei fotografierte Antriebe; Oberfläche unterstützt vier Motorkanäle M01 bis M04 | Hardware teilweise sichtbar, Vierkanalsteuerung per Screenshot belegt |
+| Linearantriebe | mindestens zwei fotografierte Antriebe; M01/M02 steuern Zone beziehungsweise Gewächshaus 1, M03/M04 Zone beziehungsweise Gewächshaus 2 | Hardware teilweise sichtbar, Vierkanalsteuerung per Screenshot sowie Zonenzuordnung per Gründerangabe belegt |
 | Umluftventilator | großer Ventilator im Gewächshaus | Funktion als Zirkulation plausibel, genaue elektrische Zuordnung noch zu bestätigen |
 | EWT-/Rohrventilator | Ventilator beziehungsweise Rohranschluss im EWT-Bereich | Funktion aus Oberfläche und Installation plausibel, genaue Zuordnung noch zu bestätigen |
 | Wittboy-Außenstation | kompakte Außen-Multisensorstation an Mast | hoch |
@@ -68,10 +70,13 @@ Diese Datei beschreibt den am 13. September 2026 fotografisch dokumentierten Pro
 - Controller- und Wetterstationsstatus ansehen
 - Anwendung aktualisieren und Komponenten neu starten
 
+## Bestätigter Betriebsstand
+
+Nach Gründerangabe laufen alle auf den Screenshots dargestellten Überwachungs-, Automatik-, Schutz-, Bedien- und Einrichtungsfunktionen seit drei Jahren im realen Gewächshausbetrieb. Für die Marktpositionierung ist das eine belastbare Felderfahrung, bleibt aber bis zu einer strukturierten Betriebsdokumentation eine Gründerangabe.
+
 ## Noch zu bestätigen
 
-- Welche der sichtbaren Automatikfunktionen laufen heute dauerhaft und vollständig im realen Betrieb?
-- Welche konkrete Funktion haben M01 bis M04 im aufgebauten Gewächshaus?
+- Welche konkrete Funktion hat jeweils der erste und zweite Motor innerhalb einer Zone, beispielsweise Dachfenster, Seitenfenster oder Tür?
 - Welche Modelle und Messgrößen haben die einzelnen Innen- und Fühlersensoren?
 - Welche Steckverbinder werden aktuell verwendet, und sind unbenutzte Anschlüsse ebenfalls IP67 geschützt?
 - Welche Aktoren werden direkt geschaltet und welche über zusätzliche Leistungsstufen oder Relais?

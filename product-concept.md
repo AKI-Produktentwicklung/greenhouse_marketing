@@ -28,7 +28,7 @@ Die marktbasierte Bewertung und empfohlene Reduktion des Startumfangs stehen in 
 
 ## Schutzfunktionen
 
-Bereits im Prototyp konzeptionell bzw. teilweise realisiert:
+Seit drei Jahren im Prototyp im realen Gewächshausbetrieb:
 
 - Sturmschutz
 - Frostschutz
@@ -39,7 +39,7 @@ Bereits im Prototyp konzeptionell bzw. teilweise realisiert:
 
 ## Dokumentierter Prototypstand
 
-Fotos und Screenshots zeigen einen deutlich breiteren bereits angelegten Funktionsumfang: vier Motorkanäle, Umluft, Befeuchtung, Heizung, EWT, Wind- und Sturmschutz sowie temperatur-, feuchte- und taupunktbezogene Regelung. Die derzeit eingebundene Wetterstation ist nach Gründerangabe eine Ecowitt Wittboy GW2001.
+Fotos und Screenshots zeigen einen deutlich breiteren bereits angelegten Funktionsumfang: vier Motorkanäle, Umluft, Befeuchtung, Heizung, EWT, Wind- und Sturmschutz sowie temperatur-, feuchte- und taupunktbezogene Regelung. M01/M02 sind Zone beziehungsweise Gewächshaus 1, M03/M04 Zone beziehungsweise Gewächshaus 2. Sämtliche dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb. Die derzeit eingebundene Wetterstation ist eine Ecowitt Wittboy GW2001.
 
 Der aufgebaute Controller samt Anschlüssen ist nach Gründerangabe IP67. Die Außensensoren sind wetterfest, die Innensensoren mindestens regengeschützt. Sichtbare Komponenten und noch offene Zuordnungen sind in [prototype-inventory.md](prototype-inventory.md) dokumentiert.
 
@@ -79,16 +79,16 @@ Der Erdreichwärmetauscher ist eine technische Differenzierungshypothese für Ga
 
 Nach Gründerangabe werden Gewächshäuser innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt. Der Umgebungsschutz soll deshalb nicht an ein zusätzliches, vom Kunden auszuwählendes Gehäuse delegiert werden.
 
-Als marktbasierte Arbeitshypothese gilt:
+Als Produktanforderung beziehungsweise marktbasierte Arbeitshypothese gilt:
 
 - gesamte Feldinstallation für nasse Reinigung konzipieren,
-- Gartenschlauchtauglichkeit als Mindestziel technisch definieren,
+- Gartenschlauchreinigung als zugesagtes Produktmerkmal technisch eindeutig definieren und für die vollständige relevante Anordnung nachweisen,
 - IP66 nur nach Prüfung der vollständigen Anordnung bewerben,
 - Hochdruckreinigung separat auf IPX9/IP69-Niveau prüfen,
 - Steckverbinder, Schutzkappen, Kabel, Sensoren und Bedienelemente in die Systemprüfung einbeziehen,
 - externes Netzgerät und 230-V-Verbindung außerhalb der Waschzone anordnen oder getrennt qualifizieren.
 
-Die IP67-Angabe zum aktuellen Controller ist damit ein wichtiger Prototypvorteil, beantwortet aber noch nicht das weitergehende Produktversprechen für direkte Gartenschlauch- oder Hochdruckreinigung der vollständigen Feldinstallation.
+Die IP67-Angabe zum aktuellen Controller ist damit ein wichtiger Prototypvorteil. Für die zugesagte Gartenschlauchreinigung muss dennoch der zulässige Strahl, Abstand, Winkel und Betriebszustand der vollständigen relevanten Anordnung eindeutig beschrieben und geprüft werden. Direkte Hochdruckreinigung bleibt ein separates, derzeit nicht zugesagtes Schutzziel.
 
 Details und Wettbewerbsbelege stehen in [washdown-protection-analysis.md](washdown-protection-analysis.md).
 

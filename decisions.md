@@ -17,6 +17,9 @@
 - drahtlose Sensoren und Aktoren sollen ungefähr so einfach wie Geräte an einem WLAN-Router integrierbar sein
 - bis zu acht Sensoren sind derzeit durch die vorgesehene Wetterstation geprägt und keine marktseitig bestätigte Anforderung
 - Gründerangabe zum Nutzungskontext: Gewächshäuser werden innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt
+- Gartenschlauchreinigung wird als Produktmerkmal zugesagt; direkte Hochdruckreinigung ist davon getrennt und derzeit nicht zugesagt
+- M01 und M02 gehören zu Zone beziehungsweise Gewächshaus 1; M03 und M04 zu Zone beziehungsweise Gewächshaus 2
+- alle auf den bereitgestellten Screenshots dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb
 
 ## Markt
 

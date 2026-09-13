@@ -2,7 +2,7 @@
 
 ## Reinigung und Umgebungsschutz
 
-- Soll das Basissystem kräftiges Abspritzen mit dem Gartenschlauch oder auch direkte Hochdruckreinigung zulassen?
+- Gartenschlauchreinigung ist als Produktmerkmal zugesagt. Soll darüber hinaus auch direkte Hochdruckreinigung zugelassen werden?
 - Welche Grenzwerte gelten für Druck, Abstand, Wassertemperatur, Dauer und Strahlwinkel?
 - Welche Reinigungs-, Dünge- oder Desinfektionsmittel kommen mit Gehäuse, Kabeln und Steckern in Kontakt?
 - Muss der zentrale Controller in der Waschzone montiert werden oder nur dezentrale Feldmodule?
