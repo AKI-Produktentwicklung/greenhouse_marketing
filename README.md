@@ -73,6 +73,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `product-boundary-options.md` – Vergleich von Controller-Kit, Standardsystem und Komplettinstallation
 - `sources.md` – Quellen und Recherchehinweise
 - `decisions.md` – getroffene strategische Entscheidungen
+- `Erinnerung.md` – kleine Produktdetails, Korrekturen und nächste Entscheidungen
 - `open-questions.md` – offene Fragen und Hypothesen
 
 ## Status

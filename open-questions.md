@@ -6,7 +6,7 @@
 - Welche Grenzwerte gelten für Druck, Abstand, Wassertemperatur, Dauer und Strahlwinkel?
 - Welche Reinigungs-, Dünge- oder Desinfektionsmittel kommen mit Gehäuse, Kabeln und Steckern in Kontakt?
 - Muss der zentrale Controller in der Waschzone montiert werden oder nur dezentrale Feldmodule?
-- Welche Schutzart erreicht der vorhandene Prototyp als vollständige Anordnung einschließlich Steckern, Schutzkappen und Bedienoberfläche tatsächlich?
+- Gilt die angegebene Schutzart IP67 für das Rohgehäuse oder für den vollständig bestückten Prototyp einschließlich Steckern, Schutzkappen und Bedienoberfläche?
 
 ## Einordnung
 
