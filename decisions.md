@@ -12,6 +12,8 @@
 - Touchbedienung + Webinterface
 - modularer Systemansatz statt Einzelgerät
 - Controller-Versorgung mit 12 oder 24 VDC
+- eine 12-V-Versorgung für die Wetterstation ist am Controller vorgesehen; elektrische Auslegung und zulässige Last sind noch zu dokumentieren
+- eine 12-V-Versorgung der Wetterstation über den Controller ist vorgesehen; die elektrische Auslegung ist noch zu dokumentieren
 - ein steckerfertiges 230-V-Gesamtgerät ist nicht zwingend; externe zertifizierte Netzgeräte sind zulässig
 - Sensor- und Aktorverkabelung soll Plug-and-play sein
 - drahtlose Sensoren und Aktoren sollen ungefähr so einfach wie Geräte an einem WLAN-Router integrierbar sein

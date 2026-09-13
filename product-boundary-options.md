@@ -8,12 +8,12 @@ Alle Preisbereiche in diesem Dokument sind Arbeitshypothesen aus sichtbaren Wett
 
 ## Drei Produktgrenzen
 
-| Kriterium | A – Controller/DIY-Kit | B – standardisiertes Einzonen-System | C – betriebsfertige Installation |
+| Kriterium | A – Controller/DIY-Kit | B – standardisiertes Ein-/Zweizonen-System | C – betriebsfertige Installation |
 |---|---|---|---|
 | typischer Lieferumfang | 12/24-VDC-Controller und offene Software; Kunde wählt Komponenten | Controller und Plug-and-play-Schnittstellen; geprüfte Komponenten wahlweise mitgeliefert oder transparent extern beschafft | vollständiges System einschließlich Aktoren, Netzanschluss, Verkabelung, Montage und Inbetriebnahme |
 | primärer Kunde | technisch versierter Hobbyanwender / Maker | Premium-Hobbykunde oder kleiner Betrieb mit Elektriker-/Montagezugang | zahlungskräftiger Privatkunde oder kleiner Gewerbebetrieb mit Wunsch nach Gesamtverantwortung |
 | nächster Wettbewerb | Home Assistant, ESPHome, OpenSprinkler und Eigenbau | Harvst, GrowControl/NIDO als angrenzende Produkte, Trellis als früher Marktindikator | regionale Gewächshaustechnik- und Automationsintegratoren |
-| plausible interne Preishypothese | etwa 700–1.500 EUR | etwa 1.700–3.000 EUR zuzüglich klar abgegrenzter Montage | wahrscheinlich über 3.000 EUR, stark objektabhängig |
+| plausible interne Preishypothese | etwa 1.490–1.790 EUR | etwa 2.690–3.290 EUR für eine Zone beziehungsweise 3.690–4.490 EUR für zwei Zonen, ohne Montage | wahrscheinlich über 4.500 EUR, stark objektabhängig |
 | stärkster Vorteil | niedriger Preis, einfacher Versand | klare Differenzierung durch Außenwetter, Fensterlogik und Standardisierung | größter Kundennutzen und höchste Systemverantwortung |
 | größter Nachteil | Kunde trägt genau den Integrationsaufwand, den das Produkt lösen soll | Kompatibilität und Installationsgrenze müssen sehr sauber definiert sein | hoher Vor-Ort-Aufwand, regionale Skalierung, Gewährleistungs- und Haftungsrisiko |
 | Preistransparenz | hoch | hoch bis mittel | niedrig, sobald jedes Objekt anders geplant wird |
@@ -40,7 +40,7 @@ Sinnvoll als:
 
 Weniger geeignet als primäres Premium-Hobbyangebot.
 
-## Option B – Standardisiertes Einzonen-System
+## Option B – Standardisiertes Ein-/Zweizonen-System
 
 ### Marktchance
 
@@ -48,13 +48,13 @@ Diese Produktgrenze passt am besten zur bisher erkannten Lücke. Das System lös
 
 ### Empfohlene Abgrenzung
 
-Im festen Kernumfang:
+Im festen Controllerumfang:
 
 - 12/24-VDC-Controller mit lokaler Bedienung,
 - kein zwingend integriertes Netzgerät; definierte zertifizierte externe Netzgeräte,
 - Innenfühler für Temperatur und Feuchte,
 - Außenmessung für Temperatur, Wind und Regen,
-- zwei definierte Motorachsen beziehungsweise geprüfte Motorinterfaces,
+- vier Motorachsen beziehungsweise geprüfte Motorinterfaces für zwei Zonen,
 - Heizung als Freigabekontakt,
 - ein Ventilatorausgang,
 - vorkonfigurierte Schutzlogik,
@@ -63,12 +63,20 @@ Im festen Kernumfang:
 - routerähnliche Inbetriebnahme drahtloser Erweiterungen,
 - dokumentierte kompatible Antriebe und Installationsvoraussetzungen.
 
+Im Einzonen-Referenzpaket:
+
+- ein Innenfühler,
+- zwei Antriebe beziehungsweise Motorachsen,
+- definierter Standard-Kabelsatz,
+- unterstützte gemeinsame Wetterstation.
+
+Im Zweizonenpaket kommen ein zweiter Innenfühler, zwei weitere Antriebe und der erweiterte Kabelsatz hinzu.
+
 Objektspezifisch beziehungsweise optional:
 
 - mechanische Anpassung der Fenster,
 - Netzanschluss und Arbeiten an 230 V,
 - zusätzliche Sensoren/Aktoren,
-- zweite Zone,
 - Bewässerung und Beschattung.
 
 ### Kritische Bedingung
@@ -118,7 +126,7 @@ Die Namen sind Platzhalter; entscheidend ist die funktionale Trennung.
 
 ### Schutzkern
 
-- eine Zone,
+- zweizonenfähiger Controller; Warenkorb wahlweise für eine oder zwei Zonen,
 - Innenklima plus Außenwetter,
 - zwei Lüftungsmotoren,
 - Heizungssignal,
@@ -139,9 +147,9 @@ Die Namen sind Platzhalter; entscheidend ist die funktionale Trennung.
 - Durchfluss- oder Drucküberwachung,
 - Leck-/Trockenlaufalarm.
 
-### Mehrzonen-Erweiterung
+### Weitere Mehrzonen-Erweiterung
 
-- zweite Zone oder zweites Gewächshaus,
+- mehr als zwei Zonen beziehungsweise Gewächshäuser,
 - klar getrennte Sensor-/Aktorzuordnung,
 - gemeinsame Wetterstation,
 - definierte Prioritäten bei gemeinsam genutzten Geräten.

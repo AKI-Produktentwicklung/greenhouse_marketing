@@ -17,6 +17,7 @@ Stand: 13. September 2026 – Angaben des Gründers, noch nicht unabhängig gepr
 - Die Außensensoren sind wetterfest; die Innensensoren sind mindestens gegen Regen geschützt.
 - Aktuell eingebunden ist eine Ecowitt Wittboy GW2001. Die Systemansicht zeigt das zugehörige Gateway als GW2000A im 868-MHz-Band.
 - Als neuere mögliche Nachfolgeplattform wurde die Ecowitt Wittboy GW3001 identifiziert. Sie besteht laut Hersteller aus GW3000-Gateway und WS90-Außensensor; sie ist noch nicht als Produktentscheidung oder bereits integrierte Komponente zu behandeln.
+- Die für den winterlichen WS90-Betrieb relevante 12-V-Versorgung ist auch am Controller vorgesehen. Elektrische Auslegung und zulässige Last sind noch zu dokumentieren.
 - M01 und M02 bilden Zone beziehungsweise Gewächshaus 1; M03 und M04 bilden Zone beziehungsweise Gewächshaus 2.
 - Sämtliche auf den bereitgestellten Screenshots dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb.
 - Reinigung mit dem Gartenschlauch ist ein zugesagtes Produktmerkmal. Hochdruckreinigung bleibt davon getrennt und ist noch nicht zugesagt.

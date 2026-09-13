@@ -2,11 +2,13 @@
 
 ## Leitfrage
 
-Gibt es im DACH- bzw. europäischen Markt genügend Kunden, die für eine autonome Gewächshaussteuerung im Bereich von etwa 1.000–3.000 EUR oder mehr bezahlen?
+Gibt es im DACH- beziehungsweise europäischen Markt genügend Kunden, die für ein autonomes Schutz- und Klimasystem für kleine Gewächshäuser etwa 2.500–4.500 EUR bezahlen?
 
 ## Standort des vorhandenen Prototyps
 
-Die aktuelle Desk-Research-basierte Einordnung steht in [prototype-market-assessment.md](prototype-market-assessment.md). Kurzfassung: Der Prototyp liegt funktional zwischen DIY-/Smart-Home-Lösungen und professioneller Gewächshausautomation. Marktseitig empfiehlt sich kein weiterer Funktionsausbau, sondern die Reduktion auf ein standardisiertes Einzonen-Schutzpaket mit Außenwetter, aktiver Lüftung, lokaler Autonomie, manueller Bedienung und nachweisbaren Fehlerzuständen.
+Die aktuelle Desk-Research-basierte Einordnung steht in [prototype-market-assessment.md](prototype-market-assessment.md). Kurzfassung: Der Prototyp liegt funktional zwischen DIY-/Smart-Home-Lösungen und professioneller Gewächshausautomation. Alle gezeigten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshaus; der IP67-Controller samt Anschlüssen steuert vier Motorkanäle in zwei Zonen. Marktseitig empfiehlt sich deshalb kein funktionaler Scope-Reset mehr, sondern die Übersetzung des vorhandenen Systems in wenige standardisierte, klar bepreiste Pakete.
+
+Als vorläufige Preisarchitektur werden 1.690 EUR für den Controllerkern, 2.990 EUR für eine vollständige standardisierte Einzonen-Schutzanlage und 3.990 EUR für zwei Zonen vorgeschlagen. Diese Werte sind marktbasierte Testanker und erst nach Stückkostenrechnung als Verkaufspreise beurteilbar.
 
 ## Arbeitshypothese
 

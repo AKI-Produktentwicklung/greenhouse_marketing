@@ -395,7 +395,38 @@
 
     .source-list { columns: 2; column-gap: 48px; padding-left: 20px; }
     .source-list li { break-inside: avoid; margin: 0 0 13px; padding-left: 4px; color: var(--muted); font-size: 13px; }
-    .source-list a { color: #cfe4c8; }
+    .source-list a { color: var(--mint); }
+
+    .proof-gallery {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr .85fr;
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .proof-card {
+      margin: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.82);
+      box-shadow: var(--shadow);
+    }
+    .proof-card img {
+      display: block;
+      width: 100%;
+      height: 330px;
+      object-fit: contain;
+      background: #e8eee3;
+    }
+    .proof-card figcaption { padding: 16px 18px 18px; color: var(--muted); font-size: 13px; }
+    .price-card strong {
+      display: block;
+      margin: 12px 0 8px;
+      color: var(--leaf);
+      font-size: clamp(34px, 4vw, 54px);
+      line-height: 1;
+      letter-spacing: -.045em;
+    }
 
     .present-hud { display: none; }
     body.presenting { overflow: hidden; }
@@ -441,6 +472,8 @@
       .market-bar .value { text-align: left; }
       .matrix { min-height: 480px; }
       .source-list { columns: 1; }
+      .proof-gallery { grid-template-columns: 1fr; }
+      .proof-card img { height: min(62vh, 520px); }
       .topbar { right: 12px; bottom: 12px; }
       .topbar .label { display: none; }
       .verdict { grid-template-columns: 1fr; gap: 8px; }
@@ -470,6 +503,7 @@
   <nav class="toc" aria-label="Kapitel">
     <a href="#start">Start</a>
     <a href="#position">Marktposition</a>
+    <a href="#prototyp">Prototypbeleg</a>
     <a href="#grenze">Produktgrenze</a>
     <a href="#produkt">Kernprodukt</a>
     <a href="#washdown">Waschbarkeit</a>
@@ -493,8 +527,8 @@
     <section class="chapter hero" id="start" data-title="Start">
       <div class="inner">
         <p class="eyebrow">Greenhouse Assistant · Marktanalyse 2026</p>
-        <h1>Wo dein Produkt im Markt stehen kann.</h1>
-        <p class="lede">Greenhouse Assistant zwischen DIY und professioneller Gewächshausautomation.</p>
+        <h1>Ein erprobtes System sucht seinen Markt.</h1>
+        <p class="lede">Neubewertung des Greenhouse Assistant: drei Jahre Echtbetrieb, zwei Zonen und ein klarer Platz zwischen Eigenbau und professioneller Projektanlage.</p>
         <div class="meta">
           <span>Region: DACH</span>
           <span>Zielanlagen: 10–100 m²</span>
@@ -506,21 +540,21 @@
 
     <section class="chapter" id="fazit" data-title="Fazit">
       <div class="inner">
-        <p class="eyebrow">05 · Klare Empfehlung</p>
-        <h2>Die Marktlücke ist plausibel. Aber sie belohnt Fokus, nicht Funktionsfülle.</h2>
-        <p class="quote">Greenhouse Assistant liegt zwischen DIY-/Smart-Home-Lösungen und professioneller Projektanlage. Der Prototyp beweist den technischen Kern – das Produkt braucht jetzt eine schärfere Grenze.</p>
+        <p class="eyebrow">06 · Klare Empfehlung</p>
+        <h2>Der Produktfit ist stark. Der Marktfit bleibt offen.</h2>
+        <p class="quote">Greenhouse Assistant muss nicht neu erfunden oder funktional verkleinert werden. Er muss als klarer Warenkorb, mit belastbarem Gesamtpreis und eindeutiger Installationsgrenze kaufbar werden.</p>
         <div class="grid grid-3">
           <article class="card highlight">
             <h3>Beibehalten</h3>
-            <p>Lokale Autonomie, Außenwetter, aktive Lüftung, Schutzlogik, robuste Handbedienung und die waschbare Feldarchitektur.</p>
+            <p>Zwei Zonen, lokale Autonomie, Außenwetter, aktive Lüftung, Schutzlogik, robuste Handbedienung und Gartenschlauchtauglichkeit.</p>
           </article>
           <article class="card warning">
-            <h3>Ändern</h3>
-            <p>Als 12/24-V-Plattform mit Plug-and-play-Anschlüssen, geprüfter Komponentenliste und verständlichem Online-Kaufweg produktisieren.</p>
+            <h3>Produktisieren</h3>
+            <p>Einen Controllerkern sowie ein klar definiertes Ein- und Zweizonenpaket mit Gesamtpreis, geprüften Komponenten und Online-Installationscheck.</p>
           </article>
           <article class="card">
-            <h3>Später</h3>
-            <p>Erdreichwärmetauscher, KI, Bewässerung, komplexe Mehrzonenlogik und weitere Sensorfabrikate erst nach Qualitätsprüfung.</p>
+            <h3>Nicht hinzufügen</h3>
+            <p>Vorerst keine neuen Funktionsfelder. Zuerst Stückliste, Serienprüfung, Lieferumfang und Preis belastbar machen.</p>
           </article>
         </div>
       </div>
@@ -528,7 +562,7 @@
 
     <section class="chapter" id="evidenz" data-title="Evidenz">
       <div class="inner">
-        <p class="eyebrow">16 · Forschungsbasis</p>
+        <p class="eyebrow">17 · Forschungsbasis</p>
         <h2>Was wir wissen – und was wir nur modellieren.</h2>
         <div class="grid grid-4">
           <div class="card metric"><strong>23+</strong><span>Wettbewerbsprodukte und Produktfamilien</span></div>
@@ -548,7 +582,7 @@
 
     <section class="chapter" id="markt" data-title="Markt">
       <div class="inner">
-        <p class="eyebrow">06 · Marktstruktur</p>
+        <p class="eyebrow">07 · Marktstruktur</p>
         <h2>Zwei gut besetzte Enden. Eine schmale Mitte.</h2>
         <div class="split">
           <article class="card">
@@ -580,7 +614,7 @@
 
     <section class="chapter" id="probleme" data-title="Probleme">
       <div class="inner">
-        <p class="eyebrow">07 · Voice of Customer</p>
+        <p class="eyebrow">08 · Voice of Customer</p>
         <h2>Die stärkste Problemkette beginnt mit Abwesenheit.</h2>
         <div class="flow" aria-label="Problemkette">
           <div class="step"><b>01</b><span>Besitzer ist nicht vor Ort</span></div>
@@ -602,7 +636,7 @@
 
     <section class="chapter" id="segmente" data-title="Segmente">
       <div class="inner">
-        <p class="eyebrow">08 · Kundensegmente</p>
+        <p class="eyebrow">09 · Kundensegmente</p>
         <h2>Premium-Hobby ist der beste erste Fit – noch nicht der bewiesene Sieger.</h2>
         <div class="grid grid-3">
           <article class="card highlight">
@@ -630,14 +664,14 @@
 
     <section class="chapter" id="wettbewerb" data-title="Wettbewerb">
       <div class="inner">
-        <p class="eyebrow">09 · Wettbewerbsbild</p>
+        <p class="eyebrow">10 · Wettbewerbsbild</p>
         <h2>Die echte Konkurrenz ist meist die heutige Behelfslösung.</h2>
         <div class="table-wrap" style="overflow-x:auto">
           <table>
             <thead><tr><th>Kaufalternative</th><th>Warum sie gewählt wird</th><th>Schwäche</th><th>Einordnung</th></tr></thead>
             <tbody>
               <tr><td>Manuell + passive Öffner</td><td>Billig, bekannt, kein Setup</td><td>Keine kombinierte Reaktion auf Hitze, Sturm und Abwesenheit</td><td><b>Wichtigster direkter Ersatz</b></td></tr>
-              <tr><td><a href="https://www.home-assistant.io/">Home Assistant / DIY ↗</a></td><td>Offen, flexibel, große Community</td><td>Integration und Verantwortung bleiben beim Nutzer</td><td><b>Direkt für technisch versierte Käufer</b></td></tr>
+              <tr><td>Eigenbau / Smart Home</td><td>Offen, flexibel, günstige Standardkomponenten</td><td>Integration und Verantwortung bleiben beim Nutzer</td><td><b>Direkt für technisch versierte Käufer</b></td></tr>
               <tr><td><a href="https://www.harvst.co.uk/">Harvst ↗</a></td><td>Kleine Systeme, Onlinekauf, eigene WLAN-Oberfläche</td><td>Fokus auf eigene Minihäuser und Bewässerung</td><td><b>Nächster sichtbarer Produktvergleich</b></td></tr>
               <tr><td><a href="https://www.nidopro.com/automated-greenhouses-nido-one/">NIDO ↗</a> / <a href="https://growcontrol.de/en_GB/shop">GrowControl ↗</a></td><td>Kaufbare modulare Grow-Steuerungen</td><td>Indoor-/Fertigation-Fokus statt Fenster und Außenwetter</td><td>Angrenzende Alternative</td></tr>
               <tr><td><a href="https://trelliscontrols.com/">Trellis Controls ↗</a></td><td>Kleine bis mittlere Gewächshäuser, einfache Bedienung</td><td>Noch kein belastbarer DACH-Produktbeleg</td><td>Früher, naher Marktindikator</td></tr>
@@ -651,8 +685,29 @@
 
     <section class="chapter" id="preise" data-title="Preise">
       <div class="inner">
-        <p class="eyebrow">10 · Preisanker</p>
-        <h2>Verdienen musst du nicht an jedem Bauteil.</h2>
+        <p class="eyebrow">11 · Vorläufiger Richtpreis</p>
+        <h2>2.990 EUR für eine Zone. 3.990 EUR für zwei.</h2>
+        <div class="grid grid-3">
+          <article class="card price-card">
+            <span class="tag estimate">Preisszenario</span>
+            <h3>Controllerkern</h3>
+            <strong>1.690 €</strong>
+            <p class="muted">IP67-Controller samt Anschlüssen und Dokumentation; Wetterstation, Sensoren, Antriebe und objektspezifische Kabel separat.</p>
+          </article>
+          <article class="card price-card highlight">
+            <span class="tag estimate">Empfohlener Testanker</span>
+            <h3>Eine Zone</h3>
+            <strong>2.990 €</strong>
+            <p>Standardisierte Schutzanlage mit Wetterstation, Innenfühler, zwei Antrieben, Netzteil und Kabelsatz.</p>
+          </article>
+          <article class="card price-card">
+            <span class="tag estimate">Empfohlener Testanker</span>
+            <h3>Zwei Zonen</h3>
+            <strong>3.990 €</strong>
+            <p class="muted">Gemeinsame Wetterstation, zwei Innenfühler, vier Antriebe und erweiterter Kabelsatz.</p>
+          </article>
+        </div>
+        <p class="small" style="margin-top:18px">Vorläufige Endkunden-Richtwerte inklusive Umsatzsteuer für Deutschland/Österreich. Keine Angebote und noch nicht durch die eigene Stückliste abgesichert.</p>
         <div class="ladder">
           <div class="ladder-row"><strong><a href="https://growcontrol.de/en_GB/shop">GrowBase Pro ↗</a></strong><div class="bar-track"><div class="bar" style="--w:25%"></div></div><span>1.049 EUR</span></div>
           <div class="ladder-row"><strong><a href="https://www.nidopro.com/prodotto/nido-one/">NIDO ONE V2 ↗</a></strong><div class="bar-track"><div class="bar" style="--w:35%"></div></div><span>1.489,99 EUR</span></div>
@@ -661,18 +716,18 @@
           <div class="ladder-row"><strong><a href="https://www.bartlettinstrument.com/greenhouse">Bartlett + Wetter ↗</a></strong><div class="bar-track"><div class="bar orange" style="--w:100%"></div></div><span>4.235 USD · historisch</span></div>
         </div>
         <div class="grid grid-3" style="margin-top:34px">
-          <article class="card"><h3>Transparent zukaufen</h3><p class="muted">Wetterstation, Standardsensoren und zertifiziertes Netzteil dürfen Kunden selbst beschaffen – aber nur aus einer geprüften Kompatibilitätsliste.</p></article>
-          <article class="card highlight"><h3>Eigener Wert</h3><p>Controller, robuste Schnittstellen, Plug-and-play-Kabel, vorkonfigurierte Regeln, Dokumentation und verlässlicher Support.</p></article>
-          <article class="card warning"><h3>Nicht unterschätzen</h3><p class="muted">Der relevante Kaufpreis ist immer die lauffähige Konfiguration inklusive Zubehör, Kabeln und Aktoren.</p></article>
+          <article class="card"><h3>Transparent zukaufen</h3><p class="muted">Ecowitt-Wetterstation, Standardsensoren und Netzteil dürfen Kunden selbst beschaffen. Der empfohlene Gesamtpreis muss trotzdem sichtbar bleiben.</p></article>
+          <article class="card highlight"><h3>Hier entsteht Marge</h3><p>Controller, robuste Schnittstellen, Plug-and-play-Kabel, geprüfte Kompatibilität, Dokumentation und Support.</p></article>
+          <article class="card warning"><h3>Kalkulationsgrenze</h3><p class="muted">Bei 2.990 EUR brutto bleiben bei 20 % USt. und 45 % interner Deckungsquote höchstens rund 1.370 EUR für alle variablen Kosten.</p></article>
         </div>
-        <p class="quote">Open Source kann Vertrauen und DIY-Reichweite schaffen. Das Geschäftsmodell bleibt Hardware, geprüfte Kompatibilität und eine wesentlich einfachere Inbetriebnahme – ähnlich dem Muster von OpenSprinkler und Home Assistant.</p>
-        <p class="small" style="margin-top:18px">Beträge sind nicht funktionsgleich; USD und EUR wurden bewusst nicht umgerechnet. Stand und Quellen im Quellenkapitel.</p>
+        <p class="quote">Der Richtpreis ist marktseitig plausibel. Ob er wirtschaftlich ist, entscheidet jetzt deine Stückliste – nicht weitere Wettbewerbersuche.</p>
+        <p class="small" style="margin-top:18px">Vergleichsbeträge sind nicht funktionsgleich; USD und EUR wurden bewusst nicht umgerechnet. Lieferumfang und Herleitung stehen in der Preisstrategie.</p>
       </div>
     </section>
 
     <section class="chapter" id="sizing" data-title="Market Sizing">
       <div class="inner">
-        <p class="eyebrow">11 · DACH-Szenariomodell</p>
+        <p class="eyebrow">12 · DACH-Szenariomodell</p>
         <h2>Der Markt könnte reichen. Die Bandbreite zeigt vor allem, was wir nicht wissen.</h2>
         <div class="grid grid-3">
           <div class="card metric"><strong>20,6 Mio.</strong><span>DACH-Gärten als hochgerechneter Proxy</span></div>
@@ -691,11 +746,11 @@
     <section class="chapter" id="position" data-title="Position">
       <div class="inner">
         <p class="eyebrow">01 · Deine Marktposition</p>
-        <h2>Der Prototyp trifft die Lücke – aber noch nicht in der richtigen Verpackung.</h2>
+        <h2>Nicht zwischen Produkten. Zwischen zwei Kaufwelten.</h2>
         <div class="grid grid-3" style="margin-bottom:28px">
-          <article class="card flat"><h3>Heute</h3><p class="muted">Ein funktionsreicher, real erprobter technischer Demonstrator mit hoher Eigenkomplexität.</p></article>
-          <article class="card highlight"><h3>Mögliche Position</h3><p>Die offene, waschbare 12/24-V-Automationsplattform mit Plug-and-play-Erlebnis für hochwertige kleine Gewächshäuser.</p></article>
-          <article class="card flat"><h3>Nicht werden</h3><p class="muted">Weder ein billiger Smart-Home-Controller noch ein individuell geplanter Industrie-Klimacomputer.</p></article>
+          <article class="card flat"><h3>Heute</h3><p class="muted">Ein zweizoniges Schutz- und Klimasystem, dessen dargestellte Funktionen seit drei Jahren im realen Gewächshaus laufen.</p></article>
+          <article class="card highlight"><h3>Marktposition</h3><p>Das online kaufbare, gartenschlauchtaugliche Plug-and-play-System für hochwertige kleine Gewächshäuser.</p></article>
+          <article class="card flat"><h3>Klare Grenze</h3><p class="muted">Mehr Systemverantwortung als Eigenbau, weniger Projektaufwand als professionelle Gewächshausautomation.</p></article>
         </div>
         <div class="matrix" role="img" aria-label="Positionierungsfeld von geringer zu hoher Funktionsbreite und geringer zu hoher Standardisierung">
           <span class="axis-y">mehr Systemumfang ↑</span>
@@ -706,51 +761,79 @@
           <div class="bubble us" style="--x:62%;--y:34%;--s:126px">Greenhouse Assistant</div>
           <div class="bubble" style="--x:81%;--y:21%;--s:126px">Professionelle Automation</div>
         </div>
-        <div class="verdict"><b>Bereits stark</b><p>Außenwetter, aktive Fenster, lokale Regeln und manuelle Bedienung sind als zusammenhängendes System gedacht.</p></div>
-        <div class="verdict"><b>Noch zu lösen</b><p>Standardisierter Lieferumfang, bestätigte Fehlerreaktionen, Installationsgrenze, Konformitätsplanung und Preis je konkreter Konfiguration.</p></div>
+        <div class="verdict"><b>Neu bewertet</b><p>Der Produktfit ist deutlich stärker als bisher angenommen: Außenwetter, aktive Fenster, lokale Regeln, Handbedienung und zwei Zonen sind nicht nur geplant, sondern im Echtbetrieb.</p></div>
+        <div class="verdict"><b>Noch offen</b><p>Marktgröße und Zahlungsbereitschaft bleiben unbewiesen. Produktseitig fehlen vor allem standardisierte Warenkörbe, Stückkosten und dokumentierte Serienprüfungen.</p></div>
+      </div>
+    </section>
+
+    <section class="chapter" id="prototyp" data-title="Prototypbeleg">
+      <div class="inner">
+        <p class="eyebrow">02 · Was heute belegt ist</p>
+        <h2>Drei Jahre Echtbetrieb sind der stärkste neue Beleg.</h2>
+        <div class="grid grid-4">
+          <div class="card metric"><strong>3 Jahre</strong><span>alle gezeigten Funktionen im Echtbetrieb</span></div>
+          <div class="card metric"><strong>2 Zonen</strong><span>M01/M02 und M03/M04</span></div>
+          <div class="card metric"><strong>4 Motoren</strong><span>einzeln und automatisch steuerbar</span></div>
+          <div class="card metric"><strong>IP67</strong><span>Controller samt Anschlüssen</span></div>
+        </div>
+        <div class="proof-gallery">
+          <figure class="proof-card">
+            <img src="docs/presentation_assets/controller-ip67.jpg" alt="Greenhouse-Assistant-Controller im transparenten IP67-Gehäuse" loading="lazy">
+            <figcaption>Transparenter Deckel, ablesbarer Status und lokale Tasten im geschützten Controller.</figcaption>
+          </figure>
+          <figure class="proof-card">
+            <img src="docs/presentation_assets/control-dashboard.jpg" alt="Dashboard des Greenhouse Assistant mit Klima-, Wind- und Aktordaten" loading="lazy">
+            <figcaption>Reale Übersicht mit Innen-/Außenklima, Wind, Regen, vier Motorpositionen, Heizung und EWT.</figcaption>
+          </figure>
+          <figure class="proof-card">
+            <img src="docs/presentation_assets/wittboy-outdoor.jpg" alt="Ecowitt-Wittboy-Außensensor der bestehenden Anlage" loading="lazy">
+            <figcaption>Lokale Außenmessung für Temperatur, Feuchte, Wind, Regen, UV und Solarstrahlung.</figcaption>
+          </figure>
+        </div>
+        <p class="quote">Damit ist nicht mehr die technische Grundidee die zentrale Hypothese. Die offene Frage lautet, ob genügend Käufer dieses robuste Gesamtpaket zum nötigen Preis wollen.</p>
+        <p class="small">Fotos, Laufzeit, Schutzart und Funktionsbetrieb sind Gründerangaben beziehungsweise bereitgestellte Prototypbelege; keine unabhängige Serien- oder Schutzprüfung.</p>
       </div>
     </section>
 
     <section class="chapter" id="produkt" data-title="Produkt">
       <div class="inner">
-        <p class="eyebrow">03 · Empfohlenes Kernprodukt</p>
-        <h2>Ein Haus. Eine Zone. Ein klares Sicherheitsversprechen.</h2>
+        <p class="eyebrow">04 · Empfohlene Paketfamilie</p>
+        <h2>Ein Controller. Zwei Pakete. Keine künstliche Funktionskürzung.</h2>
+        <div class="verdict"><b>Gemeinsamer Kern</b><p>IP67-Controller samt Anschlüssen, 12/24-VDC-Versorgung, vier Motorkanäle, lokale Bedienung und alle bereits real betriebenen Schutzfunktionen.</p></div>
         <div class="grid grid-2">
           <article class="card highlight">
-            <h3>Kernpaket</h3>
+            <h3>Einzonen-Referenzanlage</h3>
             <ul>
-              <li>lokale Steuerung ohne Internet</li>
-              <li>12/24-VDC-Controller; externes zertifiziertes Netzteil</li>
-              <li>steckbare, verpolungssichere Sensor-/Aktoranschlüsse</li>
-              <li>für definierte Nassreinigung ausgelegte Feldinstallation</li>
-              <li>Innenfühler Temperatur + Feuchte</li>
-              <li>Außentemperatur, Wind und Regen</li>
+              <li>gemeinsamer Controllerkern</li>
+              <li>unterstützte Wetterstation</li>
+              <li>ein Innenklimasensor</li>
               <li>zwei motorische Lüftungen</li>
-              <li>Heizungsfreigabe und Ventilatorausgang</li>
-              <li>Sturm, Regen, Frost, Überhitzung</li>
-              <li>Handbetrieb, Alarm, Ereignisprotokoll</li>
+              <li>zertifiziertes Netzteil</li>
+              <li>definierter Plug-and-play-Kabelsatz</li>
             </ul>
+            <p><strong>Richtpreis: ca. 2.990 EUR</strong></p>
           </article>
           <article class="card">
-            <h3>Modular danach</h3>
+            <h3>Zweizonenanlage</h3>
             <ul class="muted">
-              <li>zweite Zone und weitere Innenfühler</li>
-              <li>weitere Wetterstationen erst nach mechanischer Qualitätsprüfung</li>
-              <li>Bodenfeuchte und Bewässerung</li>
-              <li>Beschattung und Blattfeuchte</li>
-              <li>Befeuchtung / Entfeuchtung</li>
-              <li>Erdreichwärmetauscher</li>
-              <li>Prognose und Optimierung</li>
+              <li>derselbe Controllerkern</li>
+              <li>gemeinsame Wetterstation</li>
+              <li>zwei Innenklimasensoren</li>
+              <li>vier motorische Lüftungen</li>
+              <li>erweiterter Kabelsatz</li>
+              <li>getrennte Zonenzuordnung</li>
             </ul>
+            <p><strong>Richtpreis: ca. 3.990 EUR</strong></p>
           </article>
         </div>
-        <p class="quote">Verkabelung muss selbsterklärend sein; Funkgeräte müssen sich ungefähr so leicht hinzufügen lassen wie ein Gerät am WLAN-Router. Genau diese Einfachheit ist Produktwert.</p>
+        <p class="quote">Nicht die Zahl der Funktionen trennt Produkt und Prototyp. Entscheidend sind ein vorhersehbarer Warenkorb, selbsterklärende Verkabelung und eine klare Aussage, was ohne individuelle Planung passt.</p>
+        <p class="small">Heizung, Befeuchter, Ventilatoren, EWT, mechanische Sonderadapter und Montage bleiben objektspezifische Optionen. Preise sind vorläufige Marktanker, keine Angebote.</p>
       </div>
     </section>
 
     <section class="chapter" id="washdown" data-title="Waschbarkeit">
       <div class="inner">
-        <p class="eyebrow">04 · Waschbarkeit als Marktposition</p>
+        <p class="eyebrow">05 · Waschbarkeit als Marktposition</p>
         <h2>Der Controller, der im Gewächshaus bleiben darf, wenn gereinigt wird.</h2>
         <p class="quote">Viele Vergleichsprodukte sind nicht einmal für direktes Spritzwasser freigegeben. Eine nachweislich waschbare Gesamtinstallation kann deshalb eine echte, verständliche Differenzierung sein.</p>
         <p class="muted">Professionelle Systeme können den Schutz an Schaltschrank und Installationsplanung delegieren. Für ein online gekauftes Nachrüstprodukt ist ein vollständiges Wash-down-Versprechen deutlich wertvoller.</p>
@@ -760,9 +843,9 @@
             <tbody>
               <tr><td><a href="https://growcontrol.de/shop/growbase-3">GrowBase ↗</a></td><td>IP42</td><td>Kein Nachweis für direktes Abspritzen</td></tr>
               <tr><td><a href="https://www.nidopro.com/download/manuale-utente-V2-en.pdf">NIDO ONE V2 ↗</a></td><td>Von Spritzwasser fernhalten</td><td>Nur mit feuchtem Tuch reinigen</td></tr>
-              <tr><td><a href="https://www.home-assistant.io/green">Home Assistant Green ↗</a></td><td>Trocken, nicht kondensierend</td><td>Kein Gewächshaus-Feldgerät</td></tr>
               <tr><td><a href="https://opensprinkler.com/forums/topic/2-0s-waterproof/">OpenSprinkler ↗</a></td><td>Gehäuse nicht wasserdicht</td><td>Zusätzliches Schutzgehäuse nötig</td></tr>
               <tr><td><a href="https://senmatic.com/horticulture/products/electronic-climate-controls/lcc1/">Senmatic LCC1 ↗</a></td><td>IP65</td><td>Wasserstrahl, nicht Hochdruckreinigung</td></tr>
+              <tr><td><a href="https://shop.ecowitt.com/de/collections/starter-product/products/gw3001">Ecowitt WS90 ↗</a></td><td>IPX5</td><td>Wetterfester Außensensor; Reinigungsbedingungen separat definieren</td></tr>
             </tbody>
           </table>
         </div>
@@ -771,14 +854,15 @@
           <article class="card highlight"><h3>IPX9 / IP69</h3><p>Eigene Prüfklasse für Hochdruck-/Heißwasserreinigung. IP66 allein reicht dafür nicht.</p></article>
           <article class="card warning"><h3>Nur als Gesamtsystem</h3><p class="muted">Gehäuse, Display, Stecker, Schutzkappen, Kabel, Sensoren und Montage müssen gemeinsam bestehen.</p></article>
         </div>
-        <div class="verdict"><b>Empfehlung</b><p>Gartenschlauchtauglichkeit als Mindestanforderung definieren und eine IP69-Wash-down-Ausführung kalkulieren. Das externe Netzteil beziehungsweise die 230-V-Verbindung bleibt außerhalb der Waschzone.</p></div>
+        <div class="verdict"><b>Festgelegt</b><p>Gartenschlauchreinigung ist zugesagtes Produktmerkmal. Der Controller samt Anschlüssen ist nach Gründerangabe IP67; Strahl, Abstand, Winkel und Betriebszustand müssen für das Serienversprechen noch eindeutig dokumentiert und geprüft werden.</p></div>
+        <div class="verdict"><b>Nicht versprochen</b><p>Direkte Hochdruckreinigung. Sie bleibt ein separates mögliches Produktniveau und darf nicht aus IP67 abgeleitet werden.</p></div>
         <p class="small">Der Reinigungsfall stammt derzeit aus Gründererfahrung; seine Häufigkeit und Mehrzahlungsbereitschaft sind noch nicht extern quantifiziert.</p>
       </div>
     </section>
 
     <section class="chapter" id="grenze" data-title="Produktgrenze">
       <div class="inner">
-        <p class="eyebrow">02 · Mögliche Produktgrenzen</p>
+        <p class="eyebrow">03 · Mögliche Produktgrenzen</p>
         <h2>Niedervolt und Offenheit verschieben die sinnvolle Grenze.</h2>
         <div class="grid grid-3">
           <article class="card choice" data-label="Option A">
@@ -788,7 +872,7 @@
           </article>
           <article class="card choice recommended" data-label="Option B">
             <h3>Offenes Plug-and-play-System</h3>
-            <p>Controller und Stecksystem als Kern; geprüfte Sensoren, Netzteile, Kabel und Aktoren wahlweise im Shop oder transparent extern.</p>
+            <p>Zweizonenfähiger Controller und Stecksystem als Kern; geprüfte Sensoren, Netzteile, Kabel und Aktoren wahlweise im Shop oder transparent extern.</p>
             <p class="small">Beste Übereinstimmung mit der Marktlücke.</p>
           </article>
           <article class="card choice" data-label="Option C">
@@ -803,19 +887,19 @@
 
     <section class="chapter" id="wirtschaft" data-title="Wirtschaft">
       <div class="inner">
-        <p class="eyebrow">12 · Unit Economics</p>
-        <h2>Standardisierung entscheidet über Tragfähigkeit.</h2>
+        <p class="eyebrow">13 · Unit Economics</p>
+        <h2>Die Stückliste muss drei Preisanker bestehen.</h2>
         <div class="table-wrap" style="overflow-x:auto">
           <table>
-            <thead><tr><th>Jährlicher Zielbeitrag</th><th>600 EUR je Installation</th><th>1.000 EUR je Installation</th><th>1.500 EUR je Installation</th></tr></thead>
+            <thead><tr><th>Paketpreis brutto</th><th>Netto bei 20 % USt.</th><th>Max. variable Kosten bei 45 % Deckungsquote</th><th>Einordnung</th></tr></thead>
             <tbody>
-              <tr><td>60.000 EUR</td><td>100</td><td>60</td><td>40</td></tr>
-              <tr><td>120.000 EUR</td><td>200</td><td>120</td><td>80</td></tr>
-              <tr><td>180.000 EUR</td><td>300</td><td>180</td><td>120</td></tr>
+              <tr><td>1.690 EUR</td><td>1.408 EUR</td><td>775 EUR</td><td>Controllerkern</td></tr>
+              <tr><td>2.990 EUR</td><td>2.492 EUR</td><td>1.370 EUR</td><td>Einzonen-Referenzanlage</td></tr>
+              <tr><td>3.990 EUR</td><td>3.325 EUR</td><td>1.829 EUR</td><td>Zweizonenanlage</td></tr>
             </tbody>
           </table>
         </div>
-        <p class="small">Reine Sensitivität, keine validierten Margen oder Ziele.</p>
+        <p class="small">Reine Sensitivität mit interner Prüfmarke; keine validierte Marge. Variable Kosten müssen Hardware, Fertigung, Verpackung, Versand-/Zahlungsanteil, Gewährleistungsreserve und zurechenbaren Support abdecken.</p>
         <div class="grid grid-3" style="margin-top:28px">
           <article class="card flat"><h3>Variable Kosten</h3><p class="muted">Hardware, Partner, Installation, Fahrt, Garantie und Support.</p></article>
           <article class="card flat"><h3>Versteckte Arbeit</h3><p class="muted">Planung, Angebotsrevision, Inbetriebnahme und Gründerzeit dürfen nicht null sein.</p></article>
@@ -826,7 +910,7 @@
 
     <section class="chapter" id="vertrieb" data-title="Vertrieb">
       <div class="inner">
-        <p class="eyebrow">13 · Kanalhypothese</p>
+        <p class="eyebrow">14 · Kanalhypothese</p>
         <h2>Online-first ist möglich – wenn die Website einen Fachberater ersetzt.</h2>
         <div class="grid grid-3">
           <article class="card highlight"><h3>Vor dem Kauf</h3><p>Konfigurator, Kompatibilitätsmatrix, Installationscheck, transparente Gesamtstückliste und klare Ausschlusskriterien.</p></article>
@@ -840,7 +924,7 @@
 
     <section class="chapter" id="risiken" data-title="Risiken">
       <div class="inner">
-        <p class="eyebrow">14 · Produktisierung</p>
+        <p class="eyebrow">15 · Produktisierung</p>
         <h2>Das größte Risiko sitzt zwischen Prototyp und Produkt.</h2>
         <div class="grid grid-2">
           <article class="card risk"><h3>Fehlerzustände</h3><p class="muted">Sensor plausibel? Aktor wirklich bewegt? Endlage erreicht? Was geschieht nach Stromwiederkehr?</p></article>
@@ -850,40 +934,40 @@
           <article class="card warning"><h3>Offenheit &amp; Varianten</h3><p class="muted">Freie Komponentenwahl kann Supportfälle vervielfachen. Offizieller Support braucht getestete Fabrikate, Versionen und klare Grenzen.</p></article>
           <article class="card warning"><h3>Online-Support</h3><p class="muted">Fehlkäufe, Rücksendungen und individuelle Einbausituationen können die Hardwaremarge aufzehren, wenn Vorqualifizierung und Diagnose fehlen.</p></article>
         </div>
-        <p class="quote">Konformität, Updatefähigkeit und Fehlerdiagnose sind Architekturentscheidungen – keine Etiketten für kurz vor dem Verkauf.</p>
+        <p class="quote">Lieferumfang, Prüfversprechen und Herstellkosten sind jetzt wichtiger als weitere Funktionen.</p>
       </div>
     </section>
 
     <section class="chapter" id="roadmap" data-title="Roadmap">
       <div class="inner">
-        <p class="eyebrow">15 · Empfohlener nächster Pfad</p>
+        <p class="eyebrow">16 · Empfohlener nächster Pfad</p>
         <h2>Vom Prototyp zum online kaufbaren Produktsystem.</h2>
         <div class="timeline">
-          <div class="timeline-item"><div class="timeline-marker"><span>1</span></div><div class="timeline-copy"><h3>Ist-Inventur</h3><p>Prototyp gegen den Einzonen-Kern prüfen: vorhanden, teilweise vorhanden, fehlt.</p></div></div>
-          <div class="timeline-item"><div class="timeline-marker"><span>2</span></div><div class="timeline-copy"><h3>Kompatibilität festlegen</h3><p>Wetterstation, Sensoren, Antriebe, Netzteile und Kabel in „offiziell unterstützt“ und „Community/experimentell“ trennen.</p></div></div>
-          <div class="timeline-item"><div class="timeline-marker"><span>3</span></div><div class="timeline-copy"><h3>Sicherheits- und Wash-down-Kern härten</h3><p>Fehlerzustände und Stromwiederkehr testen; Reinigungsfall samt Steckern, Kabeln und Sensoren verbindlich spezifizieren.</p></div></div>
-          <div class="timeline-item"><div class="timeline-marker"><span>4</span></div><div class="timeline-copy"><h3>Online-Kaufweg prototypisieren</h3><p>Konfigurator, Gesamtpreis, Installationscheck, Doku und Inbetriebnahme wie ein Teil des Produkts behandeln.</p></div></div>
-          <div class="timeline-item"><div class="timeline-marker"><span>5</span></div><div class="timeline-copy"><h3>Open-Source-Grenze wählen</h3><p>Lizenz, Markenregeln, Updatekanal und bezahlten Mehrwert definieren; erst danach weitere Module ergänzen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>1</span></div><div class="timeline-copy"><h3>Stückliste kalkulieren</h3><p>Controller, Stecker, Kabel, Netzteil, Wetterstation, Sensoren, Antriebe, Fertigungszeit und Reserven für Ein- und Zweizonenpaket erfassen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>2</span></div><div class="timeline-copy"><h3>Lieferpakete festziehen</h3><p>Für 1.690, 2.990 und 3.990 EUR exakt festlegen: enthalten, extern beschafft, optional und ausgeschlossen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>3</span></div><div class="timeline-copy"><h3>Gartenschlauchversprechen absichern</h3><p>Reinigungsbedingungen für Controller, Stecker, Kabel und unterstützte Sensoren verbindlich beschreiben und prüfen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>4</span></div><div class="timeline-copy"><h3>Online-Angebot entwerfen</h3><p>Konfigurator, Gesamtpreis, Installationscheck, Dokumentation und Ausschlusskriterien als Teil des Produkts aufbauen.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><span>5</span></div><div class="timeline-copy"><h3>Preis intern belasten</h3><p>Prüfen, ob nach Fertigung, Versand, Gewährleistung und Support bei den Richtpreisen ein tragfähiger Deckungsbeitrag bleibt.</p></div></div>
         </div>
       </div>
     </section>
 
     <section class="chapter" id="schluss" data-title="Schluss">
       <div class="inner">
-        <p class="eyebrow">17 · Schlussfolgerung</p>
-        <h2>Nicht neu anfangen.<br><span class="accent">Den vorhandenen Kern produktfähig machen.</span></h2>
-        <p class="lede">Die Desk Research begründet weder Abbruch noch breiten Ausbau. Sie begründet eine klarere Position: ein offenes, lokal autonomes und waschbares 12/24-V-System, das DIY-Freiheit mit einem echten Plug-and-play-Erlebnis verbindet.</p>
+        <p class="eyebrow">18 · Schlussfolgerung</p>
+        <h2>Der Prototyp ist weit genug.<br><span class="accent">Jetzt muss das Angebot marktfähig werden.</span></h2>
+        <p class="lede">Die Neubewertung spricht für ein online kaufbares, lokal autonomes und gartenschlauchtaugliches Schutzsystem mit einem zweizonenfähigen Controller. Die nächste harte Entscheidung ist nicht Software, sondern ob der Lieferumfang zu etwa 2.990 beziehungsweise 3.990 EUR wirtschaftlich darstellbar ist.</p>
         <div class="grid grid-3" style="margin-top:34px">
-          <div class="card metric"><strong>Go</strong><span>für die fokussierte Produktisierung</span></div>
-          <div class="card metric"><strong>Wait</strong><span>für EWT, KI und breite Mehrzonenfunktion</span></div>
-          <div class="card metric"><strong>Open</strong><span>bleiben Marktanteil und Zahlungsbereitschaft</span></div>
+          <div class="card metric"><strong>Go</strong><span>für Packaging und Kalkulation</span></div>
+          <div class="card metric"><strong>2.990 €</strong><span>vorläufiger Richtpreis für eine Zone</span></div>
+          <div class="card metric"><strong>Offen</strong><span>bleiben Nachfrage und Zahlungsbereitschaft</span></div>
         </div>
       </div>
     </section>
 
     <section class="chapter" id="quellen" data-title="Quellen">
       <div class="inner">
-        <p class="eyebrow">18 · Quellen &amp; Vertiefung</p>
+        <p class="eyebrow">19 · Quellen &amp; Vertiefung</p>
         <h2>Nachvollziehbar bis zur Primärquelle.</h2>
         <p class="muted">Auswahl der wichtigsten Quellen. Das vollständige Register mit allen Wettbewerbs-, Markt- und Communityquellen steht im <a href="https://github.com/AKI-Produktentwicklung/greenhouse_marketing/blob/codex/development/sources.md">Quellenregister auf GitHub ↗</a>.</p>
         <ol class="source-list">
@@ -896,9 +980,9 @@
           <li><a href="https://www.nidopro.com/automated-greenhouses-nido-one/">NIDO — ONE V2 und Offline-Betrieb</a></li>
           <li><a href="https://link4controls.com/digital-controller/">Link4 — Pearl</a></li>
           <li><a href="https://growcontrol.de/en_GB/shop">GrowControl — Produktpreise</a></li>
+          <li><a href="https://shop.ecowitt.com/de/collections/starter-product/products/gw3001">Ecowitt — GW3001, GW3000 und WS90</a></li>
           <li><a href="https://support.harvst.co.uk/hc/en-gb/articles/15601376463122-Configuring-the-S8-S16-controller">Harvst — kleine Gewächshaussteuerung</a></li>
           <li><a href="https://opensprinkler.com/product/opensprinkler/">OpenSprinkler — offene Hardware und Software</a></li>
-          <li><a href="https://www.home-assistant.io/faq/is-it-free/">Home Assistant — Open-Source-Geschäftsmodell</a></li>
           <li><a href="https://www.nidopro.com/download/manuale-utente-V2-en.pdf">NIDO — Warnung vor Spritzwasser</a></li>
           <li><a href="https://growcontrol.de/shop/growbase-3">GrowControl — Schutzart IP42</a></li>
           <li><a href="https://www.rittal.com/imf/none/5_1933/">Rittal — IPX5, IPX6 und IPX9</a></li>
@@ -924,7 +1008,7 @@
 
   <script>
     (() => {
-      const chapterOrder = ['start', 'position', 'grenze', 'produkt', 'washdown', 'fazit', 'markt', 'probleme', 'segmente', 'wettbewerb', 'preise', 'sizing', 'wirtschaft', 'vertrieb', 'risiken', 'roadmap', 'evidenz', 'schluss', 'quellen'];
+      const chapterOrder = ['start', 'position', 'prototyp', 'grenze', 'produkt', 'washdown', 'fazit', 'markt', 'probleme', 'segmente', 'wettbewerb', 'preise', 'sizing', 'wirtschaft', 'vertrieb', 'risiken', 'roadmap', 'evidenz', 'schluss', 'quellen'];
       const main = document.querySelector('main');
       chapterOrder.forEach(id => main.append(document.getElementById(id)));
       const chapters = [...document.querySelectorAll('.chapter')];

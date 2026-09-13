@@ -4,7 +4,7 @@
 
 Diese Datei beschreibt nur den aktuellen Rahmen. Technische Detailentwicklung ist derzeit nicht Schwerpunkt.
 
-Die marktbasierte Bewertung und empfohlene Reduktion des Startumfangs stehen in [prototype-market-assessment.md](prototype-market-assessment.md). Die Empfehlungen sind noch keine Produktentscheidungen.
+Die marktbasierte Neubewertung und empfohlene Paketlogik stehen in [prototype-market-assessment.md](prototype-market-assessment.md). Die Empfehlungen sind noch keine Produktentscheidungen.
 
 ## Zielbereich
 
@@ -15,6 +15,7 @@ Die marktbasierte Bewertung und empfohlene Reduktion des Startumfangs stehen in 
 ## Grundarchitektur
 
 - Versorgung des Controllers mit 12 oder 24 VDC
+- vorgesehene 12-V-Versorgung der Wetterstation über den Controller; genaue elektrische Auslegung noch zu dokumentieren
 - kein zwingend integriertes Netzgerät; zertifizierte externe Netzgeräte sind am Markt verfügbar
 - lokale autonome Steuerung
 - Internet nicht erforderlich für Kernfunktionen

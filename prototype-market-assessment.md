@@ -2,21 +2,22 @@
 
 ## Kurzfazit
 
-Der vorhandene Greenhouse-Assistant-Prototyp ist **kein einfacher Smart-Home-Regler mehr**, aber auch **noch kein marktreifes professionelles Steuerungssystem**. Er besetzt technisch bereits die gesuchte Brücke: lokale Steuerung, Außenwetter, motorische Lüftung, Heizung, Feuchtefunktionen, manuelle Bedienung und Fernzugriff in einem System für kleine Gewächshäuser.
+Der vorhandene Greenhouse-Assistant-Prototyp ist **kein technischer Demonstrator mehr**, sondern ein seit drei Jahren real betriebenes, zweizoniges Schutz- und Klimasystem. Er besetzt funktional bereits die gesuchte Brücke: lokale Steuerung, Außenwetter, vier motorische Lüftungen, Heizung, Feuchtefunktionen, manuelle Bedienung und Fernzugriff für kleine Gewächshäuser.
 
-Die wichtigste marktbasierte Änderung ist deshalb nicht das Hinzufügen weiterer Funktionen. Das Konzept sollte auf einen kleineren, klar bepreisbaren und nachweisbar sicheren Kern reduziert werden:
+Die wichtigste marktbasierte Änderung ist deshalb weder das Hinzufügen noch das Entfernen bereits funktionierender Regeln. Der vorhandene Funktionskern sollte in wenige klar bepreisbare, nachweisbar robuste Lieferpakete übersetzt werden:
 
-> Nachrüstbares, lokal autonomes Schutz- und Klimasystem für ein hochwertiges kleines Gewächshaus – mit aktiver Lüftung, Außenwetter und verständlichem Betriebszustand.
+> Nachrüstbares, lokal autonomes und gartenschlauchtaugliches Schutz- und Klimasystem für ein oder zwei hochwertige kleine Gewächshäuser – online kaufbar, mit aktiver Lüftung, Außenwetter und verständlichem Betriebszustand.
 
-Der Prototyp ist ein starker technischer Demonstrator. Für ein Produkt fehlen vor allem standardisierter Lieferumfang, belastbare Fehlerreaktionen, Installationskonzept, Konformitätsplanung und ein klarer Preisbezug je Anlagenumfang.
+Der Prototyp liefert starke Felderfahrung. Für ein verkaufsfähiges Produkt fehlen vor allem standardisierter Lieferumfang, dokumentierte Prüf- und Fehlerfälle, Installationsgrenze, Konformitätsplanung und eine Stückkostenrechnung je Paket.
 
 ## Evidenzbasis und Grenzen
 
 ### Vom Gründer bereitgestellte beziehungsweise intern dokumentierte Informationen
 
-- Der Node-RED-Prototyp läuft laut README seit etwa drei Jahren in einem realen Gewächshaus.
-- Die ältere Präsentation beschreibt Außenwetter, bis zu acht Innen-, Blattfeuchte-, Bodenfeuchte- und Bodentemperatursensoren, bis zu vier Linearantriebe, Heizung, Umluft/Befeuchtung, Erdreichwärmetauscher und Smartphone-Bedienung.
-- Lokale Sturm-, Frost- und Überhitzungslogik sowie ein teilweiser Sensor-Fallback sind als bereits vorhanden beschrieben.
+- Alle auf den bereitgestellten Screenshots dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb.
+- M01/M02 steuern Zone beziehungsweise Gewächshaus 1, M03/M04 Zone beziehungsweise Gewächshaus 2.
+- Der aufgebaute Controller samt Anschlüssen ist nach Gründerangabe IP67; Gartenschlauchreinigung ist zugesagtes Produktmerkmal.
+- Die Fotos und Screenshots zeigen Außenwetter, Innenklima, vier Motorkanäle, Heizung, Umluft, Befeuchtung, Erdreichwärmetauscher, lokale Bedienung sowie Sturm-, Wind-, Frost-, Hitze-, Feuchte- und Kondensationslogik.
 
 Diese Angaben sind wertvolle Produktinformationen, aber keine unabhängig geprüften Leistungs-, Sicherheits- oder Dauerhaltbarkeitsnachweise.
 
@@ -53,18 +54,26 @@ Die Bewertung „hoch/mittel/niedrig“ ist eine strategische Einschätzung aus 
 | manuelle Tasten am Gerät | hoch | wichtig bei Einrichtung, Wartung und Kommunikationsausfall | beibehalten; sichere Prioritätslogik definieren |
 | Web-/Smartphone-Zugriff | mittel bis hoch | marktübliche Erwartung und nützlich bei Abwesenheit, aber kein Alleinstellungsmerkmal | beibehalten, nicht als Hauptbotschaft verwenden |
 | Touchscreen am Gerät | mittel | lokale Transparenz ist wichtig; ein großer Touchscreen erhöht Kosten und Fehlerfläche | einfache Statusanzeige plus robuste Tasten zunächst bevorzugen |
-| zwei Zonen im Grundsystem | mittel | für 10–100 m² teilweise nützlich, erhöht aber sofort I/O-, UI- und Testkomplexität | eine Zone als Basis, zweite Zone als klar bepreiste Erweiterung |
+| zwei Zonen im Controller | mittel bis hoch | die vier Motorkanäle und Zonenzuordnung sind bereits drei Jahre in Betrieb; zwei Zonen erhöhen den adressierbaren Anlagenumfang ohne neue Controllerplattform | Controller standardmäßig zweizonenfähig lassen; Ein- und Zweizonenpaket über Sensoren, Antriebe und Kabel unterscheiden |
 | bis zu acht Sensoren je Sensortyp | nicht als Marktbedarf belegt | die Zahl ist durch die Ecowitt-Plattform technisch nachvollziehbar, aber weiterhin kein belegter Kundenbedarf; alternative Fabrikate müssen auch mechanische und klimatische Qualitätsanforderungen erfüllen | Kapazität als Erweiterbarkeit behandeln, nicht als Basispaket; GW2001/GW3001 und Alternativen anhand einer Qualitäts- und Kompatibilitätsmatrix prüfen |
 | Blattfeuchtesensorik | mittel bis niedrig | kann Krankheitsrisiko unterstützen, ist in der Stichprobe kein dominanter Kaufgrund | optionale spätere Erweiterung |
 | Bodenfeuchte/Bewässerung | mittel | reales Problem und starker bestehender Markt, würde den Startumfang jedoch verbreitern | Schnittstelle vorsehen, Regelung erst nach Klimakern |
 | Erdreichwärmetauscher | niedrig für den Markteintritt | derzeit keine belastbare Nachfrageevidenz; erfordert Bauarbeit und erweitert Haftung/Projektierung | aus dem Kernprodukt entfernen und als separates Innovationsmodul behandeln |
 | Wetterprognose und KI | niedrig für den Markteintritt | Wettbewerber bieten Prognosen bereits; Kernprobleme benötigen zunächst robuste aktuelle Messung und Regeln | zurückstellen, bis lokale Schutzlogik und Datenqualität bewiesen sind |
 
-## Empfohlenes erstes Produktpaket
+## Empfohlene erste Paketfamilie
 
 Dies ist eine marktbasierte Empfehlung, noch keine Produktentscheidung.
 
-### Kernsystem: eine Zone / ein Gewächshaus
+### Gemeinsamer Controllerkern
+
+- ein IP67-Controller samt Anschlüssen,
+- 12/24-VDC-Versorgung und vorgesehene 12-V-Speisung der Wetterstation,
+- vier Motorkanäle für zwei Zonen,
+- lokale Bedienung und autonomer Betrieb,
+- vorbereitete Schnittstellen für alle bereits real betriebenen Funktionen.
+
+### Referenzpaket: eine Zone / ein Gewächshaus
 
 - lokale Steuerung ohne Internet,
 - ein kombinierter Innenfühler für Temperatur und Feuchte,
@@ -77,9 +86,16 @@ Dies ist eine marktbasierte Empfehlung, noch keine Produktentscheidung.
 - klarer Normal-, Warn-, Fehler- und Handbetrieb,
 - Ereignisprotokoll, Alarme und optionaler Fernzugriff.
 
-### Erweiterungen statt Grundumfang
+### Zweizonenpaket
 
-- zweite Zone,
+- derselbe Controllerkern,
+- zwei Innenklimasensoren,
+- vier motorische Lüftungen,
+- gemeinsame Wetterstation,
+- erweiterter Standard-Kabelsatz.
+
+### Optionen statt verpflichtender Grundausstattung
+
 - weitere Innenfühler,
 - Bodenfeuchte und Bewässerung,
 - Beschattung,
@@ -88,7 +104,7 @@ Dies ist eine marktbasierte Empfehlung, noch keine Produktentscheidung.
 - Erdreichwärmetauscher,
 - Prognose- und Optimierungsfunktionen.
 
-Diese Aufteilung reduziert Varianten, Testfälle und Installationsaufwand, ohne die langfristige modulare Architektur aufzugeben.
+Diese Aufteilung nutzt den vorhandenen Prototyp, ohne jeden Kunden zum Kauf sämtlicher Feldkomponenten zu zwingen. Standardisiert werden vor allem Lieferumfang, Kabelsatz und unterstützte Einbausituationen – nicht die bereits funktionierende Regelung künstlich entfernt.
 
 ## Konkrete Änderungen am bisherigen Konzept
 
@@ -100,9 +116,9 @@ Nicht mit „moderner Micro-Controller“ oder möglichst vielen Sensoren beginn
 
 Klimaoptimierung und Komfort sind zweite Nutzenebenen. „Smart“, Cloud und KI sind austauschbare Begriffe und sollten nicht die Positionierung tragen.
 
-### 2. Eine Zone zum Standard machen
+### 2. Einen Controller, aber zwei klare Anlagenpakete anbieten
 
-Zwei Zonen im Grundsystem führen in Richtung professioneller Komplexität, bevor der private Kernnutzen belegt ist. Die zweite Zone sollte technisch vorbereitet, aber kommerziell als Erweiterung behandelt werden. Die Kapazität von bis zu acht Sensoren ist hingegen zunächst eine technische Eigenschaft der vorgesehenen Wetterstationsarchitektur und darf nicht mit acht im Basispaket benötigten Sensoren verwechselt werden.
+Die Zweizonenfähigkeit ist bereits vorhanden und real erprobt. Ein Rückbau würde keinen Marktbeleg schaffen. Sinnvoller ist ein gemeinsamer, zweizonenfähiger Controller mit zwei verständlichen Warenkörben: Einzonen-Referenzanlage und Zweizonenanlage. Der Unterschied liegt in Innenfühlern, Antrieben und Kabeln. Die Kapazität von bis zu acht Sensoren bleibt eine technische Eigenschaft der Wetterstationsarchitektur und darf nicht mit acht im Basispaket benötigten Sensoren verwechselt werden.
 
 ### 3. Sicherheits- und Diagnoseumfang vor weiteren Klimafunktionen ausbauen
 
@@ -129,7 +145,7 @@ Die ältere Hardware mit physischen Aktortasten und Info-Display passt zur Robus
 
 ### 6. Preis immer an einen Lieferumfang binden
 
-Der frühere Zielbereich von 700–1.500 EUR ist als Controllerpreis plausibel, aber für ein komplettes System mit Wetterstation, I/O, Schaltschrank, Motoren und Installation wahrscheinlich zu niedrig. Öffentlich sichtbare Teilwarenkörbe stützen diese Vorsicht, belegen aber keinen eigenen Verkaufspreis.
+Der frühere Zielbereich von 700–1.500 EUR ist höchstens als unterer Controllerpreis plausibel, aber für ein komplettes System mit Wetterstation, Motoren, Kabeln und Anschlüssen zu niedrig. Öffentlich sichtbare Teilwarenkörbe stützen diese Vorsicht, belegen aber keinen eigenen Verkaufspreis.
 
 Künftig getrennt kommunizieren:
 
@@ -139,7 +155,7 @@ Künftig getrennt kommunizieren:
 - optionale Module,
 - optionale Fern-/Datendienste.
 
-Der erste marktlogische Testkorridor bleibt deshalb 990 EUR, 1.790 EUR und 2.990 EUR als Reaktionsanker für dieselbe neutrale Konzeptbeschreibung; er ist keine Preisentscheidung. Beschlossene Angebote müssten später jeweils einen klaren Lieferumfang besitzen.
+Die neue vorläufige Preisarchitektur lautet deshalb 1.690 EUR für den Controllerkern, 2.990 EUR für eine standardisierte Einzonen-Schutzanlage und 3.990 EUR für zwei Zonen. Diese Werte sind marktlogische Testanker, keine Angebote. Die Kalkulation muss zeigen, ob nach Hardware, Fertigung, Versand, Gewährleistung und Support genügend Deckungsbeitrag verbleibt.
 
 ### 7. Erdreichwärmetauscher entkoppeln
 
@@ -149,15 +165,15 @@ Der EWT ist technisch interessant, vergrößert aber Bau-, Hygiene-, Kondensatio
 
 Mit 230-V-Ausgängen, Funk, vernetzten Funktionen und motorischen Antrieben ist Konformität kein nachträgliches Etikett. Welche EU-Regelwerke tatsächlich greifen, muss fachkundig für die endgültige Produktgrenze geprüft werden. Als offensichtliche Prüffelder gelten mindestens elektrische Sicherheit, elektromagnetische Verträglichkeit, Funk, Maschinen-/Antriebsintegration und Cybersicherheit.
 
-Die Präsentationsangabe „IP66 (10 h tauchbar)“ muss korrigiert oder durch einen konkreten Prüfbericht belegt werden: IP66 bezeichnet Schutz gegen starke Wasserstrahlen, nicht gegen Untertauchen. Zeitweiliges Untertauchen wird über IP67 beschrieben. Außerdem gilt die Schutzart nur für die geprüfte vollständige Anordnung einschließlich Kabelverschraubungen und Bedienöffnungen, nicht automatisch für ein unbearbeitetes Einzelgehäuse.
+Nach Gründerangabe gilt IP67 für den aufgebauten Controller einschließlich Anschlüsse. Für das Serienprodukt bleiben Prüfgrundlage, konkrete Stecker-/Kabelkonfiguration und Übertragbarkeit zu dokumentieren. IP67 und Gartenschlauchreinigung sind getrennte Aussagen: Für den Reinigungsclaim müssen Strahl, Abstand, Winkel und Betriebszustand festgelegt und geprüft werden.
 
 ### 9. Waschbarkeit als Systemmerkmal entwickeln
 
-Nach Gründerangabe wird ein Gewächshaus innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt. Die geprüften nahen Produkte sind dafür vielfach ungeeignet oder liefern keinen entsprechenden Nachweis: GrowBase nennt IP42, NIDO ONE V2 soll ausdrücklich von Spritzwasser ferngehalten werden, Home Assistant Green ist nur für trockene Innenräume vorgesehen und OpenSprinkler benötigt für Außeneinsatz ein separates Schutzgehäuse. Senmatic LCC1 erreicht IP65, weist aber keinen Hochdruckreinigungsnachweis aus.
+Nach Gründerangabe wird ein Gewächshaus innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt. Die geprüften nahen Produkte sind dafür vielfach ungeeignet oder liefern keinen entsprechenden Nachweis: GrowBase nennt IP42, NIDO ONE V2 soll ausdrücklich von Spritzwasser ferngehalten werden und OpenSprinkler benötigt für Außeneinsatz ein separates Schutzgehäuse. Senmatic LCC1 erreicht IP65, weist aber keinen Hochdruckreinigungsnachweis aus.
 
-Damit ist eine wash-down-fähige Gesamtinstallation eine plausible Differenzierung. Sie muss als Systemanforderung für Gehäuse, Bedienung, Steckverbinder, Schutzkappen, Kabel, Sensoren und Aktoren behandelt werden. Gartenschlauch und Hochdruckreiniger sind getrennte Prüf- und Produktversprechen; IP66 allein belegt keine Hochdruckreinigungsfestigkeit. Die genaue Anforderung und Zahlungsbereitschaft sind noch nicht validiert.
+Damit ist eine gartenschlauchtaugliche Gesamtinstallation eine plausible und bereits gewählte Differenzierung. Sie muss als Systemanforderung für Gehäuse, Bedienung, Steckverbinder, Schutzkappen, Kabel, Sensoren und Aktoren behandelt werden. Gartenschlauch und Hochdruckreiniger sind getrennte Prüf- und Produktversprechen; direkte Hochdruckreinigung ist derzeit nicht zugesagt. Die Mehrzahlungsbereitschaft für dieses Merkmal ist noch nicht validiert.
 
-## Widersprüche in der heutigen Produktbeschreibung
+## Noch offene Dokumentationspunkte
 
 Vor einer weiteren Markt- oder Produktkommunikation sollte ein eindeutiger Ist-Stand hergestellt werden:
 
@@ -165,9 +181,9 @@ Vor einer weiteren Markt- oder Produktkommunikation sollte ein eindeutiger Ist-S
 |---|---|---|
 | lokale Bedienung | Präsentation: Info-Display und physische Aktortasten; Produktkonzept: Touchbedienung | Ist-Prototyp, Zielprodukt und optionale Bediengeräte getrennt beschreiben |
 | Kernverkabelung | Produktprinzip: verkabelter Kern; Präsentation: solar-/batteriebetriebener Außen-Multisensor | Kommunikationsweg, Ausfallüberwachung und Fallback der Wetterstation festhalten |
-| Zonen | Produktkonzept: zwei Zonen; Präsentation: unterschiedliche Paar-/Zonenzuordnungen je Sensortyp | eine konsistente Kanal- und Zonenmatrix erstellen |
+| Zonen | geklärt: M01/M02 = Zone 1, M03/M04 = Zone 2 | Funktion der beiden Motoren innerhalb jeder Zone noch benennen |
 | Blattfeuchte | Präsentation ordnet Sensoren 1/2 und 3/4 beide „Zone 1“ zu | mutmaßlichen Dokumentationsfehler prüfen, nicht ungeprüft übernehmen |
-| Schutzart | Gehäuse und Antrieb: „IP66 (10 h tauchbar)“ | Herstellerdaten und Schutzart der vollständigen Baugruppe prüfen |
+| Schutzart | Gründerangabe: IP67 für aufgebauten Controller samt Anschlüssen | Prüfgrundlage und Serienübertragbarkeit dokumentieren |
 | EWT-Ventilator | Präsentation vermischt in „Max. 280Pa m³/h“ Druck- und Volumenstromeinheit | korrekte Kennwerte und Betriebspunkt dokumentieren |
 
 Diese Punkte beweisen keinen technischen Fehler des Prototyps. Sie zeigen, dass Produktversprechen, vorhandene Hardware und geplante Architektur derzeit nicht ausreichend getrennt dokumentiert sind.
@@ -181,15 +197,14 @@ Diese Punkte beweisen keinen technischen Fehler des Prototyps. Sie zeigen, dass 
 3. Sturm-, Regen-, Frost- und Überhitzungsschutz,
 4. robuste lokale Handbedienung,
 5. Fehlererkennung, bestätigte Aktorzustände und Ereignisprotokoll,
-6. ein klar definiertes Einzonen-Kernpaket.
+6. ein gemeinsamer zweizonenfähiger Controller mit klar definiertem Ein- und Zweizonenpaket.
 
 ### Danach modular ergänzen
 
-1. zweite Zone,
-2. Bewässerung und Bodenfeuchte,
-3. Beschattung,
-4. zusätzliche Klima-/Blattfeuchtesensorik,
-5. Partnerinstallation und vorkonfigurierte Hauspakete.
+1. Bewässerung und Bodenfeuchte,
+2. Beschattung,
+3. zusätzliche Klima-/Blattfeuchtesensorik,
+4. Partnerinstallation und vorkonfigurierte Hauspakete.
 
 ### Vorerst nicht priorisieren
 
@@ -219,16 +234,16 @@ Diese Punkte beweisen keinen technischen Fehler des Prototyps. Sie zeigen, dass 
 
 ### Entscheidung für die nächste Entwicklungsphase
 
-Aus reiner Marktsicht ist ein Abbruch nicht begründet. Ebenso wenig ist ein breiter Produktbau begründet. Sinnvoll ist ein **Scope-Reset des vorhandenen Prototyps auf ein standardisiertes Einzonen-Schutzpaket**, gefolgt von technischer Härtung und einer belastbaren Stück-/Installationskostenrechnung. Neue Komfort-, EWT-, KI- oder Mehrzonenfunktionen sollten erst danach Entwicklungszeit erhalten.
+Aus reiner Marktsicht ist ein Abbruch nicht begründet. Der dreijährige Echtbetrieb macht auch einen funktionalen Scope-Reset unattraktiv. Sinnvoll ist ein **Packaging-Reset auf einen gemeinsamen zweizonenfähigen Controller sowie klar definierte Ein- und Zweizonenpakete**, gefolgt von dokumentierter Prüfung und einer belastbaren Stück-/Installationskostenrechnung. Neue Komfort-, Bewässerungs- oder KI-Funktionen sollten erst danach Entwicklungszeit erhalten.
 
 ## Nächste analysierbare Entscheidungen ohne Rekrutierung
 
-1. Bestehenden Prototyp gegen den empfohlenen Einzonen-Umfang inventarisieren: vorhanden, teilweise vorhanden, fehlt.
-2. Stückliste und Herstellkosten für genau dieses Kernpaket berechnen.
+1. Ein- und Zweizonen-Warenkorb aus der vorhandenen Prototypinventur eindeutig abgrenzen.
+2. Stückliste und Herstellkosten für Controllerkern, Einzonen- und Zweizonenpaket berechnen.
 3. Sicherheitszustände und Prioritätslogik als prüfbare Anforderungen dokumentieren.
 4. Produktgrenze festlegen: Controller/Komponentenkit oder betriebsfertiges System mit Aktoren und Installation.
 5. Für beide Produktgrenzen Preis- und Margenszenarien rechnen.
 
 Diese Schritte benötigen keine Kundenkontakte, aber teilweise technische und kaufmännische Informationen, die nicht aus öffentlichen Marktquellen ableitbar sind.
 
-Der detaillierte Marktvergleich der drei realistischen Liefermodelle und die Empfehlung für ein standardisiertes Einzonen-System stehen in [product-boundary-options.md](product-boundary-options.md).
+Der detaillierte Marktvergleich der drei realistischen Liefermodelle und die Empfehlung für ein standardisiertes Ein-/Zweizonensystem stehen in [product-boundary-options.md](product-boundary-options.md).

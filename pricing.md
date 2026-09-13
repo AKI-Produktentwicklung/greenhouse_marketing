@@ -1,101 +1,91 @@
 # Preisstrategie
 
-## Ausgangspunkt
+## Neubewertung vom 13. September 2026
 
-Vom Gründer genannter Zielbereich für das Grundsystem:
+Der frühere Zielbereich von 700–1.500 EUR ist als Preis für den Controllerkern weiterhin denkbar, aber nicht als glaubwürdiger Richtpreis für eine vollständige Standardanlage mit Wetterstation, Innensensor, Aktoren, Netzteil, Kabeln und Steckverbindern.
 
-**ca. 700–1.500 EUR**
+Die Preisempfehlung basiert auf drei getrennten Evidenzarten:
 
-Diese Zahl ist derzeit eine Hypothese und muss gegen den Markt validiert werden.
+- **verifizierte Marktanker:** GrowBase Pro WiFi 1.049 EUR, NIDO ONE V2 1.489,99 EUR, NIDO mit insgesamt vier Smart Plugs 1.667,14 EUR sowie Link4 Pearl mit einem I/O-Modul 2.572,83 USD; diese Angebote sind nicht funktionsgleich und überwiegend noch keine vollständige Lüftungs-/Wetterschutzanlage,
+- **Gründer- und Prototypangaben:** IP67-Controller samt Anschlüssen, vier Motorkanäle für zwei Zonen, Gartenschlauchreinigung und dreijähriger Echtbetrieb aller dargestellten Funktionen,
+- **interne Preisszenarien:** Die folgenden Werte sind marktlogische Richtpreise, aber noch keine kostenbasierte Preisentscheidung und keine validierte Zahlungsbereitschaft.
 
-## Denkbares Modell
+## Empfohlene Preisarchitektur
 
-### Base
-Controller + Grundsensorik + lokale Bedienung + Fernzugriff
+Alle EUR-Beträge sind vorläufige Endkunden-Richtwerte einschließlich Umsatzsteuer für Deutschland/Österreich. Für die Schweiz sowie abweichende Steuersätze ist separat zu kalkulieren.
 
-Zielbereich:
-ca. 800–1.200 EUR
+| Angebot | Klar definierter Lieferumfang | Preiskorridor | Empfohlener Testanker |
+|---|---|---:|---:|
+| Controllerkern | IP67-Controller samt Anschlüssen, lokale Bedienung, 12/24-VDC-Versorgung, vorgesehene 12-V-Speisung der Wetterstation, Plug-and-play-Schnittstellen und Dokumentation; Wetterstation, Sensoren, Aktoren und objektspezifische Kabel nicht enthalten | 1.490–1.790 EUR | 1.690 EUR |
+| Schutzanlage 1 Zone | Controllerkern, zertifiziertes Netzteil, unterstützte Wetterstation, ein Innenklimasensor, zwei Fensterantriebe beziehungsweise geprüfte Motorachsen sowie definierter Standard-Kabelsatz | 2.690–3.290 EUR | **2.990 EUR** |
+| Schutzanlage 2 Zonen | gleicher Controller, gemeinsame Wetterstation, zwei Innenklimasensoren, vier Fensterantriebe beziehungsweise Motorachsen und erweiterter Standard-Kabelsatz | 3.690–4.490 EUR | **3.990 EUR** |
 
-### Erweiterungen
-Mögliche Module:
+Der sinnvollste öffentliche Richtpreis ist damit zunächst:
 
-- Wetter / Sturm
-- zusätzliche Klimasensoren
-- Lüftungsantriebe
-- Heizung
-- Befeuchtung
-- Beschattung
-- Bodenfeuchte
-- Bewässerung
-- Erdreichwärmetauscher
-- zusätzliche I/O
-- weitere Zonen / Gewächshäuser
+> **Ab etwa 2.990 EUR für eine vollständige, standardisierte Einzonen-Schutzanlage; etwa 3.990 EUR für zwei Zonen.**
 
-## Denkbarer durchschnittlicher Auftragswert
+„Vollständig“ meint hier die standardisierte Hardware für Klimaüberwachung, aktive Lüftung und Wetterschutz. Gewächshaus, mechanische Sonderanpassungen, Montage, Netzanschluss sowie vorhandene oder objektspezifische Verbraucher wie Heizung, Befeuchter, Umluftventilator und Erdreichwärmetauscher sind nicht pauschal enthalten.
 
-Hypothese:
+## Warum dieser Preis plausibel, aber noch nicht bewiesen ist
 
-- Einstieg: ca. 1.000–1.500 EUR
-- typische Anlage: ca. 1.500–3.000 EUR
-- gut ausgestattete Anlage: ca. 2.500–4.000+ EUR
+- Der Einzonen-Richtpreis liegt oberhalb einfach kaufbarer Indoor-/Fertigationscontroller, bietet dafür Außenwetter, motorische Lüftung, IP67-Controller und ein definiertes Anschlusssystem.
+- Er bleibt unter beziehungsweise im unteren Bereich unvollständiger professioneller Vergleichskonfigurationen, deren Gesamtpreise häufig nicht öffentlich sind.
+- Drei Jahre Echtbetrieb reduzieren das wahrgenommene technische Frühphasenrisiko. Sie ersetzen jedoch keine Serienprüfung, Garantieerfahrung oder externe Zahlungsbereitschaft.
+- Ein deutlich niedrigerer Gesamtpreis würde wahrscheinlich entweder Lieferumfang verschleiern oder zu wenig Raum für Kabel, Antriebe, Gewährleistung und Support lassen.
+- Ein deutlich höherer Preis nähert sich dem Projektgeschäft und erhöht die Erwartung an Montage, Abnahme und Gesamtverantwortung.
 
-Muss validiert werden.
+## Transparente Fremdkomponenten
 
-## Wiederkehrende Erlöse
+Wetterstation, Ecowitt-Sensoren und zertifiziertes Netzteil können transparent ausgewiesen und auf Wunsch direkt beim Hersteller oder Händler gekauft werden. Der Greenhouse Assistant verdient seinen Preis nicht durch verdeckte Aufschläge auf Standardkomponenten, sondern durch:
 
-Mögliche Services:
+- IP67-Controller und robuste Anschlüsse,
+- getestete Schnittstellen und Kompatibilitätsfreigaben,
+- vorkonfigurierte Schutz- und Klimafunktionen,
+- Plug-and-play-Kabel und nachvollziehbare Installation,
+- hochwertige Dokumentation, Selbsttest und Support.
 
-- Remote-Zugriff
-- Datenhistorie
-- Wetterprognosen
-- Alarmierung
-- automatische Backups
-- Fernwartung
-- Premium-Support
-- spätere KI-Auswertung
+Für ein verständliches Angebot sollte trotzdem immer der **Gesamtpreis der empfohlenen Referenzkonfiguration** gezeigt werden – auch wenn ein Teil des Warenkorbs extern gekauft wird.
 
-Wichtig:
+## Vorläufige Wirtschaftlichkeitsprüfung
 
-> Grundfunktionen und Schutzfunktionen müssen lokal und unabhängig von einem Abo funktionieren.
+Die folgende Rechnung ist keine Marktkennzahl. Sie zeigt, welche maximalen variablen Kosten bei einem internen Prüfwert von 45 % Deckungsquote verbleiben. Annahme: 20 % Umsatzsteuer; variable Kosten umfassen Hardware, Fertigung, Verpackung, Zahlungs-/Versandanteil, Gewährleistungsreserve und zurechenbaren Support.
 
-## Zahlungsbereitschaft validieren
+| Bruttoverkaufspreis | Nettoerlös bei 20 % USt. | Max. variable Kosten bei 45 % Deckungsquote |
+|---:|---:|---:|
+| 1.690 EUR | 1.408 EUR | 775 EUR |
+| 2.990 EUR | 2.492 EUR | 1.370 EUR |
+| 3.990 EUR | 3.325 EUR | 1.829 EUR |
 
-Nicht fragen:
-> Würdest du 1.500 EUR bezahlen?
+Formel:
 
-Besser:
-- Was hast du bisher in Gewächshaus und Zubehör investiert?
-- Welche Schäden hattest du bereits?
-- Wie viel Zeit verbringst du pro Woche mit Kontrolle?
-- Was hast du schon gekauft, um diese Probleme zu lösen?
-- Welche Lösung würdest du heute kaufen?
-- Ab welchem Preis würdest du sagen: zu teuer?
-- Ab welchem Preis würdest du an der Qualität zweifeln?
+> Maximale variable Kosten = Bruttoverkaufspreis / 1,20 × 0,55
 
-## Van-Westendorp-Fragen
+Wenn die reale Stückliste einschließlich Support- und Gewährleistungsreserve deutlich über diesen Grenzen liegt, müssen Preis, Paketumfang oder Fertigung geändert werden. Die 45-%-Deckungsquote ist eine interne Prüfmarke und keine aus dem Markt abgeleitete Vorgabe.
 
-Für Interviews später verwenden:
+## Optionen und Erweiterungen
 
-1. Ab welchem Preis wäre das System so teuer, dass du es nicht mehr kaufen würdest?
-2. Ab welchem Preis wäre es teuer, aber noch überlegenswert?
-3. Ab welchem Preis wäre es ein gutes Angebot?
-4. Ab welchem Preis wäre es so billig, dass du an der Qualität zweifeln würdest?
+Separat kalkulieren:
 
-## Geplanter qualitativer Preistest
+- zweite Zone als Komponentenpaket,
+- weitere Innen-, Boden- und Blattfeuchtesensoren,
+- Umluft- und Abluftventilatoren,
+- Heizungsschnittstellen und Leistungsstufen,
+- Befeuchtung und Bewässerung,
+- Beschattung,
+- Erdreichwärmetauscher,
+- Sonderkabellängen und mechanische Adapter,
+- Montage, Inbetriebnahme oder bezahlte Planung.
 
-Der vollständige Ablauf steht in [interview-kit.md](interview-kit.md). Für die ersten Gespräche werden drei Testanker verwendet:
+## Was die Kalkulation noch liefern muss
 
-- 990 EUR
-- 1.790 EUR
-- 2.990 EUR
+Vor einer Veröffentlichung als verbindlicher Verkaufspreis werden benötigt:
 
-Diese Beträge sind weder Angebote noch beschlossene Produktpakete. Sie sollen zeigen, ab welchem Niveau Nutzen, erwarteter Lieferumfang und Einwände sichtbar auseinanderlaufen.
+1. reale Stückliste des Controllerkerns,
+2. Fertigungs-, Prüf- und Verpackungszeit,
+3. Standard-Kabellängen und Kosten der IP67-Steckverbinder,
+4. Einkaufskosten der zwei beziehungsweise vier Antriebe,
+5. Kosten der Referenz-Wetterstation und Innensensoren,
+6. Versand-, Zahlungs-, Retouren-, Gewährleistungs- und Supportannahmen,
+7. erwartete Händler- beziehungsweise Direktvertriebsmarge.
 
-Vorgehen:
-
-1. Zuerst das letzte konkrete Problem, bisherige Ausgaben und den heutigen Arbeitsablauf verstehen.
-2. Allen Teilnehmenden dieselbe neutrale Konzeptbeschreibung zeigen.
-3. Die Reihenfolge des zuerst genannten Preises zwischen den Gesprächen wechseln, um Ankereffekte zu reduzieren.
-4. Für jeden Preis erwarteten Lieferumfang, wichtigste Einwände und akzeptable Bedingungen festhalten.
-5. Eine verbale Kaufabsicht nicht als belastbare Zahlungsbereitschaft werten.
-6. Wenn echtes Interesse besteht, eine stärkere Handlung anbieten: technische Detailprüfung, bezahlte Planung oder Pilotreservierung.
+Bis diese Daten vorliegen, sind 1.690 EUR, 2.990 EUR und 3.990 EUR **Testanker**, keine Angebote.
