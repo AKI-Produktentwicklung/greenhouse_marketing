@@ -37,6 +37,12 @@ Bereits im Prototyp konzeptionell bzw. teilweise realisiert:
 - Feuchteregelung
 - lokale Wetterdaten
 
+## Dokumentierter Prototypstand
+
+Fotos und Screenshots zeigen einen deutlich breiteren bereits angelegten Funktionsumfang: vier Motorkanäle, Umluft, Befeuchtung, Heizung, EWT, Wind- und Sturmschutz sowie temperatur-, feuchte- und taupunktbezogene Regelung. Die derzeit eingebundene Wetterstation ist nach Gründerangabe eine Ecowitt Wittboy GW2001.
+
+Der aufgebaute Controller samt Anschlüssen ist nach Gründerangabe IP67. Die Außensensoren sind wetterfest, die Innensensoren mindestens regengeschützt. Sichtbare Komponenten und noch offene Zuordnungen sind in [prototype-inventory.md](prototype-inventory.md) dokumentiert.
+
 ## Sensorik aus älterem Konzept
 
 - Außen-Multisensor
@@ -81,6 +87,8 @@ Als marktbasierte Arbeitshypothese gilt:
 - Hochdruckreinigung separat auf IPX9/IP69-Niveau prüfen,
 - Steckverbinder, Schutzkappen, Kabel, Sensoren und Bedienelemente in die Systemprüfung einbeziehen,
 - externes Netzgerät und 230-V-Verbindung außerhalb der Waschzone anordnen oder getrennt qualifizieren.
+
+Die IP67-Angabe zum aktuellen Controller ist damit ein wichtiger Prototypvorteil, beantwortet aber noch nicht das weitergehende Produktversprechen für direkte Gartenschlauch- oder Hochdruckreinigung der vollständigen Feldinstallation.
 
 Details und Wettbewerbsbelege stehen in [washdown-protection-analysis.md](washdown-protection-analysis.md).
 

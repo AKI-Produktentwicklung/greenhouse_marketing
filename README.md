@@ -69,6 +69,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `recruitment-plan.md` – Zielquoten, DACH-Rekrutierungskanäle und neutrale Aufrufe
 - `partner-interview-kit.md` – Partnerleitfäden und Referenzprofil für Angebotsvergleiche
 - `product-concept.md` – aktueller Produktumfang auf hoher Ebene
+- `prototype-inventory.md` – fotografisch belegter Prototypstand, sichtbare Funktionen und offene Zuordnungen
 - `prototype-market-assessment.md` – Marktposition des Prototyps und priorisierte Änderungsoptionen
 - `product-boundary-options.md` – Vergleich von Controller-Kit, Standardsystem und Komplettinstallation
 - `sources.md` – Quellen und Recherchehinweise
