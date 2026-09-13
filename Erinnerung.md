@@ -16,6 +16,7 @@ Stand: 13. September 2026 – Angaben des Gründers, noch nicht unabhängig gepr
 - IP67 gilt nach Gründerangabe für den vollständig aufgebauten Controller einschließlich seiner Anschlüsse.
 - Die Außensensoren sind wetterfest; die Innensensoren sind mindestens gegen Regen geschützt.
 - Aktuell eingebunden ist eine Ecowitt Wittboy GW2001. Die Systemansicht zeigt das zugehörige Gateway als GW2000A im 868-MHz-Band.
+- Als neuere mögliche Nachfolgeplattform wurde die Ecowitt Wittboy GW3001 identifiziert. Sie besteht laut Hersteller aus GW3000-Gateway und WS90-Außensensor; sie ist noch nicht als Produktentscheidung oder bereits integrierte Komponente zu behandeln.
 - M01 und M02 bilden Zone beziehungsweise Gewächshaus 1; M03 und M04 bilden Zone beziehungsweise Gewächshaus 2.
 - Sämtliche auf den bereitgestellten Screenshots dargestellten Funktionen laufen nach Gründerangabe seit drei Jahren im realen Gewächshausbetrieb.
 - Reinigung mit dem Gartenschlauch ist ein zugesagtes Produktmerkmal. Hochdruckreinigung bleibt davon getrennt und ist noch nicht zugesagt.
@@ -80,6 +81,8 @@ Eine strukturierte Zuordnung steht in [prototype-inventory.md](prototype-invento
 
 - [ ] Entscheiden, ob das erste kaufbare Grundsystem eine oder zwei Zonen enthält.
 - [ ] Festlegen, welche Wetterstation und Sensorfabrikate offiziell unterstützt werden.
+- [ ] GW2001 und GW3001 praktisch vergleichen: lokale Schnittstelle, Datenlatenz, Ausfallerkennung, Winterbetrieb, Funküberwachung und Integrationsaufwand.
+- [ ] Prüfen, ob beim WS90 für sicherheitsrelevante Windmessung die optionale 12-V-Versorgung mit Heizung verpflichtender Bestandteil der unterstützten Installation sein muss.
 - [ ] Festlegen, welche Komponenten mitverkauft und welche transparent extern beschafft werden.
 
 ### 4. Sicherheitsverhalten beschreiben

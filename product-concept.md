@@ -59,6 +59,10 @@ Der aufgebaute Controller samt Anschlüssen ist nach Gründerangabe IP67. Die Au
 
 Die Anzahl von bis zu acht Sensoren wird derzeit durch die vorgesehene Wetterstation beziehungsweise deren Architektur geprägt. Sie ist kein aus dem Markt abgeleiteter Bedarf. Alternative Fabrikate kommen erst infrage, wenn neben Protokoll und Messqualität auch die mechanischen und klimatischen Qualitätsanforderungen erfüllt sind.
 
+Die offizielle Beschreibung der neueren Ecowitt Wittboy GW3001 bestätigt diese Plattformlogik: Das GW3000-Gateway unterstützt laut Hersteller unter anderem jeweils bis zu acht Blattfeuchte-, Temperaturfühler- und kombinierte Temperatur-/Feuchtekanäle sowie bis zu 16 Bodensensoren. Ethernet, WLAN, lokale Micro-SD-Speicherung, WebUI und HTTP-API passen grundsätzlich zur lokal autonomen Architektur. Das ist noch keine Festlegung auf die GW3001; Integrationsverhalten, Ausfallerkennung und mechanische Eignung müssen praktisch geprüft werden.
+
+Der im GW3001-Paket enthaltene WS90-Außensensor ist laut Hersteller IPX5. Für Frost und Schnee wird eine optionale 12-V-Versorgung mit Heizfunktion empfohlen. Da Winddaten Schutzentscheidungen auslösen, ist diese Winterkonfiguration nicht nur Zubehörfrage, sondern Teil der späteren Zuverlässigkeitsbewertung.
+
 ## Aktorik aus älterem Konzept
 
 - Zirkulationsventilator

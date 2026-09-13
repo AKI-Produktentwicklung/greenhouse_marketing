@@ -54,7 +54,7 @@ Die Bewertung „hoch/mittel/niedrig“ ist eine strategische Einschätzung aus 
 | Web-/Smartphone-Zugriff | mittel bis hoch | marktübliche Erwartung und nützlich bei Abwesenheit, aber kein Alleinstellungsmerkmal | beibehalten, nicht als Hauptbotschaft verwenden |
 | Touchscreen am Gerät | mittel | lokale Transparenz ist wichtig; ein großer Touchscreen erhöht Kosten und Fehlerfläche | einfache Statusanzeige plus robuste Tasten zunächst bevorzugen |
 | zwei Zonen im Grundsystem | mittel | für 10–100 m² teilweise nützlich, erhöht aber sofort I/O-, UI- und Testkomplexität | eine Zone als Basis, zweite Zone als klar bepreiste Erweiterung |
-| bis zu acht Sensoren je Sensortyp | nicht als Marktbedarf belegt | die Zahl ist derzeit durch die vorgesehene Wetterstation geprägt; alternative Fabrikate müssen auch mechanische und klimatische Qualitätsanforderungen erfüllen | vorhandene Architektur nicht vorschnell verwerfen; Alternativen anhand einer Qualitäts- und Kompatibilitätsmatrix prüfen |
+| bis zu acht Sensoren je Sensortyp | nicht als Marktbedarf belegt | die Zahl ist durch die Ecowitt-Plattform technisch nachvollziehbar, aber weiterhin kein belegter Kundenbedarf; alternative Fabrikate müssen auch mechanische und klimatische Qualitätsanforderungen erfüllen | Kapazität als Erweiterbarkeit behandeln, nicht als Basispaket; GW2001/GW3001 und Alternativen anhand einer Qualitäts- und Kompatibilitätsmatrix prüfen |
 | Blattfeuchtesensorik | mittel bis niedrig | kann Krankheitsrisiko unterstützen, ist in der Stichprobe kein dominanter Kaufgrund | optionale spätere Erweiterung |
 | Bodenfeuchte/Bewässerung | mittel | reales Problem und starker bestehender Markt, würde den Startumfang jedoch verbreitern | Schnittstelle vorsehen, Regelung erst nach Klimakern |
 | Erdreichwärmetauscher | niedrig für den Markteintritt | derzeit keine belastbare Nachfrageevidenz; erfordert Bauarbeit und erweitert Haftung/Projektierung | aus dem Kernprodukt entfernen und als separates Innovationsmodul behandeln |
@@ -121,7 +121,7 @@ Der Marktwert entsteht nicht aus mehr Regeln, sondern aus Vertrauen, dass bekann
 
 ### 4. Außenwetter nicht von einer unbewiesenen Funkstrecke abhängig machen
 
-Die Präsentation zeigt einen solar-/batteriebetriebenen Außen-Multisensor, während das Produktprinzip verkabelte Kernfunktionen verspricht. Da Wind und Regen sicherheitsrelevant sind und die Voice-of-Customer-Stichprobe instabile Außensensorik nennt, sollte die Kern-Wetterstation entweder verkabelt sein oder einen nachweisbaren lokalen Fallback mit Verbindungsüberwachung besitzen.
+Die Präsentation zeigt einen solar-/batteriebetriebenen Außen-Multisensor, während das Produktprinzip verkabelte Kernfunktionen verspricht. Auch die neuere GW3001 verwendet zwischen WS90 und Gateway eine Funkstrecke; Ethernet und lokale Speicherung des Gateways beseitigen dieses letzte Funkrisiko nicht. Da Wind und Regen sicherheitsrelevant sind, braucht die unterstützte Wetterstation eine nachweisbare Verbindungsüberwachung, definierte Ersatzlogik und einen sicheren Zustand bei veralteten oder fehlenden Daten. Für den WS90 sollte außerdem geprüft werden, ob die vom Hersteller empfohlene 12-V-Winterversorgung mit Heizung verpflichtend wird.
 
 ### 5. Lokale Bedienung vereinfachen
 

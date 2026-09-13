@@ -80,6 +80,14 @@ Alle folgenden Einträge sind Herstellerquellen. "Hoch" bedeutet hier: hohe Eign
 | 2026-09-13 | ifm | Wash-down-Sensorik | Hersteller beschreibt IP69K-Sensoren und -I/O für Hochdruck- und Dampfreinigung und weist Steckverbinder als mögliche Schwachstelle aus. | https://www.ifm.com/us/en/us/learn-more/ultrasonic/full-metal-ultrasonic/applications | hoch |
 | 2026-09-13 | Phoenix Contact | Wash-down-Steckverbinder | M12-Steckverbinder mit dokumentierten Schutzarten IP65/IP67/IP69K und 60 VDC zeigen die technische Verfügbarkeit robuster Niedervoltverbindungen. | https://www.phoenixcontact.com/en-pc/products/connector-sacc-m12ms-5con-pg-9-va-1553190 | hoch |
 
+### Produktkomponenten und Sensorplattform
+
+Die folgenden Produkte sind keine direkten Wettbewerber des Greenhouse Assistant. Sie werden als mögliche Fremdkomponenten beziehungsweise technische Plattform betrachtet.
+
+| Datum | Quelle | Thema | Kernaussage | Link | Vertrauensniveau |
+|---|---|---|---|---|---|
+| 2026-09-13 | Ecowitt | Wittboy GW3001 / GW3000 / WS90 | Das neuere GW3001-Paket kombiniert das GW3000-Gateway mit dem WS90-7-in-1-Außensensor. Das Gateway bietet 2,4-GHz-WLAN, Ethernet, lokale Micro-SD-Speicherung sowie Zugriff über WebUI und HTTP-API. Für Europa wird 868 MHz angeboten. Die Kompatibilitätsliste nennt unter anderem je acht Blattfeuchte-, Temperaturfühler- und kombinierte Temperatur-/Feuchtekanäle, bis zu 16 Bodensensoren sowie bis zu 16 kompatible IoT-Aktoren. Der WS90 ist mit IPX5 ausgewiesen; für Frost und Schnee empfiehlt Ecowitt die optionale 12-V-Versorgung mit Heizfunktion. | https://shop.ecowitt.com/de/collections/starter-product/products/gw3001 | hoch |
+
 ### Öffentliche Preise für Vergleichswarenkörbe
 
 Die daraus berechneten Warenkörbe stehen in [competitors.md](competitors.md). Die Herstellerquellen belegen Einzelpreise und Lieferumfang; die Summen und Abgrenzungen sind eigene Berechnungen beziehungsweise Interpretationen.

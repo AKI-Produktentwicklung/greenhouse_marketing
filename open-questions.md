@@ -49,4 +49,11 @@ Die allgemeine Desk Research ist im geplanten Umfang abgeschlossen. Die folgende
 - reale DACH-Eignung von US-Systemen hinsichtlich 230 V, Konformität, Garantie und Support,
 - genaue DACH-Marktanteile professioneller Anbieter.
 
+## Wetterstationsplattform
+
+- Erfüllt die neuere Ecowitt GW3001 im praktischen Test die Anforderungen an lokale Datenübergabe, Latenz, Ausfallerkennung und Betrieb ohne Cloud?
+- Wie meldet beziehungsweise erkennt der Controller veraltete oder ausgefallene WS90-Funkdaten?
+- Muss die optionale 12-V-Versorgung mit Heizung für zuverlässige Windmessung bei Frost und Schnee verpflichtend vorgesehen werden?
+- Reicht IPX5 des WS90 für die zugesagte Reinigungs- und Einbausituation, oder muss der Sensor beim Abspritzen ausgespart beziehungsweise anders positioniert werden?
+
 Diese Punkte werden erst vertieft, wenn Interviews zeigen, dass technische Ausfallsicherheit kaufentscheidend ist oder ein konkreter Wettbewerbsvergleich für Pilotkunden benötigt wird.
