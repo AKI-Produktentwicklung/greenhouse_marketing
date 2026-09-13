@@ -2,7 +2,7 @@
 
 ## Ziel und Stand
 
-Ziel sind 20-30 reale Produkte und Anbieter. Die Recherche erfasst mindestens 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 12. September 2026) und ergänzt sie um tatsächliche Kaufalternativen sowie Geschäftsmodellvergleiche. Bartlett ClimateBoss ist eingestellt; Trellis One wird noch entwickelt. Beide bleiben als historische beziehungsweise zukünftige Marktindikatoren in der Übersicht, zählen aber nicht als aktive kaufbare Vergleichsprodukte.
+Ziel sind 20-30 reale Produkte und Anbieter. Die Recherche erfasst mindestens 23 Systeme beziehungsweise Produktfamilien anhand von Herstellerangaben (Stand: 13. September 2026) und ergänzt sie um tatsächliche Kaufalternativen sowie Geschäftsmodellvergleiche. Bartlett ClimateBoss ist eingestellt; Trellis One wird noch entwickelt. Beide bleiben als historische beziehungsweise zukünftige Marktindikatoren in der Übersicht, zählen aber nicht als aktive kaufbare Vergleichsprodukte.
 
 Wichtig: Eine Nennung ist noch kein Beleg dafür, dass das Produkt im DACH-Zielsegment aktiv verkauft wird. Preise ohne öffentlich zugängliches Herstellerangebot bleiben als "auf Anfrage" gekennzeichnet. Aussagen zur lokalen Autonomie werden nur dort als verifiziert behandelt, wo der Hersteller sie ausdrücklich beschreibt.
 
@@ -42,6 +42,19 @@ Das Fehlen eines etablierten DACH-Direktkonkurrenten ist damit **kein Beweis fü
 | GrowControl GrowBase Lite bis Pro | 389-1.049 EUR inkl. USt. | abgestufte Produktfamilie und transparente Preise; Sensoren und CO2-Pakete als Erweiterungen | Zeigt einen attraktiven modularen Preisaufbau, deckt aber klassische Gewächshausmechanik nicht sichtbar ab. |
 | TrolMaster Hydro-X | Preis beim Hersteller nicht veröffentlicht | modulares Einzonensystem für Temperatur, Feuchte, Licht, CO2 und viele Gerätemodule; kostenlose App | Laut Herstellerhandbuch nur für Innenräume; Außenwetter und Gewächshausmotorik sind nicht der Kern. |
 | Growlink LINKS / quadLINK | quadLINK 199 USD; weitere Module einzeln | modulare Sensor-, Klima-, Bewässerungs- und Gerätesteuerung mit zentralem Growlink OS | 120-V-/Indoor-Fokus, mehrere Einzelmodule nötig; Eignung für DACH-Außenklima und Fensterantriebe nicht belegt. |
+
+### Wasch- und Strahlwasserschutz
+
+| Produkt | Herstellerangabe | Bedeutung |
+|---|---|---|
+| GrowControl GrowBase | IP42 | Kein Nachweis für direktes Abspritzen oder Hochdruckreinigung. |
+| NIDO ONE V2 | von Spritzwasser fernhalten; mit feuchtem Tuch reinigen | Direkte Nassreinigung ausdrücklich ausgeschlossen. |
+| Home Assistant Green | nur Innenraum, trocken, nicht kondensierend | Als Feldgerät im Gewächshaus ungeeignet; nur Geschäftsmodellvergleich. |
+| OpenSprinkler | Gehäuse laut Hersteller-Support nicht wasserdicht; zusätzliches Schutzgehäuse nötig | Umgebungsschutz bleibt Aufgabe des Käufers beziehungsweise Installateurs. |
+| Harvst WaterMate | externes wasserdichtes 12-V-Netzteil; keine gefundene IP-Angabe für die komplette Steuerung | Teilkomponente geschützt, Waschbarkeit des Systems nicht belegt. |
+| Senmatic LCC1 | IP65, 0–95 % rF ohne Kondensation | Wasserstrahlschutz, aber kein Hochdruck-/Heißwasser-Reinigungsnachweis. |
+
+Die Stichprobe stützt eine plausible Differenzierung, aber keine Aussage über die Häufigkeit des Reinigungsfalls oder die Mehrzahlungsbereitschaft. Technisch muss zwischen Wasserstrahl (IPX5/IPX6) und Hochdruck-/Heißwasserreinigung (IPX9 beziehungsweise IP69/IP69K) unterschieden werden.
 
 ### Professionelle obere Marktgrenze
 

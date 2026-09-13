@@ -156,6 +156,7 @@ Option B ist nur dann tragfähig, wenn nach technischer Inventur folgende Beding
 - die objektabhängige Arbeit kann vor Bestellung anhand von Fotos und Maßen bestimmt werden,
 - Installations- und Supportgrenzen sind für Kunden eindeutig,
 - ein Fehler an Internet oder optionalem Funk beeinträchtigt den Schutzkern nicht,
+- der definierte Reinigungsfall wird von Controller, Steckern, Kabeln und Feldgeräten als vollständigem System beherrscht,
 - der Deckungsbeitrag bleibt nach realistisch bewerteter Einrichtungs- und Supportzeit positiv,
 - Konformitäts- und Dokumentationsanforderungen werden von Anfang an in die Architektur aufgenommen.
 

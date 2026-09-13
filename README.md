@@ -63,6 +63,7 @@ Technische Lösungen werden erst dann vertieft, wenn sie zur Validierung eines M
 - `business-model.md` – Erlösmodell und Produktlogik
 - `distribution-channels.md` – DACH-Vertriebswege und mögliche Partnerrollen
 - `online-open-source-strategy.md` – Online-first-Vertrieb, transparente Komponenten und Open-Source-Optionen
+- `washdown-protection-analysis.md` – Strahlwasser-, Hochdruckreinigungs- und Robustheitspositionierung
 - `validation-plan.md` – Plan für Marktvalidierung und Interviews
 - `interview-kit.md` – Screener, Interviewablauf, Preistest und Auswertung
 - `recruitment-plan.md` – Zielquoten, DACH-Rekrutierungskanäle und neutrale Aufrufe

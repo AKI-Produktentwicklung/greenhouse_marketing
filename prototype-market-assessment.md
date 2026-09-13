@@ -151,6 +151,12 @@ Mit 230-V-Ausgängen, Funk, vernetzten Funktionen und motorischen Antrieben ist 
 
 Die Präsentationsangabe „IP66 (10 h tauchbar)“ muss korrigiert oder durch einen konkreten Prüfbericht belegt werden: IP66 bezeichnet Schutz gegen starke Wasserstrahlen, nicht gegen Untertauchen. Zeitweiliges Untertauchen wird über IP67 beschrieben. Außerdem gilt die Schutzart nur für die geprüfte vollständige Anordnung einschließlich Kabelverschraubungen und Bedienöffnungen, nicht automatisch für ein unbearbeitetes Einzelgehäuse.
 
+### 9. Waschbarkeit als Systemmerkmal entwickeln
+
+Nach Gründerangabe wird ein Gewächshaus innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt. Die geprüften nahen Produkte sind dafür vielfach ungeeignet oder liefern keinen entsprechenden Nachweis: GrowBase nennt IP42, NIDO ONE V2 soll ausdrücklich von Spritzwasser ferngehalten werden, Home Assistant Green ist nur für trockene Innenräume vorgesehen und OpenSprinkler benötigt für Außeneinsatz ein separates Schutzgehäuse. Senmatic LCC1 erreicht IP65, weist aber keinen Hochdruckreinigungsnachweis aus.
+
+Damit ist eine wash-down-fähige Gesamtinstallation eine plausible Differenzierung. Sie muss als Systemanforderung für Gehäuse, Bedienung, Steckverbinder, Schutzkappen, Kabel, Sensoren und Aktoren behandelt werden. Gartenschlauch und Hochdruckreiniger sind getrennte Prüf- und Produktversprechen; IP66 allein belegt keine Hochdruckreinigungsfestigkeit. Die genaue Anforderung und Zahlungsbereitschaft sind noch nicht validiert.
+
 ## Widersprüche in der heutigen Produktbeschreibung
 
 Vor einer weiteren Markt- oder Produktkommunikation sollte ein eindeutiger Ist-Stand hergestellt werden:

@@ -69,4 +69,19 @@ Der Erdreichwärmetauscher ist eine technische Differenzierungshypothese für Ga
 
 > Verkabelte Kernfunktionen mit Plug-and-play-Anschlüssen für Zuverlässigkeit, drahtlose Erweiterungen mit routerähnlicher Einrichtung für Skalierbarkeit.
 
+## Wasch- und Strahlwasserschutz
+
+Nach Gründerangabe werden Gewächshäuser innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt. Der Umgebungsschutz soll deshalb nicht an ein zusätzliches, vom Kunden auszuwählendes Gehäuse delegiert werden.
+
+Als marktbasierte Arbeitshypothese gilt:
+
+- gesamte Feldinstallation für nasse Reinigung konzipieren,
+- Gartenschlauchtauglichkeit als Mindestziel technisch definieren,
+- IP66 nur nach Prüfung der vollständigen Anordnung bewerben,
+- Hochdruckreinigung separat auf IPX9/IP69-Niveau prüfen,
+- Steckverbinder, Schutzkappen, Kabel, Sensoren und Bedienelemente in die Systemprüfung einbeziehen,
+- externes Netzgerät und 230-V-Verbindung außerhalb der Waschzone anordnen oder getrennt qualifizieren.
+
+Details und Wettbewerbsbelege stehen in [washdown-protection-analysis.md](washdown-protection-analysis.md).
+
 Die ältere Präsentation zeigt allerdings einen solar-/batteriebetriebenen Außen-Multisensor. Da Wind und Regen Schutzentscheidungen auslösen, muss diese Abweichung vor einer Produktentscheidung durch Verkabelung oder einen nachweisbar überwachten Fallback aufgelöst werden.

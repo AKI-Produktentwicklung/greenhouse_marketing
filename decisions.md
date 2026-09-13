@@ -16,6 +16,7 @@
 - Sensor- und Aktorverkabelung soll Plug-and-play sein
 - drahtlose Sensoren und Aktoren sollen ungefähr so einfach wie Geräte an einem WLAN-Router integrierbar sein
 - bis zu acht Sensoren sind derzeit durch die vorgesehene Wetterstation geprägt und keine marktseitig bestätigte Anforderung
+- Gründerangabe zum Nutzungskontext: Gewächshäuser werden innen gelegentlich mit Gartenschlauch oder Hochdruckreiniger gereinigt
 
 ## Markt
 
@@ -40,5 +41,6 @@
 - Wissens- und Erfahrungsinhalte zu Ganzjahres-Gewächshäusern als Reichweiten- und Vertrauensaufbau
 - transparente Fremdbeschaffung von Wetterstation, Sensoren und Standardzubehör statt Margenzwang auf jedem Bauteil
 - Open Source für Teile oder die gesamte Software als möglicher Zugang zur DIY-Szene
+- Waschbarkeit der vollständigen Feldinstallation als mögliche zentrale Differenzierung; Gartenschlauch- und Hochdruckreinigung müssen getrennt spezifiziert und geprüft werden
 
 Diese Punkte sind noch keine endgültigen Geschäftsmodellentscheidungen. Insbesondere Lizenzmodell, Supportgrenze, offiziell unterstützte Komponenten und Wirtschaftlichkeit müssen vor einer Festlegung geprüft werden.

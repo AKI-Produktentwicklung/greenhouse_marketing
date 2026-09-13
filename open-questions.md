@@ -1,5 +1,13 @@
 # Offene Fragen
 
+## Reinigung und Umgebungsschutz
+
+- Soll das Basissystem kräftiges Abspritzen mit dem Gartenschlauch oder auch direkte Hochdruckreinigung zulassen?
+- Welche Grenzwerte gelten für Druck, Abstand, Wassertemperatur, Dauer und Strahlwinkel?
+- Welche Reinigungs-, Dünge- oder Desinfektionsmittel kommen mit Gehäuse, Kabeln und Steckern in Kontakt?
+- Muss der zentrale Controller in der Waschzone montiert werden oder nur dezentrale Feldmodule?
+- Welche Schutzart erreicht der vorhandene Prototyp als vollständige Anordnung einschließlich Steckern, Schutzkappen und Bedienoberfläche tatsächlich?
+
 ## Einordnung
 
 Die allgemeine Desk Research ist im geplanten Umfang abgeschlossen. Die folgenden Fragen sind weiterhin offen, weil öffentliche Quellen keine ausreichend belastbare Antwort liefern. Pro Frage ist deshalb der nächste geeignete Evidenzweg genannt.
